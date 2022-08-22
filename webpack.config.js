@@ -31,7 +31,7 @@ module.exports = () => ({
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/,
                 loader: "babel-loader",
             }, {
                 test: /\.css$/i,
@@ -52,8 +52,9 @@ module.exports = () => ({
             },
         ],
     },
+    devtool: "eval-source-map",
     resolve: {
-        extensions: [".tsx", ".ts", ".js"],
+        extensions: [".tsx", ".ts", ".js", ".jsx"],
     },
     plugins: [new MiniCssExtractPlugin({
         filename: 'bundle.css',
