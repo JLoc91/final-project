@@ -12,6 +12,32 @@ app.use(compression());
 
 app.use(express.static(path.join(__dirname, "..", "client", "public")));
 
+// (res) => {
+//     console.log("function gets invoked");
+//     let body = "";
+//     res.on("data", (chunk) => (body += chunk))
+//         .on("end", () => {
+//             console.log(body);
+//             let parsedBody = JSON.parse(body);
+//             // parsedBody.json();
+//             res.json(parsedBody);
+//         })
+//         .on("error", (err) => console.log(err));
+// };
+
+function callbackFunction(resp) {
+    console.log("function gets invoked");
+    let body = "";
+    resp.on("data", (chunk) => (body += chunk))
+        .on("end", () => {
+            console.log(body);
+            let parsedBody = JSON.parse(body);
+            // parsedBody.json();
+            // res.json(parsedBody);
+        })
+        .on("error", (err) => console.log(err));
+}
+
 app.get("/api/makeRequest", (req, res) => {
     console.log("make a request");
     const request = https.request(
@@ -24,16 +50,7 @@ app.get("/api/makeRequest", (req, res) => {
                 "X-Auth-Token": football_token,
             },
         },
-        (res) => {
-            let body = "";
-            res.on("data", (chunk) => (body += chunk))
-                .on("end", () => {
-                    let parsedBody = JSON.parse(body);
-                    callback(null, parsedBody.access_token);
-                    
-                })
-                .on("error", (err) => console.log(err));
-        }
+        callbackFunction
     );
 
     request.end();

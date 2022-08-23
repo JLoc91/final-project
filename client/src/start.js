@@ -1,20 +1,19 @@
 import ReactDOM from "react-dom";
+import { createStore, applyMiddleware } from "redux";
+import * as immutableState from "redux-immutable-state-invariant";
+import { composeWithDevTools } from "redux-devtools-extension";
+import rootReducer from "./redux/reducer.js";
+import { Provider } from "react-redux";
+import Welcome from "./components/Welcome";
 
-ReactDOM.render(<HelloWorld />, document.querySelector("main"));
+const store = createStore(
+    rootReducer,
+    composeWithDevTools(applyMiddleware(immutableState.default()))
+);
 
-function fetchFunc() {
-    fetch("/api/makeRequest")
-        .then((resp) => {
-            console.log("resp: ", resp);
-            resp.json();
-            console.log("request successful");
-        })
-        .then((data) => {
-            console.log("data: ", data);
-        })
-        .catch(() => console.log("request failed"));
-}
-
-function HelloWorld() {
-    return <button onClick={() => fetchFunc()}>Hello, World!</button>;
-}
+ReactDOM.render(
+    <Provider store={store}>
+        <Welcome />
+    </Provider>,
+    document.querySelector("main")
+);
