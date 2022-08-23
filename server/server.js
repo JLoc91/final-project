@@ -93,7 +93,7 @@ app.get("/api/getSpecLeagueData/:code", (req, res) => {
 
     // request.end();
 
-    getSpecLeagueDataPromise(null, leagueCode)
+    getSpecLeagueDataPromise()
         .then((specLeagueData) => {
             console.log("specLeagueData: ", specLeagueData);
             res.json(specLeagueData);

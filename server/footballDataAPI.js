@@ -65,7 +65,8 @@ module.exports.getSpecLeagueData = function (callback) {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
-        path: `/v4/competitions/${leagueCode}`,
+        // path: `/v4/competitions/${leagueCode}`,
+        path: `/v4/competitions/PD/teams`,
 
         headers: {
             "X-Auth-Token": football_token,

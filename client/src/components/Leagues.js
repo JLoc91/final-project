@@ -1,18 +1,20 @@
 import { useSelector, useDispatch } from "react-redux";
-import { addFootballTeam } from "../redux/Football/slice";
+import { addFootballLeagues } from "../redux/Football/slice";
 import { Link } from "react-router-dom";
 
 let leaguesJSON = require("../../../server/uploads/leagues.json");
 
 console.log("leaguesJSON: ", leaguesJSON);
 
-let leagues = leaguesJSON.competitions;
+let leagues = {
+    leagues: leaguesJSON.competitions,
+};
 
 export default function Leagues() {
     const dispatch = useDispatch();
 
     console.log("leagues in Leagues Component: ", leagues);
-    dispatch(addFootballTeam(leagues));
+    // dispatch(addFootballLeagues(leagues));
     // let newData = {};
     function fetchFunc() {
         fetch("/api/makeRequest")
@@ -30,20 +32,16 @@ export default function Leagues() {
             .catch(() => console.log("request failed"));
     }
 
-    function goToLeague(id) {
-        console.log(`go to league ${id}`);
-    }
-
     return (
         <>
-            {leagues &&
-                leagues.map((league) => {
+            {leagues.leagues &&
+                leagues.leagues.map((league) => {
                     return (
                         <Link key={league.id} to={`/league/${league.code}`}>
                             <div
                                 id={league.name}
                                 className="league"
-                                onClick={() => goToLeague(league.id)}
+                                // onClick={() => goToLeague(league.id)}
                             >
                                 <h1>{league.name}</h1>
                                 <img

@@ -1,10 +1,21 @@
 import { useEffect } from "react";
 import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
+import { addFootballTeams } from "../redux/Football/slice";
 import { Link } from "react-router-dom";
 
+let leaguesJSON = require("../../../server/uploads/leagues.json");
+
+console.log("leaguesJSON in specLeague: ", leaguesJSON);
+
+let leagues = leaguesJSON.competitions;
+
 export default function SpecLeague() {
-    let leagues = useSelector((state) => state.footballList);
+    const teams = useSelector(
+        (state) => state.footballList.teams && state.footballList.teams.teams
+    );
+    console.log("teams: ", teams);
+    // let leagues = useSelector((state) => state.footballList);
     const { leagueCode } = useParams();
     const dispatch = useDispatch();
     console.log("leagues in SpecLeagues: ", leagues);
@@ -21,9 +32,9 @@ export default function SpecLeague() {
                 res.json()
             )
             .then((data) => {
-                console.log("data: ", data);
+                console.log("data in getSpecLeagueData: ", data);
                 // newData =
-                // dispatch(addFootballTeam(data));
+                dispatch(addFootballTeams(data));
                 // newData = data;
             })
             .catch(() => console.log("request failed"));
@@ -39,6 +50,24 @@ export default function SpecLeague() {
                 <h1>{league[0].name}</h1>
                 <img className="welcomePic" src={league[0].emblem}></img>
             </div>
+            {teams &&
+                teams.map((team) => {
+                    return (
+                        <Link key={team.id} to={`/team/${team.id}`}>
+                            <div
+                                id={team.tla}
+                                className="league"
+                                // onClick={() => goToTeam(team.id)}
+                            >
+                                <h1>{league.name}</h1>
+                                <img
+                                    className="welcomePic"
+                                    src={league.emblem}
+                                ></img>
+                            </div>
+                        </Link>
+                    );
+                })}
         </>
     );
 }
