@@ -4,7 +4,7 @@ import * as immutableState from "redux-immutable-state-invariant";
 import { composeWithDevTools } from "redux-devtools-extension";
 import rootReducer from "./redux/reducer.js";
 import { Provider } from "react-redux";
-import Welcome from "./components/Welcome";
+import App from "./components/App";
 
 const store = createStore(
     rootReducer,
@@ -13,7 +13,7 @@ const store = createStore(
 
 ReactDOM.render(
     <Provider store={store}>
-        <Welcome />
+        <App />
     </Provider>,
     document.querySelector("main")
 );

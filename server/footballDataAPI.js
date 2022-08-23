@@ -12,11 +12,25 @@ module.exports.getFootballData = function (callback) {
     //     },
     // };
 
+    //get Hertha BSC data
+    // const options = {
+    //     method: "GET",
+    //     protocol: "https:",
+    //     host: "api.football-data.org",
+    //     path: "/v4/teams/9",
+    //     headers: {
+    //         "X-Auth-Token": football_token,
+    //     },
+    // };
+
+    //get top leauge info
     const options = {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
-        path: "/v4/teams/9",
+        path: "/v4/competitions?areas=2088,2224,2072,2114,2081",
+        // path: "/v4/competitions?competitions=2021,2015,2002,2019,2014",
+
         headers: {
             "X-Auth-Token": football_token,
         },

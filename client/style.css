@@ -1,3 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: ghostwhite;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 33.3333%;
+}
+
+.league {
+    border: 2px red solid;
+}
+
+img.welcomePic {
+    width: 15vw;
+    object-fit: cover;
+}
+
+div.league h1 {
+    width: 240px;
 }
