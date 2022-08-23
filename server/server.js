@@ -45,22 +45,22 @@ app.get("/api/makeRequest", (req, res) => {
 
     getFootballDataPromise()
         .then((data) => {
-            // console.log("data: ", data);
-            const newData = {};
-            data.teams.map((team) => {
-                if (team.name == "Everton FC") {
-                    console.log("team.name: ", team.name);
-                    console.log("team.id: ", team.id);
-                    console.log("team.founded: ", team.founded);
+            console.log("data: ", data);
+            // const newData = {};
+            // data.teams.map((team) => {
+            //     if (team.name == "Everton FC") {
+            //         console.log("team.name: ", team.name);
+            //         console.log("team.id: ", team.id);
+            //         console.log("team.founded: ", team.founded);
 
-                    newData.id = team.id;
-                    newData.name = team.name;
-                    newData.founded = team.founded;
-                }
-            });
+            //         newData.id = team.id;
+            //         newData.name = team.name;
+            //         newData.founded = team.founded;
+            //     }
+            // });
             // console.log("data.teams: ", data.teams);
-            console.log("newData: ", newData);
-            res.json(newData);
+            // console.log("newData: ", newData);
+            res.json(data);
         })
         .catch((err) => console.log("err in getFootballDataPromise: ", err));
 });

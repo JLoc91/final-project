@@ -16,7 +16,7 @@ module.exports.getFootballData = function (callback) {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
-        path: "/v4/competitions/PL/teams",
+        path: "/v4/teams/9",
         headers: {
             "X-Auth-Token": football_token,
         },
