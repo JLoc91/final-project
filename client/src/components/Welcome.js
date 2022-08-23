@@ -1,11 +1,11 @@
 export default function Welcome() {
     function fetchFunc() {
         fetch("/api/makeRequest")
-            .then((resp) => {
-                console.log("resp: ", resp);
-                resp.json();
-                console.log("request successful");
-            })
+            .then((res) =>
+                // console.log("res: ", res);
+                // console.log("request successful");
+                res.json()
+            )
             .then((data) => {
                 console.log("data: ", data);
             })
