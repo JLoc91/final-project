@@ -5,3 +5,64 @@
     "Serie A": "SA",
     "Ligue 1": "FL1"
 }
+
+            {/* <div
+                key="2021"
+                id="premierLeague"
+                className="league"
+                onClick={() => goToLeague(2021)}
+            >
+                <h1>Premier League</h1>
+                <img
+                    className="welcomePic"
+                    src="https://crests.football-data.org/PL.png"
+                ></img>
+            </div>
+            <div
+                key="2015"
+                id="ligue1"
+                className="league"
+                onClick={() => goToLeague(2015)}
+            >
+                <h1>Ligue 1</h1>
+                <img
+                    className="welcomePic"
+                    src="https://crests.football-data.org/FL1.png"
+                ></img>
+            </div>
+            <div
+                key="2002"
+                id="bundesliga"
+                className="league"
+                onClick={() => goToLeague(2002)}
+            >
+                <h1>Bundesliga</h1>
+                <img
+                    className="welcomePic"
+                    src="https://crests.football-data.org/BL1.png"
+                ></img>
+            </div>
+            <div
+                key="2019"
+                id="serieA"
+                className="league"
+                onClick={() => goToLeague(2019)}
+            >
+                <h1>Serie A</h1>
+                <img
+                    className="welcomePic"
+                    src="https://crests.football-data.org/SA.png"
+                ></img>
+            </div>
+            <div
+                key="2014"
+                id="primeraDivision"
+                className="league"
+                onClick={() => goToLeague(2014)}
+            >
+                <h1>Primera Division</h1>
+                <img
+                    className="welcomePic"
+                    src="https://crests.football-data.org/PD.png"
+                ></img>
+            </div> */}
