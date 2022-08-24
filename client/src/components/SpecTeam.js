@@ -59,7 +59,7 @@ export default function SpecTeam() {
 
     useEffect(() => {
         // fetchTeams();
-        fetchWeather(teamData.address);
+        // fetchWeather(teamData.address);
     }, []);
 
     return (

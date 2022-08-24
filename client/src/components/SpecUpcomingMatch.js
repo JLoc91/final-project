@@ -8,6 +8,9 @@ export default function SpecUpcomingMatch() {
     const { teamId, matchId } = useParams();
     console.log("teamId in specUpcMatch: ", teamId);
     console.log("matchId specUpcMatch: ", matchId);
+    // const weatherData = useSelector(
+    //     (state) => state.weatherList && state.weatherList.weatherData
+    // );
     const upcomingMatch = useSelector(
         (state) =>
             state.footballList.upcomingMatchesData &&
@@ -45,9 +48,11 @@ export default function SpecUpcomingMatch() {
             // body: JSON.stringify(addressObj),
         })
             .then((resp) => resp.json())
-            .then((weatherData) => {
-                console.log("weatherData: ", weatherData);
-            });
+            .then((specWeather) => {
+                console.log("specWeather: ", specWeather);
+                dispatch(addWeather(specWeather));
+            })
+            .catch((err) => console.log("err in fetchweather:", err));
     }
 
     useEffect(() => {
