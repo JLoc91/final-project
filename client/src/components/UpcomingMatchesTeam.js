@@ -66,8 +66,8 @@ export default function UpcomingMatchesTeam() {
                             return (
                                 <tr key={row.id} className="match">
                                     <td>
-                                        {/* ({row.competition.name}| Wettbewerb)  */}
-                                        {row.name}
+                                        {row.competition.name}
+                                        
                                     </td>
                                     <td>{row.matchday}</td>
                                     <td>

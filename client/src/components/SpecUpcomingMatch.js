@@ -9,15 +9,31 @@ export default function SpecUpcomingMatch() {
     console.log("matchId specUpcMatch: ", matchId);
     const upcomingMatch = useSelector(
         (state) =>
-            state.upcomingMatchesData &&
-            state.upcomingMatchesData.matches.filter(
-                (match) => match.id === matchId
+            state.footballList.upcomingMatchesData &&
+            state.footballList.upcomingMatchesData.matches.filter(
+                (match) => match.id == matchId
             )
     );
+    // const upcomingMatch = upcomingMatchArr[0];
+    // const upcomingMatches = useSelector(
+    //     (state) =>
+    //         state.upcomingMatchesData &&
+    //         state.upcomingMatchesData.matches.filter(
+    //             (match) => match.id == matchId
+    //         )
+    // );
+
+    // const upcomingMatch = upcomingMatches.filter(
+    //     (match) => match.id == matchId
+    // );
+
+    console.log("upcomingMatch: ", upcomingMatch);
+
     const teamData = useSelector(
         (state) => state.footballList && state.footballList.teamsData
     );
 
+    console.log("teamData in specupcmat: ", teamData);
     return (
         <table>
             <thead>
@@ -31,27 +47,29 @@ export default function SpecUpcomingMatch() {
                 </tr>
             </thead>
             <tbody>
-                <tr key={matchId} className="match">
-                    <td>{upcomingMatch.competition.name}</td>
-                    <td>{upcomingMatch.matchday}</td>
-                    <td>
-                        <img src={upcomingMatch.homeTeam.crest}></img>{" "}
-                        <p>{upcomingMatch.homeTeam.shortName}</p>
-                    </td>
-                    <td>
-                        <img src={upcomingMatch.awayTeam.crest}></img>{" "}
-                        <p>{upcomingMatch.awayTeam.shortName}</p>
-                    </td>
-                    <td>
-                        {teamData.teams.map((team) => {
-                            if (team.id == upcomingMatch.homeTeam.id) {
-                                return team.venue;
-                            }
-                        })}
-                    </td>
+                {upcomingMatch && (
+                    <tr key={matchId} className="match">
+                        <td>{upcomingMatch[0].competition.name}</td>
+                        <td>{upcomingMatch[0].matchday}</td>
+                        <td>
+                            <img src={upcomingMatch[0].homeTeam.crest}></img>{" "}
+                            <p>{upcomingMatch[0].homeTeam.shortName}</p>
+                        </td>
+                        <td>
+                            <img src={upcomingMatch[0].awayTeam.crest}></img>{" "}
+                            <p>{upcomingMatch[0].awayTeam.shortName}</p>
+                        </td>
+                        <td>
+                            {teamData.teams.map((team) => {
+                                if (team.id == upcomingMatch[0].homeTeam.id) {
+                                    return team.venue;
+                                }
+                            })}
+                        </td>
 
-                    <td>{upcomingMatch.utcDate}</td>
-                </tr>
+                        <td>{upcomingMatch[0].utcDate}</td>
+                    </tr>
+                )}
             </tbody>
         </table>
     );
