@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
 import { addUpcomingMatches } from "../redux/Football/slice";
 import { addWeather } from "../redux/Weather/slice";
+import { Link } from "react-router-dom";
 
 export default function UpcomingMatchesTeam() {
     console.log("We made it here!!!");
@@ -56,6 +57,7 @@ export default function UpcomingMatchesTeam() {
                         <th>Home Team</th>
                         <th>Away Team</th>
                         <th>Stadium</th>
+                        <th>Kickoff Time</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -63,7 +65,10 @@ export default function UpcomingMatchesTeam() {
                         upcomingMatchesData.matches.map((row) => {
                             return (
                                 <tr key={row.id} className="match">
-                                    <td>{row.competition.name}</td>
+                                    <td>
+                                        {/* ({row.competition.name}| Wettbewerb)  */}
+                                        {row.name}
+                                    </td>
                                     <td>{row.matchday}</td>
                                     <td>
                                         <img src={row.homeTeam.crest}></img>{" "}
@@ -79,6 +84,13 @@ export default function UpcomingMatchesTeam() {
                                                 return team.venue;
                                             }
                                         })}
+                                    </td>
+                                    <td>
+                                        <Link
+                                            to={`/team/upcoming-matches/${teamId}/match/${row.id}`}
+                                        >
+                                            {row.utcDate}
+                                        </Link>
                                     </td>
                                 </tr>
                             );
