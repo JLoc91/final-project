@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
-import { addFootballTeams } from "../redux/Football/slice";
+import {
+    addFootballTeams,
+    addFootballLeagueStandings,
+} from "../redux/Football/slice";
 import { Link } from "react-router-dom";
 
 let leaguesJSON = require("../../../server/uploads/leagues.json");
@@ -11,31 +14,26 @@ console.log("leaguesJSON in specLeague: ", leaguesJSON);
 let leagues = leaguesJSON.competitions;
 
 export default function SpecLeague() {
-    const teams = useSelector(
-        (state) => state.footballList.teams && state.footballList.teams.teams
-    );
-    console.log("teams: ", teams);
-    // let leagues = useSelector((state) => state.footballList);
-    const { leagueCode } = useParams();
     const dispatch = useDispatch();
+    const { leagueCode } = useParams();
+    const standingsData = useSelector(
+        (state) =>
+            state.footballList.standingsData && state.footballList.standingsData
+    );
+
+    let teamsJSON = require(`../../../server/uploads/teams${leagueCode}.json`);
+    dispatch(addFootballTeams(teamsJSON));
     console.log("leagues in SpecLeagues: ", leagues);
     console.log("leagueCode: ", leagueCode);
     const league = leagues.filter((league) => league.code == leagueCode);
     console.log("league in SpecLeague: ", league);
-    // dispatch(addFootballTeam(leagues));
-    // let newData = {};
+    console.log("standingsData: ", standingsData);
     function fetchTeams() {
         fetch(`/api/getSpecLeagueData/${leagueCode}`)
-            .then((res) =>
-                // console.log("res: ", res);
-                // console.log("request successful");
-                res.json()
-            )
+            .then((res) => res.json())
             .then((data) => {
                 console.log("data in getSpecLeagueData: ", data);
-                // newData =
-                dispatch(addFootballTeams(data));
-                // newData = data;
+                dispatch(addFootballLeagueStandings(data));
             })
             .catch(() => console.log("request failed"));
     }
@@ -46,28 +44,80 @@ export default function SpecLeague() {
 
     return (
         <>
-            <div id={league[0].name} className="league">
-                <h1>{league[0].name}</h1>
-                <img className="welcomePic" src={league[0].emblem}></img>
+            <div className="leagueTeamsBody">
+                <div
+                    id={standingsData && standingsData.competition.code}
+                    className="league"
+                >
+                    <h1>{standingsData && standingsData.competition.name}</h1>
+                    <img
+                        className="welcomePic"
+                        src={standingsData && standingsData.competition.emblem}
+                    ></img>
+                </div>
+                <div className="leagueTable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Club</th>
+                                <th>Games Played</th>
+                                <th>Won</th>
+                                <th>Draw</th>
+                                <th>Lost</th>
+                                <th>Goals</th>
+                                <th>+/-</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {standingsData &&
+                                standingsData.standings[0].table.map((row) => {
+                                    return (
+                                        <tr
+                                            key={row.team.id}
+                                            id={row.team.tla}
+                                            className="team"
+                                        >
+                                            <td className="position">
+                                                {row.position}
+                                            </td>
+                                            <td>
+                                                <Link
+                                                    to={`/team/${row.team.id}`}
+                                                >
+                                                    <img
+                                                        className="welcomeTeamPic"
+                                                        src={row.team.crest}
+                                                    ></img>
+                                                    <p>{row.team.name}</p>
+                                                </Link>
+                                            </td>
+                                            <td className="playedGames">
+                                                {row.playedGames}
+                                            </td>
+                                            <td className="won">{row.won}</td>
+                                            <td className="draw">{row.draw}</td>
+                                            <td className="lost">{row.lost}</td>
+                                            <td className="points">
+                                                {row.points}
+                                            </td>
+                                            <td className="goalsFor">
+                                                {row.goalsFor}
+                                            </td>
+                                            <td className="goalsAgainst">
+                                                {row.goalsAgainst}
+                                            </td>
+                                            <td className="goalDifference">
+                                                {row.goalDifference}
+                                            </td>
+                                        </tr>
+                                    );
+                                })}
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            {teams &&
-                teams.map((team) => {
-                    return (
-                        <Link key={team.id} to={`/team/${team.id}`}>
-                            <div
-                                id={team.tla}
-                                className="league"
-                                // onClick={() => goToTeam(team.id)}
-                            >
-                                <h1>{league.name}</h1>
-                                <img
-                                    className="welcomePic"
-                                    src={league.emblem}
-                                ></img>
-                            </div>
-                        </Link>
-                    );
-                })}
         </>
     );
 }

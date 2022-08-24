@@ -1,5 +1,6 @@
 import Leagues from "./Leagues";
 import SpecLeague from "./SpecLeague";
+import SpecTeam from "./SpecTeam";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 export default function App() {
@@ -15,6 +16,9 @@ export default function App() {
                     </Route>
                     <Route path="/league/:leagueCode">
                         <SpecLeague />
+                    </Route>
+                    <Route path="/team/:teamId">
+                        <SpecTeam />
                     </Route>
                 </div>
             </BrowserRouter>

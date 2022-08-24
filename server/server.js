@@ -4,10 +4,17 @@ const fs = require("fs");
 const util = require("util");
 const compression = require("compression");
 const path = require("path");
-const { getLeaguesData, getSpecLeagueData } = require("./footballDataAPI.js");
-const getLeaguesDataPromise = util.promisify(getLeaguesData);
-const getSpecLeagueDataPromise = util.promisify(getSpecLeagueData);
+const {
+    getLeaguesData,
+    getSpecLeagueStandingData,
+} = require("./footballDataAPI.js");
+const { getAdressWeatherData } = require("./weatherDataAPI.js");
 
+const getLeaguesDataPromise = util.promisify(getLeaguesData);
+const getSpecLeagueStandingDataPromise = util.promisify(
+    getSpecLeagueStandingData
+);
+const getAdressWeatherDataPromise = util.promisify(getAdressWeatherData);
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
@@ -28,22 +35,8 @@ app.use(express.static(path.join(__dirname, "..", "client", "public")));
 //         .on("error", (err) => console.log(err));
 // };
 
-app.get("/api/makeRequest", (req, res) => {
+app.get("/api/getLeaguesData", (req, res) => {
     console.log("make a request");
-    // const request = https.request(
-    //     {
-    //         method: "GET",
-    //         protocol: "https:",
-    //         host: "api.football-data.org",
-    //         path: "/v4/competitions/CL/matches",
-    //         headers: {
-    //             "X-Auth-Token": football_token,
-    //         },
-    //     },
-    //     callbackFunction
-    // );
-
-    // request.end();
 
     getLeaguesDataPromise()
         .then((data) => {
@@ -78,27 +71,31 @@ app.get("/api/makeRequest", (req, res) => {
 app.get("/api/getSpecLeagueData/:code", (req, res) => {
     console.log("make a request");
     const leagueCode = req.params.code;
-    // const request = https.request(
-    //     {
-    //         method: "GET",
-    //         protocol: "https:",
-    //         host: "api.football-data.org",
-    //         path: "/v4/competitions/CL/matches",
-    //         headers: {
-    //             "X-Auth-Token": football_token,
-    //         },
-    //     },
-    //     callbackFunction
-    // );
 
-    // request.end();
-
-    getSpecLeagueDataPromise()
+    getSpecLeagueStandingDataPromise(leagueCode)
         .then((specLeagueData) => {
             console.log("specLeagueData: ", specLeagueData);
+            // ----- if retrieved data should be saved in a json file, implement code below -----
+            // const message = JSON.stringify(specLeagueData);
+            // const leagueFile = `/uploads/teams${leagueCode}.json`;
+            // const path = __dirname + "/" + leagueFile;
+            // console.log("path: ", path);
+            // fs.writeFile(path, message, () => {
+            //     // something here
+            //     console.log(`file ${leagueFile} was saved at ${path}`);
+            // });
+            // ----- if retrieved data should be saved in a json file, implement code above -----
             res.json(specLeagueData);
         })
         .catch((err) => console.log("err in getSpecLeagueDataPromise: ", err));
+});
+
+app.post("/api/getAdressWeatherData/", (req, res) => {
+    console.log("req.body: ", req.body);
+
+    getAdressWeatherDataPromise(req.body.address).then((weatherData) => {
+        console.log("weatherData: ", weatherData);
+    });
 });
 
 app.get("*", function (req, res) {

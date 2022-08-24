@@ -59,14 +59,14 @@ module.exports.getLeaguesData = function (callback) {
     reqTweet.end();
 };
 
-module.exports.getSpecLeagueData = function (callback) {
+module.exports.getSpecLeagueStandingData = function (leagueCode, callback) {
     //get specific top leauge info
+    console.log("leagueCode: ", leagueCode);
     const options = {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
-        // path: `/v4/competitions/${leagueCode}`,
-        path: `/v4/competitions/PD/teams`,
+        path: `/v4/competitions/${leagueCode}/standings`,
 
         headers: {
             "X-Auth-Token": football_token,
@@ -74,6 +74,7 @@ module.exports.getSpecLeagueData = function (callback) {
     };
 
     function makeRequest(resp) {
+        console.log("callback: ", callback);
         if (resp.statusCode != 200) {
             callback(new Error(resp.statusCode));
             return;

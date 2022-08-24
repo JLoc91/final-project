@@ -22,10 +22,23 @@ body {
     align-items: center;
     border: 2px red solid;
 }
+.team {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px blue dotted;
+}
 
-img.welcomePic {
+img.welcomeLeaguePic {
     width: 15vw;
-    object-fit: cover;
+    height: 15vw;
+    /* object-fit: cover; */
+}
+
+img.welcomeTeamPic {
+    /* width: 7vw; */
+    height: 7vw;
 }
 
 div.league h1 {
