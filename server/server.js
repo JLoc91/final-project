@@ -4,17 +4,27 @@ const fs = require("fs");
 const util = require("util");
 const compression = require("compression");
 const path = require("path");
+
+//get footballAPI functions
 const {
     getLeaguesData,
     getSpecLeagueStandingData,
+    getUpcomingMatchesSpecTeam,
 } = require("./footballDataAPI.js");
-const { getAdressWeatherData } = require("./weatherDataAPI.js");
 
 const getLeaguesDataPromise = util.promisify(getLeaguesData);
 const getSpecLeagueStandingDataPromise = util.promisify(
     getSpecLeagueStandingData
 );
+const getUpcomingMatchesSpecTeamPromise = util.promisify(
+    getUpcomingMatchesSpecTeam
+);
+
+//get weatherAPI functions
+const { getAdressWeatherData } = require("./weatherDataAPI.js");
+
 const getAdressWeatherDataPromise = util.promisify(getAdressWeatherData);
+
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
@@ -90,11 +100,20 @@ app.get("/api/getSpecLeagueData/:code", (req, res) => {
         .catch((err) => console.log("err in getSpecLeagueDataPromise: ", err));
 });
 
+app.get("/api/getUpcomingMatchesSpecTeam/:id", (req, res) => {
+    const teamId = req.params.id;
+
+    getUpcomingMatchesSpecTeamPromise(teamId).then((upcomingMatchesData) => {
+        console.log("upcomingMatchesData: ", upcomingMatchesData);
+        res.json(upcomingMatchesData);
+    });
+});
+
 app.post("/api/getAdressWeatherData/", (req, res) => {
     console.log("req.body: ", req.body);
 
     getAdressWeatherDataPromise(req.body.address).then((weatherData) => {
-        console.log("weatherData: ", weatherData);
+        // console.log("weatherData: ", weatherData);
     });
 });
 

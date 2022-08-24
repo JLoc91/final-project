@@ -1,16 +1,21 @@
 const https = require("https");
 const weather_key = require("./secrets.json").WEATHER_API_KEY;
 
+const { replaceUmlaute } = require("./replaceUmlaute");
+
 module.exports.getAdressWeatherData = function (address, callback) {
-    //get specific top leauge info
     console.log("address: ", address);
-    const cleanAddress = address.replaceAll(" ", "%20");
+    address = address.split(" ");
+    let cleanAddress = address[address.length - 2];
+    cleanAddress += "%20" + address[address.length - 1];
+    cleanAddress = replaceUmlaute(cleanAddress);
+
     console.log("cleanAddress: ", cleanAddress);
     const options = {
         method: "GET",
         protocol: "https:",
         host: "weather.visualcrossing.com",
-        path: `VisualCrossingWebServices/rest/services/timeline/${cleanAddress}&key=${weather_key}&contentType=json`,
+        path: `/VisualCrossingWebServices/rest/services/timeline/${cleanAddress}?unitGroup=metric&key=${weather_key}&contentType=json`,
         headers: {},
     };
 

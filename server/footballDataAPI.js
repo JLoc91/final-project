@@ -96,3 +96,41 @@ module.exports.getSpecLeagueStandingData = function (leagueCode, callback) {
 
     reqTweet.end();
 };
+
+module.exports.getUpcomingMatchesSpecTeam = function (teamId, callback) {
+    //get 10 upcoming matches for specific team
+    console.log("teamId: ", teamId);
+    const options = {
+        method: "GET",
+        protocol: "https:",
+        host: "api.football-data.org",
+        // path: `/v4/teams/${teamId}/`,
+        path: `/v4/teams/${teamId}/matches?status=SCHEDULED&limit=10`,
+
+        headers: {
+            "X-Auth-Token": football_token,
+        },
+    };
+
+    function makeRequest(resp) {
+        if (resp.statusCode != 200) {
+            callback(new Error(resp.statusCode));
+            return;
+        } else {
+            let body = "";
+            resp.on("data", (chunk) => {
+                body += chunk;
+            });
+
+            resp.on("end", () => {
+                // console.log("body: ", body);
+                let parsedBody = JSON.parse(body);
+                callback(null, parsedBody);
+            });
+        }
+    }
+
+    const reqTweet = https.request(options, makeRequest);
+
+    reqTweet.end();
+};

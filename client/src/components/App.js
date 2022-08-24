@@ -1,7 +1,8 @@
 import Leagues from "./Leagues";
 import SpecLeague from "./SpecLeague";
 import SpecTeam from "./SpecTeam";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import UpcomingMatchesTeam from "./UpcomingMatchesTeam";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 export default function App() {
     return (
@@ -17,9 +18,14 @@ export default function App() {
                     <Route path="/league/:leagueCode">
                         <SpecLeague />
                     </Route>
-                    <Route path="/team/:teamId">
-                        <SpecTeam />
-                    </Route>
+                    <Switch>
+                        <Route path="/team/upcoming-matches/:teamId">
+                            <UpcomingMatchesTeam />
+                        </Route>
+                        <Route path="/team/:teamId">
+                            <SpecTeam />
+                        </Route>
+                    </Switch>
                 </div>
             </BrowserRouter>
         </>

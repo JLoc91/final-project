@@ -18,6 +18,10 @@ export default function footballData(footballData = {}, action) {
         console.log("newFootballData in slice after: ", newFootballData);
     }
 
+    if (action.type === "football-team-upcoming-matches/update") {
+        newFootballData.upcomingMatchesData = action.payload;
+        console.log("newFootballData in slice after: ", newFootballData);
+    }
     return newFootballData;
 }
 
@@ -45,5 +49,12 @@ export function addFootballLeagueStandings(leagueStandings) {
     return {
         type: "football-leagues-standings/update",
         payload: leagueStandings,
+    };
+}
+
+export function addUpcomingMatches(upcomingMatches) {
+    return {
+        type: "football-team-upcoming-matches/update",
+        payload: upcomingMatches,
     };
 }
