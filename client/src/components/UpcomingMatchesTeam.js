@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
 import { addUpcomingMatches } from "../redux/Football/slice";
-import { addWeather } from "../redux/Weather/slice";
 import { Link } from "react-router-dom";
 
 export default function UpcomingMatchesTeam() {
@@ -26,19 +25,6 @@ export default function UpcomingMatchesTeam() {
                 dispatch(addUpcomingMatches(data));
             })
             .catch(() => console.log("request failed"));
-    }
-
-    function fetchWeather(address) {
-        const addressObj = { address: address };
-        fetch("/api/getAdressWeatherData/", {
-            method: "post",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(addressObj),
-        })
-            .then((resp) => resp.json())
-            .then((weatherData) => console.log("weatherData: ", weatherData));
     }
 
     useEffect(() => {

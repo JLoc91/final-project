@@ -113,7 +113,7 @@ app.post("/api/getAdressWeatherData/", (req, res) => {
     console.log("req.body: ", req.body);
 
     getAdressWeatherDataPromise(req.body.address).then((weatherData) => {
-        // console.log("weatherData: ", weatherData);
+        console.log("weatherData: ", weatherData);
     });
 });
 
