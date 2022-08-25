@@ -21,9 +21,9 @@ const getUpcomingMatchesSpecTeamPromise = util.promisify(
 );
 
 //get weatherAPI functions
-const { getAdressWeatherData } = require("./weatherDataAPI.js");
+const { getAddressWeatherData } = require("./weatherDataAPI.js");
 
-const getAdressWeatherDataPromise = util.promisify(getAdressWeatherData);
+const getAddressWeatherDataPromise = util.promisify(getAddressWeatherData);
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
@@ -109,11 +109,12 @@ app.get("/api/getUpcomingMatchesSpecTeam/:id", (req, res) => {
     });
 });
 
-app.post("/api/getAdressWeatherData/", (req, res) => {
+app.post("/api/getAddressWeatherData/", (req, res) => {
     console.log("req.body: ", req.body);
 
-    getAdressWeatherDataPromise(req.body.address).then((weatherData) => {
+    getAddressWeatherDataPromise(req.body.address).then((weatherData) => {
         console.log("weatherData: ", weatherData);
+        res.json(weatherData);
     });
 });
 

@@ -3,7 +3,7 @@ const weather_key = require("./secrets.json").WEATHER_API_KEY;
 
 const { replaceUmlaute } = require("./replaceUmlaute");
 
-module.exports.getAdressWeatherData = function (address, callback) {
+module.exports.getAddressWeatherData = function (address, callback) {
     console.log("address: ", address);
     address = address.split(" ");
     let cleanAddress = address[address.length - 2];

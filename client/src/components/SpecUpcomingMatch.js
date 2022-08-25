@@ -25,6 +25,7 @@ export default function SpecUpcomingMatch() {
 
     const teamDataArr = teamsData.teams.filter((team) => team.id == teamId);
     const teamData = teamDataArr[0];
+    console.log("teamData in specupcmat: ", teamData);
 
     const homeTeamArr =
         teamsData &&
@@ -35,11 +36,13 @@ export default function SpecUpcomingMatch() {
     const homeTeam = homeTeamArr[0];
     console.log("homeTeam: ", homeTeam);
 
-    console.log("teamData in specupcmat: ", teamData);
+    const weatherData = useSelector(
+        (state) => state.weatherList && state.weatherList.weatherData
+    );
 
     function fetchWeather(teamData) {
         // const addressObj = { address: address };
-        fetch("/api/getAdressWeatherData/", {
+        fetch("/api/getAddressWeatherData/", {
             method: "post",
             headers: {
                 "Content-Type": "application/json",
@@ -96,8 +99,29 @@ export default function SpecUpcomingMatch() {
                                 })}
                         </td>
 
-                        <td>{upcomingMatch[0].utcDate}</td>
-                        <td>Wetter</td>
+                        <td>
+                            {upcomingMatch[0].utcDate.slice(0, 10)}{" "}
+                            {upcomingMatch[0].utcDate.slice(11, 16)}
+                        </td>
+                        <td>
+                            {weatherData &&
+                                weatherData.days.map((day) => {
+                                    if (
+                                        day.datetime ==
+                                        upcomingMatch[0].utcDate.slice(0, 10)
+                                    ) {
+                                        return (
+                                            <>
+                                                <div key={day.datetime}>
+                                                    <p>{day.temp}°C</p>
+                                                    <p>max {day.tempmax}°C</p>
+                                                    <p>min {day.tempmin}°C</p>
+                                                </div>
+                                            </>
+                                        );
+                                    }
+                                })}
+                        </td>
                     </tr>
                 )}
             </tbody>

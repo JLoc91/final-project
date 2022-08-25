@@ -46,7 +46,7 @@ export default function SpecTeam() {
 
     function fetchWeather(address) {
         const addressObj = { address: address };
-        fetch("/api/getAdressWeatherData/", {
+        fetch("/api/getAddressWeatherData/", {
             method: "post",
             headers: {
                 "Content-Type": "application/json",

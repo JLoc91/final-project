@@ -4,7 +4,7 @@ export default function weatherData(weatherData = {}, action) {
     console.log("newWeatherData: ", newWeatherData);
     console.log("action.payload weather: ", action.payload);
     if (action.type === "weather-data/update") {
-        newWeatherData = action.payload;
+        newWeatherData.weatherData = action.payload;
         console.log("newWeatherData in slice after: ", newWeatherData);
     }
 
