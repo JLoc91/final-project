@@ -51,7 +51,9 @@ div.league h1 {
 }
 
 .leagueTeamsHeader,
-.specTeamsHeader {
+.specTeamsHeader,
+.specUpcMatchHeader,
+.specUpcMatchBody {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -60,9 +62,19 @@ div.league h1 {
     gap: 2vw;
 }
 
+.specUpcMatchHeader {
+    justify-content: space-around;
+}
+
+.specUpcMatchBody {
+    flex-direction: column;
+    justify-content: center;
+}
+
 .specTeamsBody,
 .specLeagueBody,
-.leagueTeamsBody {
+.leagueTeamsBody,
+.specUpcMatchContainer {
     display: flex;
     flex-direction: column;
     width: 100vw;

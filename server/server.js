@@ -127,6 +127,14 @@ app.post("/api/getAddressWeatherData/", (req, res) => {
                 req.body[1]
             ).then((hotelData) => {
                 console.log("hotelData: ", hotelData);
+                // const message = JSON.stringify(hotelData);
+                // const leagueFile = "/uploads/hotelData.json";
+                // const path = __dirname + "/" + leagueFile;
+                // console.log("path: ", path);
+                // fs.writeFile(path, message, () => {
+                //     // something here
+                //     console.log(`file ${leagueFile} was saved at ${path}`);
+                // });
                 res.json({ weatherData, hotelData });
             });
         })
