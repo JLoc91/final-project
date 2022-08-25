@@ -75,74 +75,102 @@ export default function SpecUpcomingMatch() {
     }, []);
 
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th>Competition</th>
-                    <th>Matchday</th>
-                    <th>Home Team</th>
-                    <th>Away Team</th>
-                    <th>Stadium</th>
-                    <th>Kickoff Time</th>
-                    <th>Weather Forecast</th>
-                </tr>
-            </thead>
-            <tbody>
-                {upcomingMatch && (
-                    <tr key={matchId} className="match">
-                        <td>{upcomingMatch[0].competition.name}</td>
-                        <td>{upcomingMatch[0].matchday}</td>
-                        <td>
-                            <img
-                                className="specMatchLogo"
-                                src={upcomingMatch[0].homeTeam.crest}
-                            ></img>{" "}
-                            <p>{upcomingMatch[0].homeTeam.shortName}</p>
-                        </td>
-                        <td>
-                            <img
-                                className="specMatchLogo"
-                                src={upcomingMatch[0].awayTeam.crest}
-                            ></img>{" "}
-                            <p>{upcomingMatch[0].awayTeam.shortName}</p>
-                        </td>
-                        <td>
-                            {teamsData &&
-                                teamsData.teams.map((team) => {
-                                    if (
-                                        team.id == upcomingMatch[0].homeTeam.id
-                                    ) {
-                                        return team.venue;
-                                    }
-                                })}
-                        </td>
+        <>
+            <div className="specUpcMatchHeader">
+                <img
+                    className="teamPicHeader"
+                    src={upcomingMatch[0].homeTeam.crest}
+                ></img>
+                <p>{upcomingMatch[0].homeTeam.name}</p>
+                <p>{upcomingMatch[0].awayTeam.name}</p>
+                <img
+                    className="teamPicHeader"
+                    src={upcomingMatch[0].awayTeam.crest}
+                ></img>
+                <h1>Upcoming Matches</h1>
+            </div>
+            <div className="specUpcMatchBody">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Competition</th>
+                            <th>Matchday</th>
+                            <th>Home Team</th>
+                            <th>Away Team</th>
+                            <th>Stadium</th>
+                            <th>Kickoff Time</th>
+                            <th>Weather Forecast</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {upcomingMatch && (
+                            <tr key={matchId} className="match">
+                                <td>{upcomingMatch[0].competition.name}</td>
+                                <td>{upcomingMatch[0].matchday}</td>
+                                <td>
+                                    <img
+                                        className="specMatchLogo"
+                                        src={upcomingMatch[0].homeTeam.crest}
+                                    ></img>{" "}
+                                    <p>{upcomingMatch[0].homeTeam.shortName}</p>
+                                </td>
+                                <td>
+                                    <img
+                                        className="specMatchLogo"
+                                        src={upcomingMatch[0].awayTeam.crest}
+                                    ></img>{" "}
+                                    <p>{upcomingMatch[0].awayTeam.shortName}</p>
+                                </td>
+                                <td>
+                                    {teamsData &&
+                                        teamsData.teams.map((team) => {
+                                            if (
+                                                team.id ==
+                                                upcomingMatch[0].homeTeam.id
+                                            ) {
+                                                return team.venue;
+                                            }
+                                        })}
+                                </td>
 
-                        <td>
-                            {upcomingMatch[0].utcDate.slice(0, 10)}{" "}
-                            {upcomingMatch[0].utcDate.slice(11, 16)}
-                        </td>
-                        <td>
-                            {weatherData &&
-                                weatherData.days.map((day) => {
-                                    if (
-                                        day.datetime ==
-                                        upcomingMatch[0].utcDate.slice(0, 10)
-                                    ) {
-                                        return (
-                                            <>
-                                                <div key={day.datetime}>
-                                                    <p>{day.temp}°C</p>
-                                                    <p>max {day.tempmax}°C</p>
-                                                    <p>min {day.tempmin}°C</p>
-                                                </div>
-                                            </>
-                                        );
-                                    }
-                                })}
-                        </td>
-                    </tr>
-                )}
-            </tbody>
-        </table>
+                                <td>
+                                    {upcomingMatch[0].utcDate.slice(0, 10)}{" "}
+                                    {upcomingMatch[0].utcDate.slice(11, 16)}
+                                </td>
+                                <td>
+                                    {weatherData &&
+                                        weatherData.days.map((day) => {
+                                            if (
+                                                day.datetime ==
+                                                upcomingMatch[0].utcDate.slice(
+                                                    0,
+                                                    10
+                                                )
+                                            ) {
+                                                return (
+                                                    <>
+                                                        <div key={day.datetime}>
+                                                            <p>{day.temp}°C</p>
+                                                            <p>
+                                                                max{" "}
+                                                                {day.tempmax}°C
+                                                            </p>
+                                                            <p>
+                                                                min{" "}
+                                                                {day.tempmin}°C
+                                                            </p>
+                                                        </div>
+                                                    </>
+                                                );
+                                            }
+                                        })}
+                                </td>
+                            </tr>
+                        )}
+                    </tbody>
+                </table>
+                <div className="defaultTravelInfo"></div>
+            </div>
+        </>
     );
 }

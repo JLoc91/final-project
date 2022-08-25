@@ -3,11 +3,12 @@ const weather_key = require("./secrets.json").WEATHER_API_KEY;
 
 const { replaceUmlaute } = require("./replaceUmlaute");
 
-module.exports.getAddressWeatherData = function (address, callback) {
+module.exports.getAddressWeatherData = function (address, country, callback) {
     console.log("address: ", address);
+    console.log("country: ", country);
     address = address.split(" ");
     let cleanAddress = address[address.length - 2];
-    cleanAddress += "%20" + address[address.length - 1];
+    cleanAddress += "%20" + address[address.length - 1] + "%20" + country;
     cleanAddress = replaceUmlaute(cleanAddress);
 
     console.log("cleanAddress: ", cleanAddress);

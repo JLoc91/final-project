@@ -117,18 +117,22 @@ app.get("/api/getUpcomingMatchesSpecTeam/:id", (req, res) => {
 app.post("/api/getAddressWeatherData/", (req, res) => {
     console.log("req.body: ", req.body);
 
-    getAddressWeatherDataPromise(req.body[0].address).then((weatherData) => {
-        console.log("weatherData: ", weatherData);
+    getAddressWeatherDataPromise(req.body[0].address, req.body[0].area.name)
+        .then((weatherData) => {
+            console.log("weatherData: ", weatherData);
 
-        getLatLongTravelDataPromise(
-            weatherData.latitude,
-            weatherData.longitude,
-            req.body[1]
-        ).then((hotelData) => {
-            console.log("hotelData: ", hotelData);
-            res.json({ weatherData, hotelData });
-        });
-    });
+            getLatLongTravelDataPromise(
+                weatherData.latitude,
+                weatherData.longitude,
+                req.body[1]
+            ).then((hotelData) => {
+                console.log("hotelData: ", hotelData);
+                res.json({ weatherData, hotelData });
+            });
+        })
+        .catch((err) =>
+            console.log("error in getAddressWeatherDataPromise: ", err)
+        );
 });
 
 app.get("*", function (req, res) {
