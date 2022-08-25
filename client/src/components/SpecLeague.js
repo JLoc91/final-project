@@ -44,79 +44,74 @@ export default function SpecLeague() {
 
     return (
         <>
+            <div
+                id={standingsData && standingsData.competition.code}
+                className="leagueTeamsHeader"
+            >
+                <img
+                    className="welcomePic"
+                    src={standingsData && standingsData.competition.emblem}
+                ></img>
+                <h1>{standingsData && standingsData.competition.name}</h1>
+            </div>
             <div className="leagueTeamsBody">
-                <div
-                    id={standingsData && standingsData.competition.code}
-                    className="league"
-                >
-                    <h1>{standingsData && standingsData.competition.name}</h1>
-                    <img
-                        className="welcomePic"
-                        src={standingsData && standingsData.competition.emblem}
-                    ></img>
-                </div>
-                <div className="leagueTable">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Position</th>
-                                <th>Club</th>
-                                <th>Games Played</th>
-                                <th>Won</th>
-                                <th>Draw</th>
-                                <th>Lost</th>
-                                <th>Goals</th>
-                                <th>+/-</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {standingsData &&
-                                standingsData.standings[0].table.map((row) => {
-                                    return (
-                                        <tr
-                                            key={row.team.id}
-                                            id={row.team.tla}
-                                            className="team"
-                                        >
-                                            <td className="position">
-                                                {row.position}
-                                            </td>
-                                            <td>
-                                                <Link
-                                                    to={`/team/${row.team.id}`}
-                                                >
-                                                    <img
-                                                        className="welcomeTeamPic"
-                                                        src={row.team.crest}
-                                                    ></img>
-                                                    <p>{row.team.name}</p>
-                                                </Link>
-                                            </td>
-                                            <td className="playedGames">
-                                                {row.playedGames}
-                                            </td>
-                                            <td className="won">{row.won}</td>
-                                            <td className="draw">{row.draw}</td>
-                                            <td className="lost">{row.lost}</td>
-                                            <td className="points">
-                                                {row.points}
-                                            </td>
-                                            <td className="goalsFor">
-                                                {row.goalsFor}
-                                            </td>
-                                            <td className="goalsAgainst">
-                                                {row.goalsAgainst}
-                                            </td>
-                                            <td className="goalDifference">
-                                                {row.goalDifference}
-                                            </td>
-                                        </tr>
-                                    );
-                                })}
-                        </tbody>
-                    </table>
-                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Club</th>
+                            <th>Games Played</th>
+                            <th>Won</th>
+                            <th>Draw</th>
+                            <th>Lost</th>
+                            <th>Goals</th>
+                            <th>+/-</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {standingsData &&
+                            standingsData.standings[0].table.map((row) => {
+                                return (
+                                    <tr
+                                        key={row.team.id}
+                                        id={row.team.tla}
+                                        className="team"
+                                    >
+                                        <td className="position">
+                                            {row.position}
+                                        </td>
+                                        <td>
+                                            <Link
+                                                to={`/team/${row.team.id}`}
+                                                className="teamAndPic"
+                                            >
+                                                <img
+                                                    className="tableTeamPic"
+                                                    src={row.team.crest}
+                                                ></img>
+                                                <p>{row.team.name}</p>
+                                            </Link>
+                                        </td>
+                                        <td className="playedGames">
+                                            {row.playedGames}
+                                        </td>
+                                        <td className="won">{row.won}</td>
+                                        <td className="draw">{row.draw}</td>
+                                        <td className="lost">{row.lost}</td>
+                                        <td className="goals">
+                                            {row.goalsFor} : {row.goalsAgainst}
+                                        </td>
+
+                                        <td className="goalDifference">
+                                            {row.goalDifference}
+                                        </td>
+                                        <td className="points">{row.points}</td>
+                                    </tr>
+                                );
+                            })}
+                    </tbody>
+                </table>
             </div>
         </>
     );

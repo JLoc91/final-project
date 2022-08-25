@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
 import { addWeather } from "../redux/Weather/slice";
+import { addTravelData } from "../redux/Travel/slice";
 
 export default function SpecUpcomingMatch() {
     const dispatch = useDispatch();
@@ -19,6 +20,8 @@ export default function SpecUpcomingMatch() {
             )
     );
 
+    const matchDate = upcomingMatch[0].utcDate.slice(0, 10);
+
     const teamsData = useSelector(
         (state) => state.footballList && state.footballList.teamsData
     );
@@ -34,32 +37,41 @@ export default function SpecUpcomingMatch() {
         );
 
     const homeTeam = homeTeamArr[0];
+
     console.log("homeTeam: ", homeTeam);
 
     const weatherData = useSelector(
         (state) => state.weatherList && state.weatherList.weatherData
     );
 
-    function fetchWeather(teamData) {
+    function fetchWeather(teamData, matchDate) {
         // const addressObj = { address: address };
         fetch("/api/getAddressWeatherData/", {
             method: "post",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify(teamData),
+            body: JSON.stringify([teamData, matchDate]),
             // body: JSON.stringify(addressObj),
         })
             .then((resp) => resp.json())
-            .then((specWeather) => {
-                console.log("specWeather: ", specWeather);
-                dispatch(addWeather(specWeather));
+            .then((specWeatherHotelData) => {
+                console.log(
+                    "specWeatherHotelData.weatherData: ",
+                    specWeatherHotelData.weatherData
+                );
+                console.log(
+                    "specWeatherHotelData.hotelData: ",
+                    specWeatherHotelData.hotelData
+                );
+                dispatch(addWeather(specWeatherHotelData.weatherData));
+                dispatch(addTravelData(specWeatherHotelData.hotelData));
             })
             .catch((err) => console.log("err in fetchweather:", err));
     }
 
     useEffect(() => {
-        fetchWeather(homeTeam);
+        fetchWeather(homeTeam, matchDate);
     }, []);
 
     return (
@@ -81,11 +93,17 @@ export default function SpecUpcomingMatch() {
                         <td>{upcomingMatch[0].competition.name}</td>
                         <td>{upcomingMatch[0].matchday}</td>
                         <td>
-                            <img src={upcomingMatch[0].homeTeam.crest}></img>{" "}
+                            <img
+                                className="specMatchLogo"
+                                src={upcomingMatch[0].homeTeam.crest}
+                            ></img>{" "}
                             <p>{upcomingMatch[0].homeTeam.shortName}</p>
                         </td>
                         <td>
-                            <img src={upcomingMatch[0].awayTeam.crest}></img>{" "}
+                            <img
+                                className="specMatchLogo"
+                                src={upcomingMatch[0].awayTeam.crest}
+                            ></img>{" "}
                             <p>{upcomingMatch[0].awayTeam.shortName}</p>
                         </td>
                         <td>

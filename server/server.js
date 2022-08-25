@@ -25,6 +25,11 @@ const { getAddressWeatherData } = require("./weatherDataAPI.js");
 
 const getAddressWeatherDataPromise = util.promisify(getAddressWeatherData);
 
+// get travelAPI functions
+const { getLatLongTravelData } = require("./travelDataAPI.js");
+
+const getLatLongTravelDataPromise = util.promisify(getLatLongTravelData);
+
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
@@ -112,9 +117,17 @@ app.get("/api/getUpcomingMatchesSpecTeam/:id", (req, res) => {
 app.post("/api/getAddressWeatherData/", (req, res) => {
     console.log("req.body: ", req.body);
 
-    getAddressWeatherDataPromise(req.body.address).then((weatherData) => {
+    getAddressWeatherDataPromise(req.body[0].address).then((weatherData) => {
         console.log("weatherData: ", weatherData);
-        res.json(weatherData);
+
+        getLatLongTravelDataPromise(
+            weatherData.latitude,
+            weatherData.longitude,
+            req.body[1]
+        ).then((hotelData) => {
+            console.log("hotelData: ", hotelData);
+            res.json({ weatherData, hotelData });
+        });
     });
 });
 

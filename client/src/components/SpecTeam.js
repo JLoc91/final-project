@@ -64,50 +64,61 @@ export default function SpecTeam() {
 
     return (
         <>
-            <div className="specTeamsBody">
-                <img className="TeamPic" src={teamData.crest}></img>
-                <h1>{teamData.name}</h1>
-                <h2>{teamData.venue}</h2>
-
-                <img src={teamData.runningCompetitions[0].emblem}></img>
-                <h2>{teamData.area.code}</h2>
-                <img src={teamData.area.flag}></img>
-                {/* <Link to={`/upcoming-matches/${teamId}`}> */}
-                <Link to={`/team/upcoming-matches/${teamId}`}>
-                    <button>Upcoming Matches of {teamData.name}</button>
-                </Link>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Date of Birth</th>
-                            <th>Nationality</th>
-                            <th>Position</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td className="coach">
-                                {teamData.coach.firstName} {teamData.coach.name}
-                            </td>
-                            <td>{teamData.coach.dateOfBirth}</td>
-                            <td>{teamData.coach.nationality}</td>
-                            <td>Coach</td>
-                        </tr>
-                        {teamData &&
-                            teamData.squad.map((row) => {
-                                return (
-                                    <tr key={row.id} className="player">
-                                        <td>{row.name}</td>
-                                        <td>{row.dateOfBirth}</td>
-                                        <td>{row.nationality}</td>
-                                        <td>{row.position}</td>
-                                    </tr>
-                                );
-                            })}
-                        <tr></tr>
-                    </tbody>
-                </table>
+            <div className="specTeamsContainer">
+                <div className="specTeamsHeader">
+                    <img className="teamPicHeader" src={teamData.crest}></img>
+                    <img
+                        className="competitionPicHeader"
+                        src={teamData.runningCompetitions[0].emblem}
+                    ></img>
+                </div>
+                <div className="specTeamsBody">
+                    <div className="specTeamData">
+                        {/* <img className="teamPicBody" src={teamData.crest}></img> */}
+                        <h1>{teamData.name}</h1>
+                        <h2>{teamData.venue}</h2>
+                        <img
+                            className="teamFlagBody"
+                            src={teamData.area.flag}
+                        ></img>
+                        <Link to={`/team/upcoming-matches/${teamId}`}>
+                            <button>Upcoming Matches of {teamData.name}</button>
+                        </Link>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Date of Birth</th>
+                                <th>Nationality</th>
+                                <th>Position</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className="coach">
+                                    {teamData.coach.firstName}{" "}
+                                    {teamData.coach.name}
+                                </td>
+                                <td>{teamData.coach.dateOfBirth}</td>
+                                <td>{teamData.coach.nationality}</td>
+                                <td>Coach</td>
+                            </tr>
+                            {teamData &&
+                                teamData.squad.map((row) => {
+                                    return (
+                                        <tr key={row.id} className="player">
+                                            <td>{row.name}</td>
+                                            <td>{row.dateOfBirth}</td>
+                                            <td>{row.nationality}</td>
+                                            <td>{row.position}</td>
+                                        </tr>
+                                    );
+                                })}
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </>
     );

@@ -12,6 +12,10 @@ export default function UpcomingMatchesTeam() {
     const teamData = useSelector(
         (state) => state.footballList && state.footballList.teamsData
     );
+
+    let teamLogo =
+        teamData && teamData.teams.filter((team) => team.id == teamId);
+    teamLogo = teamLogo[0].crest;
     const upcomingMatchesData = useSelector(
         (state) => state.footballList && state.footballList.upcomingMatchesData
     );
@@ -34,7 +38,14 @@ export default function UpcomingMatchesTeam() {
 
     return (
         <>
-            <h1>Upcoming Matches</h1>
+            <div className="specTeamsHeader">
+                <img className="teamPicHeader" src={teamLogo}></img>
+                <img
+                    className="competitionPicHeader"
+                    src={teamData.competition.emblem}
+                ></img>
+                <h1>Upcoming Matches</h1>
+            </div>
             <table>
                 <thead>
                     <tr>
@@ -51,18 +62,25 @@ export default function UpcomingMatchesTeam() {
                         upcomingMatchesData.matches.map((row) => {
                             return (
                                 <tr key={row.id} className="match">
-                                    <td>
-                                        {row.competition.name}
-                                        
-                                    </td>
+                                    <td>{row.competition.name}</td>
                                     <td>{row.matchday}</td>
                                     <td>
-                                        <img src={row.homeTeam.crest}></img>{" "}
-                                        <p>{row.homeTeam.shortName}</p>
+                                        <div className="teamAndPic right">
+                                            <p>{row.homeTeam.shortName}</p>
+                                            <img
+                                                className="tableTeamPic"
+                                                src={row.homeTeam.crest}
+                                            ></img>
+                                        </div>
                                     </td>
                                     <td>
-                                        <img src={row.awayTeam.crest}></img>{" "}
-                                        <p>{row.awayTeam.shortName}</p>
+                                        <div className="teamAndPic">
+                                            <p>{row.awayTeam.shortName}</p>
+                                            <img
+                                                className="tableTeamPic"
+                                                src={row.awayTeam.crest}
+                                            ></img>{" "}
+                                        </div>
                                     </td>
                                     <td>
                                         {teamData.teams.map((team) => {
@@ -75,7 +93,8 @@ export default function UpcomingMatchesTeam() {
                                         <Link
                                             to={`/team/upcoming-matches/${teamId}/match/${row.id}`}
                                         >
-                                            {row.utcDate}
+                                            {row.utcDate.slice(0, 10)}{" "}
+                                            {row.utcDate.slice(11, 16)}
                                         </Link>
                                     </td>
                                 </tr>

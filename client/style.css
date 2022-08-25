@@ -44,3 +44,72 @@ img.welcomeTeamPic {
 div.league h1 {
     width: 240px;
 }
+
+.specTeamsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.leagueTeamsHeader,
+.specTeamsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    gap: 2vw;
+}
+
+.specTeamsBody,
+.specLeagueBody,
+.leagueTeamsBody {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.specTeamData {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+}
+
+.competitionPicHeader,
+.teamPicHeader {
+    width: 5vw;
+}
+
+.teamPicBody,
+.teamFlagBody {
+    width: 20px;
+    height: 20px;
+}
+
+td,
+th {
+    text-align: left;
+    font-size: 1.1vw;
+}
+
+.teamAndPic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.tableTeamPic {
+    width: 2vw;
+    height: 2vw;
+}
+
+.specMatchLogo {
+    width: 4vw;
+    height: 4vw;
+}
+
+/* .right {
+    flex-direction: row-reverse;
+} */
