@@ -9,17 +9,25 @@ module.exports.getLatLongTravelData = function (
 ) {
     console.log("latitude: ", latitude);
     console.log("longitude: ", longitude);
+    let checkOutDate = new Date(matchDate);
+    let checkInDate = new Date(matchDate);
+    console.log("checkOutDate: ", checkOutDate);
+    console.log("checkInDate: ", checkInDate);
+    checkInDate.setDate(checkInDate.getDate() - 1);
+    checkOutDate.setDate(checkOutDate.getDate() + 1);
+    checkInDate = checkInDate.toISOString().slice(0, 10);
+    checkOutDate = checkOutDate.toISOString().slice(0, 10);
     const limit = "100";
     const distance = "30";
     //matchDate yyyy-mm-dd
     const options = {
         method: "GET",
-        hostname: "travel-advisor.p.rapidapi.com",
+        hostname: "booking-com.p.rapidapi.com",
         port: null,
-        path: `/hotels/list-by-latlng?latitude=${latitude}&longitude=${longitude}&lang=en_US&limit=${limit}&adults=1&rooms=1&currency=EUR&checkin=${matchDate}&nights=2&distance=${distance}`,
+        path: `/v1/hotels/search-by-coordinates?longitude=${longitude}&latitude=${latitude}&checkin_date=${checkInDate}&locale=en-us&filter_by_currency=EUR&checkout_date=${checkOutDate}&room_number=1&units=metric&adults_number=1&order_by=popularity&include_adjacency=true&page_number=0&categories_filter_ids=class%3A%3A2%2Cclass%3A%3A4%2Cfree_cancellation%3A%3A1`,
         headers: {
             "X-RapidAPI-Key": travel_key,
-            "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
+            "X-RapidAPI-Host": "booking-com.p.rapidapi.com",
             useQueryString: true,
         },
     };

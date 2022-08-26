@@ -205,34 +205,30 @@ export default function SpecUpcomingMatch() {
                     <div className="defaultTravelInfo">
                         <h2>
                             Hotels in{" "}
-                            {hotelData &&
+                            {/* {hotelData &&
                                 hotelData.data[0] &&
-                                hotelData.data[0].location_string}
+                                hotelData.data[0].location_string} */}
                         </h2>
                         <table>
                             <thead>
                                 <tr>
                                     <th></th>
                                     <th>Hotel</th>
+                                    <th>Price per Night</th>
                                     <th>Price</th>
                                     <th>Neighborhood</th>
                                     <th>Hotel Class</th>
-                                    <th># of Reviews</th>
+                                    <th>Review Score</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {hotelData &&
-                                    hotelData.data.map((row) => {
-                                        if (
-                                            row.hac_offers &&
-                                            (row.hac_offers.availability ===
-                                                "available") &
-                                                (i <= 9)
-                                        ) {
+                                    hotelData.result.map((row) => {
+                                        if (i <= 9) {
                                             i++;
                                             return (
                                                 <tr
-                                                    key={row.location_id}
+                                                    key={row.hotel_id} //done
                                                     className="hotel"
                                                 >
                                                     <td>{i}</td>
@@ -241,40 +237,54 @@ export default function SpecUpcomingMatch() {
                                                             <img
                                                                 className="thumbNail"
                                                                 src={
-                                                                    row.photo &&
-                                                                    row.photo
-                                                                        .images
-                                                                        .thumbnail
-                                                                        .url
+                                                                    row.main_photo_url //done
                                                                 }
                                                             ></img>
-                                                            <p>{row.name}</p>
+                                                            <p>
+                                                                {
+                                                                    row.hotel_name //done
+                                                                }
+                                                            </p>
                                                         </div>
                                                     </td>
                                                     <td>
+                                                        {
+                                                            row
+                                                                .composite_price_breakdown
+                                                                .gross_amount_per_night
+                                                                .value
+                                                        }
+                                                        {
+                                                            row
+                                                                .composite_price_breakdown
+                                                                .gross_amount_per_night
+                                                                .currency
+                                                        }
+                                                    </td>
+                                                    <td>
                                                         <a
-                                                            href={
-                                                                row.hac_offers
-                                                                    .offers &&
-                                                                row.hac_offers
-                                                                    .offers[0]
-                                                                    .link
-                                                            }
+                                                            href={row.url} //done
                                                         >
-                                                            {row.price}
+                                                            {
+                                                                row
+                                                                    .composite_price_breakdown
+                                                                    .gross_amount
+                                                                    .value
+                                                            }
+                                                            {
+                                                                row
+                                                                    .composite_price_breakdown
+                                                                    .gross_amount
+                                                                    .currency
+                                                            }
                                                         </a>
                                                     </td>
+                                                    <td>{row.district}</td>
                                                     <td>
-                                                        {row.neighborhood_info &&
-                                                            row
-                                                                .neighborhood_info[0]
-                                                                .name}
-                                                    </td>
-                                                    <td>
-                                                        {row.hotel_class}
+                                                        {row.class}
                                                         {/* {row.hotel_class.slice(0,2)} */}
                                                     </td>
-                                                    <td>{row.num_reviews}</td>
+                                                    <td>{row.review_score}</td>
                                                 </tr>
                                             );
                                         }

@@ -96,10 +96,7 @@ export default function SpecTeam() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="coach">
-                                    {teamData.coach.firstName}{" "}
-                                    {teamData.coach.name}
-                                </td>
+                                <td className="coach">{teamData.coach.name}</td>
                                 <td>{teamData.coach.dateOfBirth}</td>
                                 <td>{teamData.coach.nationality}</td>
                                 <td>Coach</td>
