@@ -16,6 +16,15 @@ export default function footballData(footballData = {}, action) {
     if (action.type === "football-team-upcoming-matches/update") {
         newFootballData.upcomingMatchesData = action.payload;
     }
+
+    if (action.type === "football-team-head2head/update") {
+        newFootballData.head2HeadData = action.payload;
+    }
+
+    if (action.type === "football-league-matches-30-days/update") {
+        newFootballData.specLeagueMatches30DaysData = action.payload;
+    }
+
     return newFootballData;
 }
 
@@ -44,5 +53,19 @@ export function addUpcomingMatches(upcomingMatches) {
     return {
         type: "football-team-upcoming-matches/update",
         payload: upcomingMatches,
+    };
+}
+
+export function addHead2HeadData(head2HeadData) {
+    return {
+        type: "football-team-head2head/update",
+        payload: head2HeadData,
+    };
+}
+
+export function addSpecLeagueMatches30Days(specLeagueMatches30Days) {
+    return {
+        type: "football-league-matches-30-days/update",
+        payload: specLeagueMatches30Days,
     };
 }

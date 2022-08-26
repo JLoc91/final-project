@@ -44,22 +44,8 @@ export default function SpecTeam() {
     }
     // ------in case of more requests per minute implement Code above ------
 
-    function fetchWeather(address) {
-        const addressObj = { address: address };
-        fetch("/api/getAddressWeatherData/", {
-            method: "post",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(addressObj),
-        })
-            .then((resp) => resp.json())
-            .then((weatherData) => console.log("weatherData: ", weatherData));
-    }
-
     useEffect(() => {
         // fetchTeams();
-        // fetchWeather(teamData.address);
     }, []);
 
     return (

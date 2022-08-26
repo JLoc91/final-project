@@ -134,3 +134,86 @@ module.exports.getUpcomingMatchesSpecTeam = function (teamId, callback) {
 
     reqTweet.end();
 };
+
+module.exports.getHead2HeadData = function (matchId, callback) {
+    //get 10 upcoming matches for specific team
+    console.log("matchId: ", matchId);
+    const limit = 5;
+    const options = {
+        method: "GET",
+        protocol: "https:",
+        host: "api.football-data.org",
+        path: `/v4/matches/${matchId}/head2head?limit=${limit}`,
+
+        headers: {
+            "X-Auth-Token": football_token,
+        },
+    };
+
+    function makeRequest(resp) {
+        if (resp.statusCode != 200) {
+            callback(new Error(resp.statusCode));
+            return;
+        } else {
+            let body = "";
+            resp.on("data", (chunk) => {
+                body += chunk;
+            });
+
+            resp.on("end", () => {
+                // console.log("body: ", body);
+                let parsedBody = JSON.parse(body);
+                callback(null, parsedBody);
+            });
+        }
+    }
+
+    const reqTweet = https.request(options, makeRequest);
+
+    reqTweet.end();
+};
+
+module.exports.getSpecLeagueMatches30Days = function (leagueId, callback) {
+    //get 10 upcoming matches for specific team
+    console.log("leagueId: ", leagueId);
+    let today = new Date();
+    today = today.toISOString().slice(0, 10);
+    console.log("today: ", today);
+    let endDate = new Date();
+    endDate.setDate(endDate.getDate() + 30);
+    endDate = endDate.toISOString().slice(0, 10);
+    console.log("endDate: ", endDate);
+    const limit = 5;
+    const options = {
+        method: "GET",
+        protocol: "https:",
+        host: "api.football-data.org",
+        path: `/v4/competitions/${leagueId}/matches?dateFrom=${today}&dateTo=${endDate}`,
+
+        headers: {
+            "X-Auth-Token": football_token,
+        },
+    };
+
+    function makeRequest(resp) {
+        if (resp.statusCode != 200) {
+            callback(new Error(resp.statusCode));
+            return;
+        } else {
+            let body = "";
+            resp.on("data", (chunk) => {
+                body += chunk;
+            });
+
+            resp.on("end", () => {
+                // console.log("body: ", body);
+                let parsedBody = JSON.parse(body);
+                callback(null, parsedBody);
+            });
+        }
+    }
+
+    const reqTweet = https.request(options, makeRequest);
+
+    reqTweet.end();
+};

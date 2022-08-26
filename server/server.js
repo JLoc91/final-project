@@ -10,6 +10,8 @@ const {
     getLeaguesData,
     getSpecLeagueStandingData,
     getUpcomingMatchesSpecTeam,
+    getHead2HeadData,
+    getSpecLeagueMatches30Days,
 } = require("./footballDataAPI.js");
 
 const getLeaguesDataPromise = util.promisify(getLeaguesData);
@@ -18,6 +20,10 @@ const getSpecLeagueStandingDataPromise = util.promisify(
 );
 const getUpcomingMatchesSpecTeamPromise = util.promisify(
     getUpcomingMatchesSpecTeam
+);
+const getHead2HeadDataPromise = util.promisify(getHead2HeadData);
+const getSpecLeagueMatches30DaysPromise = util.promisify(
+    getSpecLeagueMatches30Days
 );
 
 //get weatherAPI functions
@@ -105,12 +111,35 @@ app.get("/api/getSpecLeagueData/:code", (req, res) => {
         .catch((err) => console.log("err in getSpecLeagueDataPromise: ", err));
 });
 
+app.get("/api/getSpecLeagueMatches30Days/:id", (req, res) => {
+    const leagueId = req.params.id;
+
+    getSpecLeagueMatches30DaysPromise(leagueId).then(
+        (specLeagueMatches30DaysData) => {
+            console.log(
+                "specLeagueMatches30DaysData: ",
+                specLeagueMatches30DaysData
+            );
+            res.json(specLeagueMatches30DaysData);
+        }
+    );
+});
+
 app.get("/api/getUpcomingMatchesSpecTeam/:id", (req, res) => {
     const teamId = req.params.id;
 
     getUpcomingMatchesSpecTeamPromise(teamId).then((upcomingMatchesData) => {
         console.log("upcomingMatchesData: ", upcomingMatchesData);
         res.json(upcomingMatchesData);
+    });
+});
+
+app.get("/api/getPastHead2Head/:id", (req, res) => {
+    const matchId = req.params.id;
+
+    getHead2HeadDataPromise(matchId).then((head2headData) => {
+        console.log("head2headData: ", head2headData);
+        res.json(head2headData);
     });
 });
 

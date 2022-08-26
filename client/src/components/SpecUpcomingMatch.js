@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
 import { addWeather } from "../redux/Weather/slice";
 import { addTravelData } from "../redux/Travel/slice";
+import { addHead2HeadData } from "../redux/Football/slice";
 
 export default function SpecUpcomingMatch() {
     const dispatch = useDispatch();
@@ -49,6 +50,10 @@ export default function SpecUpcomingMatch() {
         (state) => state.travelList && state.travelList.travelData
     );
 
+    const head2HeadData = useSelector(
+        (state) => state.footballList && state.footballList.head2HeadData
+    );
+
     let i = 0;
     function fetchWeather(teamData, matchDate) {
         // const addressObj = { address: address };
@@ -76,8 +81,19 @@ export default function SpecUpcomingMatch() {
             .catch((err) => console.log("err in fetchweather:", err));
     }
 
+    function fetchPastHead2Head(matchId) {
+        fetch(`/api/getPastHead2Head/${matchId}`)
+            .then((res) => res.json())
+            .then((head2HeadData) => {
+                console.log("head2HeadData: ", head2HeadData);
+                dispatch(addHead2HeadData(head2HeadData));
+            })
+            .catch((err) => console.log("err in fetchPastHead2Head: ", err));
+    }
+
     useEffect(() => {
-        fetchWeather(homeTeam, matchDate);
+        // fetchWeather(homeTeam, matchDate);
+        fetchPastHead2Head(matchId);
     }, []);
 
     return (
@@ -202,6 +218,166 @@ export default function SpecUpcomingMatch() {
                             )}
                         </tbody>
                     </table>
+                    <div className="head2headAggregation">
+                        {head2HeadData && head2HeadData.aggregates && (
+                            <>
+                                {teamId ==
+                                head2HeadData.aggregates.homeTeam.id ? (
+                                    <h3>
+                                        Aggregated Statistics of{" "}
+                                        {head2HeadData.aggregates.homeTeam.name}{" "}
+                                        against{" "}
+                                        {head2HeadData.aggregates.awayTeam.name}
+                                    </h3>
+                                ) : (
+                                    <h3>
+                                        Aggregated Statistics of{" "}
+                                        {head2HeadData.aggregates.awayTeam.name}{" "}
+                                        against{" "}
+                                        {head2HeadData.aggregates.homeTeam.name}
+                                    </h3>
+                                )}
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th># of Matches</th>
+                                            <th>Wins</th>
+                                            <th>Draws</th>
+                                            <th>Losses</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                {
+                                                    head2HeadData.aggregates
+                                                        .numberOfMatches
+                                                }
+                                            </td>
+                                            <td>
+                                                {teamId ==
+                                                head2HeadData.aggregates
+                                                    .homeTeam.id
+                                                    ? head2HeadData.aggregates
+                                                          .homeTeam.wins
+                                                    : head2HeadData.aggregates
+                                                          .awayTeam.wins}
+                                            </td>
+                                            <td>
+                                                {
+                                                    head2HeadData.aggregates
+                                                        .homeTeam.draws
+                                                }
+                                            </td>
+                                            <td>
+                                                {teamId ==
+                                                head2HeadData.aggregates
+                                                    .homeTeam.id
+                                                    ? head2HeadData.aggregates
+                                                          .homeTeam.losses
+                                                    : head2HeadData.aggregates
+                                                          .awayTeam.losses}
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </>
+                        )}
+                    </div>
+                    <div className="head2headMatches">
+                        <h3>
+                            Results of the last{" "}
+                            {head2HeadData && head2HeadData.matches.length}{" "}
+                            Head2Head Appearances
+                        </h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Competition</th>
+                                    <th>Date</th>
+                                    <th>Home Team</th>
+                                    <th>Score</th>
+                                    <th>Away Team</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {head2HeadData &&
+                                    head2HeadData.matches.map((match) => {
+                                        return (
+                                            <tr key={match.id}>
+                                                <td>
+                                                    {match.area.code}{" "}
+                                                    {match.competition.code}
+                                                </td>
+                                                <td>
+                                                    {match.utcDate.slice(0, 10)}
+                                                </td>
+                                                <td>
+                                                    <div className="teamAndPic">
+                                                        <p>
+                                                            {
+                                                                match.homeTeam
+                                                                    .shortName
+                                                            }
+                                                        </p>
+                                                        <img
+                                                            className="tableTeamPic"
+                                                            src={
+                                                                match.homeTeam
+                                                                    .crest
+                                                            }
+                                                        ></img>{" "}
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p className="fullTime">
+                                                        {
+                                                            match.score.fullTime
+                                                                .home
+                                                        }{" "}
+                                                        :{" "}
+                                                        {
+                                                            match.score.fullTime
+                                                                .away
+                                                        }
+                                                    </p>
+                                                    <p className="halfTimeTime">
+                                                        {"("}
+                                                        {
+                                                            match.score.halfTime
+                                                                .home
+                                                        }{" "}
+                                                        :{" "}
+                                                        {
+                                                            match.score.halfTime
+                                                                .away
+                                                        }
+                                                        {")"}
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <div className="teamAndPic">
+                                                        <p>
+                                                            {
+                                                                match.awayTeam
+                                                                    .shortName
+                                                            }
+                                                        </p>
+                                                        <img
+                                                            className="tableTeamPic"
+                                                            src={
+                                                                match.awayTeam
+                                                                    .crest
+                                                            }
+                                                        ></img>{" "}
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        );
+                                    })}
+                            </tbody>
+                        </table>
+                    </div>
                     <div className="defaultTravelInfo">
                         <h2>
                             Hotels in{" "}
