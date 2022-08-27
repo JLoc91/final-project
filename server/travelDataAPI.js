@@ -1,5 +1,6 @@
 const https = require("https");
-const travel_key = require("./secrets.json").TRAVEL_API_KEY;
+const travel_key =
+    process.env.TRAVEL_API_KEY || require("./secrets.json").TRAVEL_API_KEY;
 
 module.exports.getLatLongTravelData = function (
     latitude,

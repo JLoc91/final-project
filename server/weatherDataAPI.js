@@ -1,5 +1,6 @@
 const https = require("https");
-const weather_key = require("./secrets.json").WEATHER_API_KEY;
+const weather_key =
+    process.env.WEATHER_API_KEY || require("./secrets.json").WEATHER_API_KEY;
 
 const { replaceUmlaute } = require("./replaceUmlaute");
 

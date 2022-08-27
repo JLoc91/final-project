@@ -1,5 +1,7 @@
 const https = require("https");
-const football_token = require("./secrets.json").FOOTBALL_DATA_API_TOKEN;
+const football_token =
+    process.env.FOOTBALL_DATA_API_TOKEN ||
+    require("./secrets.json").FOOTBALL_DATA_API_TOKEN;
 
 module.exports.getLeaguesData = function (callback) {
     // const options = {
