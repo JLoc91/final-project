@@ -77,7 +77,7 @@ export default function SpecLeague() {
     useEffect(() => {
         fetchTeams();
         fetchSpecLeagueMatches30Days(leagueId);
-        setStandingTable(1);
+        setStandingTable(true);
     }, []);
 
     return (

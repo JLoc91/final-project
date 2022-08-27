@@ -188,7 +188,7 @@ module.exports.getSpecLeagueMatches30Days = function (leagueId, callback) {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
-        path: `/v4/competitions/${leagueId}/matches?dateFrom=${today}&dateTo=${endDate}`,
+        path: `/v4/competitions/${leagueId}/matches?dateFrom=${today}&dateTo=${endDate}&status=SCHEDULED`,
 
         headers: {
             "X-Auth-Token": football_token,
