@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: ghostwhite;
+    background-color: lightgray;
 }
 
 #body {
@@ -22,6 +22,11 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px red solid;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 18vw;
+    height: 18vw;
+    background-color: white;
 }
 .team {
     /* display: flex; */
@@ -32,9 +37,16 @@ body {
 }
 
 img.welcomeLeaguePic {
-    width: 15vw;
-    height: 15vw;
+    width: 12vw;
+    height: 12vw;
     /* object-fit: cover; */
+}
+
+.change {
+    width: 15vw;
+    height: 3vw;
+    border: solid black 2px;
+    text-decoration: none;
 }
 
 img.welcomeTeamPic {
@@ -44,6 +56,14 @@ img.welcomeTeamPic {
 
 div.league h1 {
     width: 240px;
+}
+
+.shadow {
+    box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.726);
+}
+
+.active {
+    background-color: pink;
 }
 
 .specTeamsContainer {
@@ -81,7 +101,8 @@ div.league h1 {
     width: 100vw;
 }
 
-.specTeamData {
+.specTeamData,
+.changeContainer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

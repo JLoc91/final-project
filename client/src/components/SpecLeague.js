@@ -106,149 +106,195 @@ export default function SpecLeague() {
                 </h1>
             </div>
             <div className="leagueTeamsBody">
-                <button
-                    className="change"
-                    onClick={() => setStandingTable(!standingTable)}
-                ></button>
                 {standingTable ? (
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Position</th>
-                                <th>Club</th>
-                                <th>Games Played</th>
-                                <th>Won</th>
-                                <th>Draw</th>
-                                <th>Lost</th>
-                                <th>Goals</th>
-                                <th>+/-</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {standingsData &&
-                                standingsData.standings[0].table.map((row) => {
-                                    return (
-                                        <tr
-                                            key={row.team.id}
-                                            id={row.team.tla}
-                                            className="team"
-                                        >
-                                            <td className="position">
-                                                {row.position}
-                                            </td>
-                                            <td>
-                                                <Link
-                                                    to={`/team/${row.team.id}`}
-                                                    className="teamAndPic"
+                    <>
+                        <div className="changeContainer">
+                            <div
+                                className="change active"
+                                onClick={() => setStandingTable(true)}
+                            >
+                                Standings
+                            </div>
+                            <div
+                                className="change"
+                                onClick={() => setStandingTable(false)}
+                            >
+                                Upcoming Matches
+                            </div>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Position</th>
+                                    <th>Club</th>
+                                    <th>Games Played</th>
+                                    <th>Won</th>
+                                    <th>Draw</th>
+                                    <th>Lost</th>
+                                    <th>Goals</th>
+                                    <th>+/-</th>
+                                    <th>Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {standingsData &&
+                                    standingsData.standings[0].table.map(
+                                        (row) => {
+                                            return (
+                                                <tr
+                                                    key={row.team.id}
+                                                    id={row.team.tla}
+                                                    className="team"
                                                 >
-                                                    <img
-                                                        className="tableTeamPic"
-                                                        src={row.team.crest}
-                                                    ></img>
-                                                    <p>{row.team.name}</p>
-                                                </Link>
-                                            </td>
-                                            <td className="playedGames">
-                                                {row.playedGames}
-                                            </td>
-                                            <td className="won">{row.won}</td>
-                                            <td className="draw">{row.draw}</td>
-                                            <td className="lost">{row.lost}</td>
-                                            <td className="goals">
-                                                {row.goalsFor} :{" "}
-                                                {row.goalsAgainst}
-                                            </td>
-
-                                            <td className="goalDifference">
-                                                {row.goalDifference}
-                                            </td>
-                                            <td className="points">
-                                                {row.points}
-                                            </td>
-                                        </tr>
-                                    );
-                                })}
-                        </tbody>
-                    </table>
-                ) : (
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Matchday</th>
-                                <th>Home Team</th>
-                                <th>Away Team</th>
-                                <th>Stadium</th>
-                                <th>Kickoff Time</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {specLeagueMatches30DaysData &&
-                                specLeagueMatches30DaysData.matches.map(
-                                    (match) => {
-                                        return (
-                                            <tr
-                                                key={match.id}
-                                                className="match"
-                                            >
-                                                <td>{match.matchday}</td>
-                                                <td>
-                                                    <img
-                                                        className="specMatchLogo"
-                                                        src={
-                                                            match.homeTeam.crest
-                                                        }
-                                                    ></img>{" "}
-                                                    <p>
-                                                        {
-                                                            match.homeTeam
-                                                                .shortName
-                                                        }
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <img
-                                                        className="specMatchLogo"
-                                                        src={
-                                                            match.awayTeam.crest
-                                                        }
-                                                    ></img>{" "}
-                                                    <p>
-                                                        {
-                                                            match.awayTeam
-                                                                .shortName
-                                                        }
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    {teamsData &&
-                                                        teamsData.teams.map(
-                                                            (team) => {
-                                                                if (
-                                                                    team.id ==
-                                                                    match
-                                                                        .homeTeam
-                                                                        .id
-                                                                ) {
-                                                                    return team.venue;
+                                                    <td className="position">
+                                                        {row.position}
+                                                    </td>
+                                                    <td>
+                                                        <Link
+                                                            to={`/team/${row.team.id}`}
+                                                            className="teamAndPic"
+                                                        >
+                                                            <img
+                                                                className="tableTeamPic"
+                                                                src={
+                                                                    row.team
+                                                                        .crest
                                                                 }
-                                                            }
-                                                        )}
-                                                </td>
+                                                            ></img>
+                                                            <p>
+                                                                {row.team.name}
+                                                            </p>
+                                                        </Link>
+                                                    </td>
+                                                    <td className="playedGames">
+                                                        {row.playedGames}
+                                                    </td>
+                                                    <td className="won">
+                                                        {row.won}
+                                                    </td>
+                                                    <td className="draw">
+                                                        {row.draw}
+                                                    </td>
+                                                    <td className="lost">
+                                                        {row.lost}
+                                                    </td>
+                                                    <td className="goals">
+                                                        {row.goalsFor} :{" "}
+                                                        {row.goalsAgainst}
+                                                    </td>
 
-                                                <td>
-                                                    {match.utcDate.slice(0, 10)}{" "}
-                                                    {match.utcDate.slice(
-                                                        11,
-                                                        16
-                                                    )}
-                                                </td>
-                                            </tr>
-                                        );
-                                    }
-                                )}
-                        </tbody>
-                    </table>
+                                                    <td className="goalDifference">
+                                                        {row.goalDifference}
+                                                    </td>
+                                                    <td className="points">
+                                                        {row.points}
+                                                    </td>
+                                                </tr>
+                                            );
+                                        }
+                                    )}
+                            </tbody>
+                        </table>
+                    </>
+                ) : (
+                    <>
+                        <div className="changeContainer">
+                            <div
+                                className="change"
+                                onClick={() => setStandingTable(true)}
+                            >
+                                Standings
+                            </div>
+                            <div
+                                className="change active"
+                                onClick={() => setStandingTable(false)}
+                            >
+                                Upcoming Matches
+                            </div>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Matchday</th>
+                                    <th>Home Team</th>
+                                    <th>Away Team</th>
+                                    <th>Stadium</th>
+                                    <th>Kickoff Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {specLeagueMatches30DaysData &&
+                                    specLeagueMatches30DaysData.matches.map(
+                                        (match) => {
+                                            return (
+                                                <tr
+                                                    key={match.id}
+                                                    className="match"
+                                                >
+                                                    <td>{match.matchday}</td>
+                                                    <td>
+                                                        <img
+                                                            className="specMatchLogo"
+                                                            src={
+                                                                match.homeTeam
+                                                                    .crest
+                                                            }
+                                                        ></img>{" "}
+                                                        <p>
+                                                            {
+                                                                match.homeTeam
+                                                                    .shortName
+                                                            }
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <img
+                                                            className="specMatchLogo"
+                                                            src={
+                                                                match.awayTeam
+                                                                    .crest
+                                                            }
+                                                        ></img>{" "}
+                                                        <p>
+                                                            {
+                                                                match.awayTeam
+                                                                    .shortName
+                                                            }
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        {teamsData &&
+                                                            teamsData.teams.map(
+                                                                (team) => {
+                                                                    if (
+                                                                        team.id ==
+                                                                        match
+                                                                            .homeTeam
+                                                                            .id
+                                                                    ) {
+                                                                        return team.venue;
+                                                                    }
+                                                                }
+                                                            )}
+                                                    </td>
+
+                                                    <td>
+                                                        {match.utcDate.slice(
+                                                            0,
+                                                            10
+                                                        )}{" "}
+                                                        {match.utcDate.slice(
+                                                            11,
+                                                            16
+                                                        )}
+                                                    </td>
+                                                </tr>
+                                            );
+                                        }
+                                    )}
+                            </tbody>
+                        </table>
+                    </>
                 )}
             </div>
         </>

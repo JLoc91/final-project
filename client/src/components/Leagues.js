@@ -33,8 +33,8 @@ export default function Leagues() {
                 leagues.competitions.map((league) => {
                     return (
                         <Link key={league.id} to={`/league/${league.code}`}>
-                            <div id={league.name} className="league">
-                                <h1>{league.name}</h1>
+                            <div id={league.name} className="league shadow">
+                                {/* <h1>{league.name}</h1> */}
                                 <img
                                     className="welcomeLeaguePic"
                                     src={league.emblem}
