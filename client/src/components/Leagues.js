@@ -29,20 +29,34 @@ export default function Leagues() {
 
     return (
         <>
-            {leagues.competitions &&
-                leagues.competitions.map((league) => {
-                    return (
-                        <Link key={league.id} to={`/league/${league.code}`}>
-                            <div id={league.name} className="league shadow">
-                                {/* <h1>{league.name}</h1> */}
-                                <img
-                                    className="welcomeLeaguePic"
-                                    src={league.emblem}
-                                ></img>
-                            </div>
-                        </Link>
-                    );
-                })}
+            <div className="welcomeContainer">
+                <img
+                    className="airbnfootball"
+                    src="../airbnFootballLogoGrey.png"
+                ></img>
+                <div className="leagues">
+                    {leagues.competitions &&
+                        leagues.competitions.map((league) => {
+                            return (
+                                <Link
+                                    key={league.id}
+                                    to={`/league/${league.code}`}
+                                >
+                                    <div
+                                        id={league.name}
+                                        className="league shadow"
+                                    >
+                                        {/* <h1>{league.name}</h1> */}
+                                        <img
+                                            className="welcomeLeaguePic"
+                                            src={league.emblem}
+                                        ></img>
+                                    </div>
+                                </Link>
+                            );
+                        })}
+                </div>
+            </div>
         </>
     );
 }

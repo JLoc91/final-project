@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 body {
@@ -12,8 +13,10 @@ body {
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    flex-basis: 33.3333%;
+    height: 100vh;
+    /* flex-basis: 33.3333%; */
 }
 
 .league {
@@ -46,6 +49,9 @@ img.welcomeLeaguePic {
     width: 15vw;
     height: 3vw;
     border: solid black 2px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: none;
     text-decoration: none;
 }
 
@@ -63,12 +69,30 @@ div.league h1 {
 }
 
 .active {
-    background-color: pink;
+    background-color: rgb(171, 171, 171);
 }
 
 .specTeamsContainer {
     display: flex;
     flex-direction: column;
+}
+
+.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.leagues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.airbnfootball {
+    width: 20vw;
+    margin-bottom: 4vw;
 }
 
 .leagueTeamsHeader,
@@ -79,7 +103,7 @@ div.league h1 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 100vw;
+    /* width: 100vw; */
     gap: 2vw;
 }
 
@@ -124,7 +148,7 @@ div.league h1 {
 td,
 th {
     text-align: left;
-    font-size: 1.1vw;
+    font-size: calc(8px + 1.1vw);
 }
 
 .teamAndPic {
@@ -144,6 +168,24 @@ th {
     height: 4vw;
 }
 
-/* .right {
+.upperBoarder {
+    background-color: rgb(171, 171, 171);
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.left {
     flex-direction: row-reverse;
-} */
+    justify-content: flex-end;
+}

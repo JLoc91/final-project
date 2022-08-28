@@ -122,7 +122,7 @@ export default function SpecLeague() {
                                 Upcoming Matches
                             </div>
                         </div>
-                        <table>
+                        <table className="upperBoarder">
                             <thead>
                                 <tr>
                                     <th>Position</th>
@@ -212,11 +212,12 @@ export default function SpecLeague() {
                                 Upcoming Matches
                             </div>
                         </div>
-                        <table>
+                        <table className="upperBoarder">
                             <thead>
                                 <tr>
                                     <th>Matchday</th>
-                                    <th>Home Team</th>
+                                    <th className="right">Home Team</th>
+                                    <th></th>
                                     <th>Away Team</th>
                                     <th>Stadium</th>
                                     <th>Kickoff Time</th>
@@ -233,34 +234,55 @@ export default function SpecLeague() {
                                                 >
                                                     <td>{match.matchday}</td>
                                                     <td>
-                                                        <img
-                                                            className="specMatchLogo"
-                                                            src={
-                                                                match.homeTeam
-                                                                    .crest
-                                                            }
-                                                        ></img>{" "}
-                                                        <p>
-                                                            {
-                                                                match.homeTeam
-                                                                    .shortName
-                                                            }
-                                                        </p>
+                                                        <Link
+                                                            to={`/team/${match.homeTeam.id}`}
+                                                            className="teamAndPic"
+                                                        >
+                                                            <div className="teamAndPic right">
+                                                                <p>
+                                                                    {
+                                                                        match
+                                                                            .homeTeam
+                                                                            .shortName
+                                                                    }
+                                                                </p>{" "}
+                                                                <img
+                                                                    // className="specMatchLogo"
+                                                                    className="tableTeamPic"
+                                                                    src={
+                                                                        match
+                                                                            .homeTeam
+                                                                            .crest
+                                                                    }
+                                                                ></img>
+                                                            </div>
+                                                        </Link>
                                                     </td>
+                                                    <td>{" : "}</td>
                                                     <td>
-                                                        <img
-                                                            className="specMatchLogo"
-                                                            src={
-                                                                match.awayTeam
-                                                                    .crest
-                                                            }
-                                                        ></img>{" "}
-                                                        <p>
-                                                            {
-                                                                match.awayTeam
-                                                                    .shortName
-                                                            }
-                                                        </p>
+                                                        <Link
+                                                            to={`/team/${match.awayTeam.id}`}
+                                                            className="teamAndPic"
+                                                        >
+                                                            <div className="teamAndPic left">
+                                                                <p>
+                                                                    {
+                                                                        match
+                                                                            .awayTeam
+                                                                            .shortName
+                                                                    }
+                                                                </p>{" "}
+                                                                <img
+                                                                    // className="specMatchLogo"
+                                                                    className="tableTeamPic"
+                                                                    src={
+                                                                        match
+                                                                            .awayTeam
+                                                                            .crest
+                                                                    }
+                                                                ></img>
+                                                            </div>
+                                                        </Link>
                                                     </td>
                                                     <td>
                                                         {teamsData &&
