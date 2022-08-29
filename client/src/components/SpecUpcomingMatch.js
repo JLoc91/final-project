@@ -92,7 +92,7 @@ export default function SpecUpcomingMatch() {
     }
 
     useEffect(() => {
-        // fetchWeather(homeTeam, matchDate);
+        fetchWeather(homeTeam, matchDate);
         fetchPastHead2Head(matchId);
     }, []);
 
