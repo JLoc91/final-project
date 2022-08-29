@@ -102,7 +102,7 @@ export default function SpecLeague() {
                 </h1>
                 <h1>
                     Standings Matchday{" "}
-                    {standingsData && standingsData.season.currentMatchday}
+                    {standingsData && standingsData.season.currentMatchday - 1}
                 </h1>
             </div>
             <div className="leagueTeamsBody">
@@ -236,9 +236,9 @@ export default function SpecLeague() {
                                                     <td>
                                                         <Link
                                                             to={`/team/${match.homeTeam.id}`}
-                                                            className="teamAndPic"
+                                                            className="teamAndPic right"
                                                         >
-                                                            <div className="teamAndPic right">
+                                                            <div className="teamAndPic">
                                                                 <p>
                                                                     {
                                                                         match

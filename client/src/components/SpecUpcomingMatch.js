@@ -110,15 +110,15 @@ export default function SpecUpcomingMatch() {
                         className="teamPicHeader"
                         src={upcomingMatch && upcomingMatch[0].awayTeam.crest}
                     ></img>
-                    <h1>Upcoming Matches</h1>
                 </div>
                 <div className="specUpcMatchBody">
-                    <table>
+                    <table className="grey">
                         <thead>
                             <tr>
                                 <th>Competition</th>
                                 <th>Matchday</th>
-                                <th>Home Team</th>
+                                <th className="right">Home Team</th>
+                                <th></th>
                                 <th>Away Team</th>
                                 <th>Stadium</th>
                                 <th>Kickoff Time</th>
@@ -131,32 +131,39 @@ export default function SpecUpcomingMatch() {
                                     <td>{upcomingMatch[0].competition.name}</td>
                                     <td>{upcomingMatch[0].matchday}</td>
                                     <td>
-                                        <img
-                                            className="specMatchLogo"
-                                            src={
-                                                upcomingMatch[0].homeTeam.crest
-                                            }
-                                        ></img>{" "}
-                                        <p>
-                                            {
-                                                upcomingMatch[0].homeTeam
-                                                    .shortName
-                                            }
-                                        </p>
+                                        <div className="teamAndPic right">
+                                            <p>
+                                                {
+                                                    upcomingMatch[0].homeTeam
+                                                        .shortName
+                                                }
+                                            </p>{" "}
+                                            <img
+                                                className="specMatchLogo"
+                                                src={
+                                                    upcomingMatch[0].homeTeam
+                                                        .crest
+                                                }
+                                            ></img>
+                                        </div>
                                     </td>
+                                    <td> {" : "}</td>
                                     <td>
-                                        <img
-                                            className="specMatchLogo"
-                                            src={
-                                                upcomingMatch[0].awayTeam.crest
-                                            }
-                                        ></img>{" "}
-                                        <p>
-                                            {
-                                                upcomingMatch[0].awayTeam
-                                                    .shortName
-                                            }
-                                        </p>
+                                        <div className="teamAndPic">
+                                            <img
+                                                className="specMatchLogo"
+                                                src={
+                                                    upcomingMatch[0].awayTeam
+                                                        .crest
+                                                }
+                                            ></img>{" "}
+                                            <p>
+                                                {
+                                                    upcomingMatch[0].awayTeam
+                                                        .shortName
+                                                }
+                                            </p>
+                                        </div>
                                     </td>
                                     <td>
                                         {teamsData &&
@@ -218,7 +225,7 @@ export default function SpecUpcomingMatch() {
                             )}
                         </tbody>
                     </table>
-                    <div className="head2headAggregation">
+                    <div className="head2headAggregation grey">
                         {head2HeadData && head2HeadData.aggregates && (
                             <>
                                 {teamId ==
@@ -284,7 +291,7 @@ export default function SpecUpcomingMatch() {
                             </>
                         )}
                     </div>
-                    <div className="head2headMatches">
+                    <div className="head2headMatches grey">
                         <h3>
                             Results of the last{" "}
                             {head2HeadData && head2HeadData.matches.length}{" "}
@@ -340,8 +347,6 @@ export default function SpecUpcomingMatch() {
                                                             match.score.fullTime
                                                                 .away
                                                         }
-                                                    </p>
-                                                    <p className="halfTimeTime">
                                                         {"("}
                                                         {
                                                             match.score.halfTime
@@ -354,6 +359,19 @@ export default function SpecUpcomingMatch() {
                                                         }
                                                         {")"}
                                                     </p>
+                                                    {/* <p className="halfTimeTime"> */}
+                                                    {/* {"("}
+                                                        {
+                                                            match.score.halfTime
+                                                                .home
+                                                        }{" "}
+                                                        :{" "}
+                                                        {
+                                                            match.score.halfTime
+                                                                .away
+                                                        }
+                                                        {")"} */}
+                                                    {/* </p> */}
                                                 </td>
                                                 <td>
                                                     <div className="teamAndPic">
@@ -378,9 +396,9 @@ export default function SpecUpcomingMatch() {
                             </tbody>
                         </table>
                     </div>
-                    <div className="defaultTravelInfo">
+                    <div className="defaultTravelInfo grey">
                         <h2>
-                            Hotels in{" "}
+                            Hotels close to the Stadium
                             {/* {hotelData &&
                                 hotelData.data[0] &&
                                 hotelData.data[0].location_string} */}

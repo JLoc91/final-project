@@ -13,7 +13,8 @@ body {
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    align-items: flex-start;
     flex-wrap: wrap;
     height: 100vh;
     /* flex-basis: 33.3333%; */
@@ -53,6 +54,17 @@ img.welcomeLeaguePic {
     cursor: pointer;
     border-bottom: none;
     text-decoration: none;
+}
+
+.upcButton {
+    width: 15vw;
+    height: 3vw;
+    border: solid black 2px;
+    text-align: center;
+    cursor: pointer;
+    /* border-bottom: none; */
+    text-decoration: none;
+    background-color: lightgray;
 }
 
 img.welcomeTeamPic {
@@ -114,12 +126,15 @@ div.league h1 {
 .specUpcMatchBody {
     flex-direction: column;
     justify-content: center;
+    align-items: stretch;
 }
 
 .specTeamsBody,
 .specLeagueBody,
 .leagueTeamsBody,
-.specUpcMatchContainer {
+.specUpcMatchContainer,
+.head2headAggregation,
+.head2headMatches {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -151,7 +166,8 @@ th {
     font-size: calc(8px + 1.1vw);
 }
 
-.teamAndPic {
+.teamAndPic,
+.hotelAndPic {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -188,4 +204,14 @@ a:visited {
 .left {
     flex-direction: row-reverse;
     justify-content: flex-end;
+}
+
+.points {
+    font-weight: 700;
+}
+
+.grey {
+    background-color: rgb(171, 171, 171);
+    border-radius: 10px;
+    border: transparent;
 }

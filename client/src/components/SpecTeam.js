@@ -68,10 +68,12 @@ export default function SpecTeam() {
                             src={teamData.area.flag}
                         ></img>
                         <Link to={`/team/upcoming-matches/${teamId}`}>
-                            <button>Upcoming Matches of {teamData.name}</button>
+                            <button className="upcButton">
+                                Upcoming Matches of {teamData.name}
+                            </button>
                         </Link>
                     </div>
-                    <table>
+                    <table className="grey">
                         <thead>
                             <tr>
                                 <th>Name</th>
