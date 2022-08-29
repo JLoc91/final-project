@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { addFootballLeagues } from "../redux/Football/slice";
 import { Link } from "react-router-dom";
 
-let leaguesJSON = require("../../../server/uploads/leagues.json");
+let leaguesJSON = require("../../../server/data/leagues.json");
 
 console.log("leaguesJSON: ", leaguesJSON);
 

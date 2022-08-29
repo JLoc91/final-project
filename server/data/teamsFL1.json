@@ -1,0 +1,4480 @@
+{
+    "count": 20,
+    "filters": { "season": "2022" },
+    "competition": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "code": "FL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+        "id": 1497,
+        "startDate": "2022-08-07",
+        "endDate": "2023-06-03",
+        "currentMatchday": 4,
+        "winner": null
+    },
+    "teams": [
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 510,
+            "name": "AC Ajaccio",
+            "shortName": "AC Ajaccio",
+            "tla": "ACA",
+            "crest": "https://crests.football-data.org/510.png",
+            "address": "Route du Vazzio Ajaccio 20090",
+            "website": "http://www.ac-ajaccio.com",
+            "founded": 1910,
+            "clubColors": "White / Red",
+            "venue": "Stade François Coty",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 57280,
+                "firstName": "Olivier",
+                "lastName": "Pantaloni",
+                "name": "Olivier Pantaloni",
+                "dateOfBirth": "1966-12-13",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 407,
+                    "name": "François-Joseph Sollacaro",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-03-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8554,
+                    "name": "Benjamin Leroy",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1989-04-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 170649,
+                    "name": "Ghjuvanni Quilichini",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2002-09-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 413,
+                    "name": "Cédric Avinel",
+                    "position": "Defence",
+                    "dateOfBirth": "1986-09-11",
+                    "nationality": "Guadeloupe"
+                },
+                {
+                    "id": 500,
+                    "name": "Mickaël Alphonse",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-07-12",
+                    "nationality": "Guadeloupe"
+                },
+                {
+                    "id": 650,
+                    "name": "Ismaël Diallo",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-01-29",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 681,
+                    "name": "Chaker Alhadhur",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-12-04",
+                    "nationality": "Comoros"
+                },
+                {
+                    "id": 43306,
+                    "name": "Mohamed Youssouf",
+                    "position": "Defence",
+                    "dateOfBirth": "1988-03-26",
+                    "nationality": "Comoros"
+                },
+                {
+                    "id": 45121,
+                    "name": "Oumar Gonzalez",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-02-25",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 64839,
+                    "name": "Fernand Mayembo",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-01-09",
+                    "nationality": "Congo"
+                },
+                {
+                    "id": 133945,
+                    "name": "Clément Vidal",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-06-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 421,
+                    "name": "Mathieu Coutadeur",
+                    "position": "Midfield",
+                    "dateOfBirth": "1986-03-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 423,
+                    "name": "Qazim Laçi",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-01-19",
+                    "nationality": "Albania"
+                },
+                {
+                    "id": 543,
+                    "name": "Michaël Barreto",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-01-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 565,
+                    "name": "Vincent Marchetti",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-07-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 726,
+                    "name": "Alassane N'Diaye",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-06-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8536,
+                    "name": "Romain Hamouma",
+                    "position": "Midfield",
+                    "dateOfBirth": "1987-03-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8644,
+                    "name": "Thomas Mangani",
+                    "position": "Midfield",
+                    "dateOfBirth": "1987-04-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 98378,
+                    "name": "Florian Chabrolle",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-04-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 122227,
+                    "name": "Kevin Spadanuda",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-16",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 147883,
+                    "name": "Yanis Cimignani",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-01-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 175744,
+                    "name": "Paolo Lebas",
+                    "position": "Midfield",
+                    "dateOfBirth": "2003-04-20",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 428,
+                    "name": "Riad Nouri",
+                    "position": "Offence",
+                    "dateOfBirth": "1985-06-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 635,
+                    "name": "Bevic Moussiti",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-01-28",
+                    "nationality": "Congo"
+                },
+                {
+                    "id": 781,
+                    "name": "Cyrille Bayala",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-05-24",
+                    "nationality": "Burkina Faso"
+                },
+                {
+                    "id": 98224,
+                    "name": "Mounaim El Idrissy",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-02-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 165004,
+                    "name": "Taïryk Arconte",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-11-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 166658,
+                    "name": "Jean Botue Kouame",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-08-07",
+                    "nationality": "Burkina Faso"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T09:03:14Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 511,
+            "name": "Toulouse FC",
+            "shortName": "Toulouse",
+            "tla": "TOU",
+            "crest": "https://crests.football-data.org/511.png",
+            "address": "1 allée Gabriel Biénèsm, BP 54023 Toulouse 31028",
+            "website": "http://www.tfc.info",
+            "founded": 1937,
+            "clubColors": "Violet / White",
+            "venue": "Stadium Municipal",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 74555,
+                "firstName": "Philippe",
+                "lastName": "Montanier",
+                "name": "Philippe Montanier",
+                "dateOfBirth": "1964-11-15",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 8686,
+                    "name": "Maxime Dupé",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-03-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 31127,
+                    "name": "Isak Pettersson",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1997-06-06",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 44055,
+                    "name": "Kjetil Haug",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-06-12",
+                    "nationality": "Norway"
+                },
+                {
+                    "id": 161354,
+                    "name": "Thomas Himeur",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-01-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 814,
+                    "name": "Logan Costa",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-04-01",
+                    "nationality": "Cape Verde"
+                },
+                {
+                    "id": 8298,
+                    "name": "Issiaga Sylla",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-01-01",
+                    "nationality": "Guinea"
+                },
+                {
+                    "id": 24190,
+                    "name": "Rasmus Nicolaisen",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-03-16",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 24302,
+                    "name": "Mikkel Desler",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-02-19",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 119064,
+                    "name": "Moussa Diarra",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-11-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 150751,
+                    "name": "Anthony Rouault",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-05-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 160413,
+                    "name": "Tom Rapnouil",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-02-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 160414,
+                    "name": "Kévin Keben Biakolo",
+                    "position": "Defence",
+                    "dateOfBirth": "2004-01-26",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 4621,
+                    "name": "Denis Genreau",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-05-21",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 7758,
+                    "name": "Stijn Spierings",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-03-12",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 8906,
+                    "name": "Brecht Dejaegere",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-05-29",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 53397,
+                    "name": "Branco van den Boomen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-07-21",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 59126,
+                    "name": "Naatan Skyttä",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-05-07",
+                    "nationality": "Finland"
+                },
+                {
+                    "id": 157834,
+                    "name": "Steve Mvoué",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-02-02",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 177646,
+                    "name": "Junior Flemmings",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-01-16",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 553,
+                    "name": "Yanis Begraoui",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-07-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 9848,
+                    "name": "Thijs Dallinga",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-08-03",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 11748,
+                    "name": "Rhys Healey",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-12-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 12963,
+                    "name": "Rafael Ratão",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-11-30",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 44114,
+                    "name": "Ado Onaiwu",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-11-08",
+                    "nationality": "Japan"
+                },
+                {
+                    "id": 81085,
+                    "name": "Zakaria Aboukhlal",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-02-18",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 98746,
+                    "name": "Nathan N'Goumou",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-03-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 137056,
+                    "name": "Samuel Kasongo",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-08-07",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 178658,
+                    "name": "Fares Chaïbi",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-11-28",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-20T08:39:56Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 512,
+            "name": "Stade Brestois 29",
+            "shortName": "Brest",
+            "tla": "BRE",
+            "crest": "https://crests.football-data.org/512.png",
+            "address": "Port de Plaisance, 470 bis rue Alain Colas Brest 29200",
+            "website": "http://www.stade-brestois.com",
+            "founded": 1903,
+            "clubColors": "White / Red",
+            "venue": "Stade Francis-Le Blé",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 45095,
+                "firstName": "Michel",
+                "lastName": null,
+                "name": "Michel Der Zakarian",
+                "dateOfBirth": "1963-02-18",
+                "nationality": "Armenia",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 731,
+                    "name": "Grégoire Coudert",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-04-03",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7675,
+                    "name": "Marco Bizot",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1991-03-10",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 142186,
+                    "name": "Joaquin Blazquez",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-01-28",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 441,
+                    "name": "Brendan Chardonnet",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-12-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 776,
+                    "name": "Jean-Kevin Duverne",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-08-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8613,
+                    "name": "Christophe Hérelle",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-08-22",
+                    "nationality": "Martinique"
+                },
+                {
+                    "id": 8893,
+                    "name": "Noah Fadiga",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-12-03",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 8963,
+                    "name": "Jere Uronen",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-07-13",
+                    "nationality": "Finland"
+                },
+                {
+                    "id": 97477,
+                    "name": "Achraf Dari",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-05-06",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 123200,
+                    "name": "Lilian Brassier",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-11-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 722,
+                    "name": "Mathias Pereira Lage",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-11-30",
+                    "nationality": "France"
+                },
+                {
+                    "id": 746,
+                    "name": "Haris Belkebla",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-01-28",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 856,
+                    "name": "Romain Del Castillo",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-03-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8439,
+                    "name": "Pierre Lees Melou",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-05-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 57104,
+                    "name": "Youcef Belaili",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-03-14",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 76145,
+                    "name": "Hugo Magnetti",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-05-30",
+                    "nationality": "France"
+                },
+                {
+                    "id": 133785,
+                    "name": "Hianga Mananga Mbock",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-12-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 540,
+                    "name": "Romain Philippoteaux",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-03-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 727,
+                    "name": "Franck Honorat",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-08-11",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8193,
+                    "name": "Steve Mounié",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-09-29",
+                    "nationality": "Benin"
+                },
+                {
+                    "id": 16930,
+                    "name": "Irvin Cardona",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-08-08",
+                    "nationality": "France"
+                },
+                {
+                    "id": 118793,
+                    "name": "Karamoko Dembélé",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-02-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 134582,
+                    "name": "Jérémy Le Douaron",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-04-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 148277,
+                    "name": "Rafiki Said Ahamada",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-03-15",
+                    "nationality": "Comoros"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:43:14Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 516,
+            "name": "Olympique de Marseille",
+            "shortName": "Marseille",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/516.png",
+            "address": "La Commanderie, 33, traverse de La Martine Marseille 13012",
+            "website": "http://www.om.net",
+            "founded": 1898,
+            "clubColors": "White / Blue",
+            "venue": "Orange Vélodrome",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 11105,
+                "firstName": "Igor",
+                "lastName": "Tudor",
+                "name": "Igor Tudor",
+                "dateOfBirth": "1978-04-16",
+                "nationality": "Croatia",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 32695,
+                    "name": "Pau López",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-12-13",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 33614,
+                    "name": "Rubén Blanco",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-07-25",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 137322,
+                    "name": "Simon Ngapandouetnbu",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2003-12-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 1023,
+                    "name": "Jonathan Clauss",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-09-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7786,
+                    "name": "Sead Kolašinac",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-06-20",
+                    "nationality": "Bosnia-Herzegovina"
+                },
+                {
+                    "id": 7918,
+                    "name": "Chancel Mbemba",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-08-08",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 8350,
+                    "name": "Jordan Amavi",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-03-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8912,
+                    "name": "Samuel Gigot",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-10-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 10206,
+                    "name": "Duje Ćaleta-Car",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-09-17",
+                    "nationality": "Croatia"
+                },
+                {
+                    "id": 80459,
+                    "name": "Nuno Tavares",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-01-26",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 82020,
+                    "name": "Leonardo Balerdi",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-01-26",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 123574,
+                    "name": "Issa Kaboré",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-05-12",
+                    "nationality": "Burkina Faso"
+                },
+                {
+                    "id": 152604,
+                    "name": "Souleymane Touré",
+                    "position": "Defence",
+                    "dateOfBirth": "2003-03-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 600,
+                    "name": "Mattéo Guendouzi",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-04-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 633,
+                    "name": "Pape Gueye",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-01-24",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 1783,
+                    "name": "Jordan Veretout",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-03-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 1812,
+                    "name": "Kevin Strootman",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-02-13",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 1815,
+                    "name": "Gerson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-05-20",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 1818,
+                    "name": "Cengiz Ünder",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-07-14",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 8695,
+                    "name": "Valentin Rongier",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-12-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 157127,
+                    "name": "Bartuğ Elmaz",
+                    "position": "Midfield",
+                    "dateOfBirth": "2003-02-19",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 2105,
+                    "name": "Arkadiusz Milik",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-02-28",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 7911,
+                    "name": "Alexis Sánchez",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-12-19",
+                    "nationality": "Chile"
+                },
+                {
+                    "id": 8360,
+                    "name": "Dimitri Payet",
+                    "position": "Offence",
+                    "dateOfBirth": "1987-03-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 21583,
+                    "name": "Cédric Bakambu",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-04-11",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 32386,
+                    "name": "Luis Suárez",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-12-02",
+                    "nationality": "Colombia"
+                },
+                {
+                    "id": 149076,
+                    "name": "Salim Ben Seghir",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-02-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 160412,
+                    "name": "Cheikh Ahmadou Dieng",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-09-01",
+                    "nationality": "Senegal"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:35:12Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 518,
+            "name": "Montpellier HSC",
+            "shortName": "Montpellier",
+            "tla": "MON",
+            "crest": "https://crests.football-data.org/518.png",
+            "address": "Domaine de Grammont CS 79041 Montpellier 34967",
+            "website": "http://www.mhscfoot.com",
+            "founded": 1970,
+            "clubColors": "Blue / Orange",
+            "venue": "Stade de la Mosson",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 45107,
+                "firstName": "Olivier",
+                "lastName": null,
+                "name": "Olivier Dall’Oglio",
+                "dateOfBirth": "1964-05-16",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 8365,
+                    "name": "Dimitry Bertaud",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-06-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 30774,
+                    "name": "Jonas Omlin",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-01-10",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 99962,
+                    "name": "Matis Carvalho",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-04-28",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 847,
+                    "name": "Théo Sainte-Luce",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-10-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8149,
+                    "name": "Mamadou Sakho",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-02-13",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8373,
+                    "name": "Nicolas Cozza",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-01-08",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8374,
+                    "name": "Pedro Mendes",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-10-01",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 8431,
+                    "name": "Arnaud Souquet",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-02-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8807,
+                    "name": "Faitout Maouassa",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-07-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 37446,
+                    "name": "Falaye Sacko",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-05-01",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 575,
+                    "name": "Arnaud Nordin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-06-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 852,
+                    "name": "Téji Savanier",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-12-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8463,
+                    "name": "Jordan Ferri",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-03-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 111539,
+                    "name": "Léo Leroy",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 125677,
+                    "name": "Joris Chotard",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-09-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185003,
+                    "name": "Khalil Fayad",
+                    "position": "Midfield",
+                    "dateOfBirth": "2004-06-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 3598,
+                    "name": "Wahbi Khazri",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-02-08",
+                    "nationality": "Tunisia"
+                },
+                {
+                    "id": 6332,
+                    "name": "Stephy Mavididi",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-05-31",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8361,
+                    "name": "Valère Germain",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-04-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 123639,
+                    "name": "Béni Makouana",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-09-28",
+                    "nationality": "Congo"
+                },
+                {
+                    "id": 156808,
+                    "name": "Sepe Elye Wahi",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-01-02",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:47:35Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 519,
+            "name": "AJ Auxerre",
+            "shortName": "Auxerre",
+            "tla": "AJA",
+            "crest": "https://crests.football-data.org/519.png",
+            "address": "Route de Vaux BP 349 Auxerre 89006",
+            "website": "http://www.aja.fr",
+            "founded": 1905,
+            "clubColors": "White / Blue",
+            "venue": "Stade de l'Abbé Deschamps",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 64726,
+                "firstName": "Jean-Marc",
+                "lastName": "Furlan",
+                "name": "Jean-Marc Furlan",
+                "dateOfBirth": "1957-11-20",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 437,
+                    "name": "Donovan Léon",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-11-03",
+                    "nationality": "French Guiana"
+                },
+                {
+                    "id": 8494,
+                    "name": "Benoît Costil",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1987-07-03",
+                    "nationality": "France"
+                },
+                {
+                    "id": 80751,
+                    "name": "Sonny Laiton",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2000-01-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 157131,
+                    "name": "Théo De Percin",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-02-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 442,
+                    "name": "Alexandre Coeff",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-02-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 443,
+                    "name": "Quentin Bernard",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-07-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 524,
+                    "name": "Kenji-Van Boto",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-03-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 619,
+                    "name": "Denys Bain",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-07-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 806,
+                    "name": "Julian Jeanvier",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-03-31",
+                    "nationality": "Guinea"
+                },
+                {
+                    "id": 8501,
+                    "name": "Théo Pellenard",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-03-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 16340,
+                    "name": "Gideon Mensah",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-07-18",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 37226,
+                    "name": "Jubal",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-08-29",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 57099,
+                    "name": "Alec Georgen",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-09-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 170623,
+                    "name": "Paul Joly",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-06-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 455,
+                    "name": "Mathias Autret",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-03-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 541,
+                    "name": "Birama Touré",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-06-06",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 544,
+                    "name": "Hamza Sakhi",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-06-07",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 747,
+                    "name": "Rayan Raveloson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-16",
+                    "nationality": "Madagascar"
+                },
+                {
+                    "id": 914,
+                    "name": "Gaëtan Perrin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-06-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 995,
+                    "name": "Youssouf M'Changama",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-08-29",
+                    "nationality": "Comoros"
+                },
+                {
+                    "id": 123099,
+                    "name": "Ousoumane Camara",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-12-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 175724,
+                    "name": "Kevin Danois",
+                    "position": "Midfield",
+                    "dateOfBirth": "2004-06-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185010,
+                    "name": "Kays Ruiz-Atil",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-08-26",
+                    "nationality": "France"
+                },
+                {
+                    "id": 460,
+                    "name": "Gaëtan Charbonnier",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-12-27",
+                    "nationality": "France"
+                },
+                {
+                    "id": 552,
+                    "name": "Lassine Sinayoko",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-12-08",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 721,
+                    "name": "Rémy Dugimont",
+                    "position": "Offence",
+                    "dateOfBirth": "1986-06-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 752,
+                    "name": "Gauthier Hein",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-08-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 130347,
+                    "name": "Ousmane Camara",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-11-03",
+                    "nationality": "Guinea"
+                },
+                {
+                    "id": 166784,
+                    "name": "Nuno Da Costa",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-02-10",
+                    "nationality": "Cape Verde"
+                },
+                {
+                    "id": 170622,
+                    "name": "Kylian Silvestre",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-08-16",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-07-26T18:03:55Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 521,
+            "name": "Lille OSC",
+            "shortName": "Lille",
+            "tla": "LIL",
+            "crest": "https://crests.football-data.org/521.svg",
+            "address": "Grand Rue 59, 780 Camphin-en-Pévèle Lille null",
+            "website": "http://www.losc.fr",
+            "founded": 1944,
+            "clubColors": "White / Red",
+            "venue": "Stade Pierre-Mauroy",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 16490,
+                "firstName": "Paulo Alexandre",
+                "lastName": null,
+                "name": "Paulo Fonseca",
+                "dateOfBirth": "1973-03-05",
+                "nationality": "Portugal",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 1132,
+                    "name": "Leonardo",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-03-20",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 8392,
+                    "name": "Adam Jakubech",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1997-01-02",
+                    "nationality": "Slovakia"
+                },
+                {
+                    "id": 147896,
+                    "name": "Lucas Chevalier",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-11-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 3226,
+                    "name": "Ismaily",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-01-11",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 3245,
+                    "name": "José Fonte",
+                    "position": "Defence",
+                    "dateOfBirth": "1983-12-22",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 31531,
+                    "name": "Gabriel Gudmundsson",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-04-29",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 37134,
+                    "name": "Tiago Djaló",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-04-09",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 98745,
+                    "name": "Bafodé Diakité",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-01-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 101569,
+                    "name": "Akim Zedadka",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-05-30",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 181933,
+                    "name": "Leny Yoro",
+                    "position": "Defence",
+                    "dateOfBirth": "2005-11-13",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185005,
+                    "name": "Alexsandro",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-08-09",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 7910,
+                    "name": "Angel Gomes",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-08-31",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8541,
+                    "name": "Rémy Cabella",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-03-08",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8788,
+                    "name": "Jonas Martin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-04-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8811,
+                    "name": "Benjamin André",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-08-03",
+                    "nationality": "France"
+                },
+                {
+                    "id": 30299,
+                    "name": "Yusuf Yazıcı",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-29",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 728,
+                    "name": "Mohamed Bayo",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-06-04",
+                    "nationality": "Guinea"
+                },
+                {
+                    "id": 8547,
+                    "name": "Jonathan Bamba",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-03-26",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8924,
+                    "name": "Jonathan David",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-01-14",
+                    "nationality": "Canada"
+                },
+                {
+                    "id": 8990,
+                    "name": "Edon Zhegrova",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-03-31",
+                    "nationality": "Kosovo"
+                },
+                {
+                    "id": 125667,
+                    "name": "Isaac Lihadji",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-04-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 150934,
+                    "name": "Alan Virginius",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-01-03",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2021-02-06T18:01:32Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 522,
+            "name": "OGC Nice",
+            "shortName": "Nice",
+            "tla": "NIC",
+            "crest": "https://crests.football-data.org/522.png",
+            "address": "35, avenue du Ray Nice 06100",
+            "website": "http://www.ogcnice.com",
+            "founded": 1904,
+            "clubColors": "Red / Black",
+            "venue": "Stade de Nice",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 15923,
+                "firstName": "Lucien",
+                "lastName": null,
+                "name": "Lucien Favre",
+                "dateOfBirth": "1957-11-02",
+                "nationality": "Switzerland",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 3448,
+                    "name": "Kasper Schmeichel",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1986-11-05",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 147975,
+                    "name": "Teddy Boulhendi",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-04-09",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 8425,
+                    "name": "Dante",
+                    "position": "Defence",
+                    "dateOfBirth": "1983-10-18",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 16276,
+                    "name": "Jordan Lotomba",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-09-29",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 79903,
+                    "name": "Jean-Clair Todibo",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-12-30",
+                    "nationality": "France"
+                },
+                {
+                    "id": 122320,
+                    "name": "Flavius Daniliuc",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-04-27",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 133188,
+                    "name": "Alexis Beka Beka",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-03-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 136628,
+                    "name": "Mattia Viti",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-01-24",
+                    "nationality": "Italy"
+                },
+                {
+                    "id": 136721,
+                    "name": "Melvin Bard",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-11-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7448,
+                    "name": "Pablo Rosario",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-07",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 7791,
+                    "name": "Aaron Ramsey",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-12-26",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 7840,
+                    "name": "Morgan Schneiderlin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-11-08",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8097,
+                    "name": "Mario Lemina",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-09-01",
+                    "nationality": "Gabon"
+                },
+                {
+                    "id": 99251,
+                    "name": "Khéphren Thuram-Ulie",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-03-26",
+                    "nationality": "France"
+                },
+                {
+                    "id": 123508,
+                    "name": "Hicham Boudaoui",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-09-23",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 135474,
+                    "name": "Alexis Trouillet",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-12-23",
+                    "nationality": "France"
+                },
+                {
+                    "id": 160330,
+                    "name": "Rareş Ilie",
+                    "position": "Midfield",
+                    "dateOfBirth": "2003-04-19",
+                    "nationality": "Romania"
+                },
+                {
+                    "id": 185007,
+                    "name": "Badredine Bouanani",
+                    "position": "Midfield",
+                    "dateOfBirth": "2004-12-08",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7570,
+                    "name": "Kasper Dolberg",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-10-06",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 7690,
+                    "name": "Calvin Stengs",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-12-18",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 8308,
+                    "name": "Andy Delort",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-10-09",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 8476,
+                    "name": "Amine Gouiri",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-02-16",
+                    "nationality": "France"
+                },
+                {
+                    "id": 124620,
+                    "name": "Lucas Da Cunha",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-06-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 147021,
+                    "name": "Billal Brahimi",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-03-14",
+                    "nationality": "Algeria"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:51:11Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 523,
+            "name": "Olympique Lyonnais",
+            "shortName": "Olympique Lyon",
+            "tla": "LYO",
+            "crest": "https://crests.football-data.org/523.svg",
+            "address": "350 avenue Jean Jaurès Lyon 69007",
+            "website": "http://www.olweb.fr",
+            "founded": 1896,
+            "clubColors": "White / Red / Blue",
+            "venue": "Groupama Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 43925,
+                "firstName": "Peter",
+                "lastName": null,
+                "name": "Peter Bosz",
+                "dateOfBirth": "1963-11-21",
+                "nationality": "Netherlands",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 3240,
+                    "name": "Anthony Lopes",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-10-01",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 6515,
+                    "name": "Julian Pollersbeck",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-08-16",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 30590,
+                    "name": "Rémy Riou",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1987-08-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 347,
+                    "name": "Jérôme Boateng",
+                    "position": "Defence",
+                    "dateOfBirth": "1988-09-03",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 811,
+                    "name": "Youssouf Koné",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-07-05",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 1464,
+                    "name": "Henrique",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-04-25",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 3208,
+                    "name": "Nicolás Tagliafico",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-08-31",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 8317,
+                    "name": "Damien da Silva",
+                    "position": "Defence",
+                    "dateOfBirth": "1988-05-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 127140,
+                    "name": "Cenk Özkacar",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-10-06",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 141637,
+                    "name": "Sinaly Diomandé",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-04-09",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 152498,
+                    "name": "Malo Gusto",
+                    "position": "Defence",
+                    "dateOfBirth": "2003-05-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 366,
+                    "name": "Corentin Tolisso",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-08-03",
+                    "nationality": "France"
+                },
+                {
+                    "id": 1543,
+                    "name": "Lucas Paquetá",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-08-27",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 8402,
+                    "name": "Thiago Mendes",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-03-15",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 8466,
+                    "name": "Houssem Aouar",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-06-30",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8651,
+                    "name": "Jeff Reine-Adelaïde",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-01-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8762,
+                    "name": "Romain Faivre",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-07-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 31071,
+                    "name": "Tinotenda Kadewere",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-01-05",
+                    "nationality": "Zimbabwe"
+                },
+                {
+                    "id": 101350,
+                    "name": "Maxence Caqueret",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 116177,
+                    "name": "Tetê",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-15",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 133242,
+                    "name": "Rayan Cherki",
+                    "position": "Midfield",
+                    "dateOfBirth": "2003-08-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 149044,
+                    "name": "Johann Lepenant",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-10-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 157251,
+                    "name": "Florent da Silva",
+                    "position": "Midfield",
+                    "dateOfBirth": "2003-04-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 184997,
+                    "name": "Mohamed El Arouch",
+                    "position": "Midfield",
+                    "dateOfBirth": "2004-04-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7797,
+                    "name": "Alexandre Lacazette",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-05-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8655,
+                    "name": "Karl Toko Ekambi",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-09-14",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 15618,
+                    "name": "Moussa Dembélé",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-07-12",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2021-02-06T18:01:36Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 524,
+            "name": "Paris Saint-Germain FC",
+            "shortName": "PSG",
+            "tla": "PSG",
+            "crest": "https://crests.football-data.org/524.png",
+            "address": "24, rue de Commandant Guibaud Paris 7501",
+            "website": "http://www.psg.fr",
+            "founded": 1904,
+            "clubColors": "Red / Blue / White",
+            "venue": "Parc des Princes",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 45098,
+                "firstName": "Christophe",
+                "lastName": null,
+                "name": "Christophe Galtier",
+                "dateOfBirth": "1966-08-26",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 51,
+                    "name": "Keylor Navas",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1986-12-15",
+                    "nationality": "Costa Rica"
+                },
+                {
+                    "id": 55,
+                    "name": "Sergio Rico",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-09-01",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 1731,
+                    "name": "Gianluigi Donnarumma",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-02-25",
+                    "nationality": "Italy"
+                },
+                {
+                    "id": 16261,
+                    "name": "Alexandre Letellier",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-12-11",
+                    "nationality": "France"
+                },
+                {
+                    "id": 53,
+                    "name": "Achraf Hakimi",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-11-04",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 357,
+                    "name": "Juan Bernat",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-03-01",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 3192,
+                    "name": "Sergio Ramos",
+                    "position": "Defence",
+                    "dateOfBirth": "1986-03-30",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 3225,
+                    "name": "Marquinhos",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-05-14",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 3363,
+                    "name": "Presnel Kimpembe",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-08-13",
+                    "nationality": "France"
+                },
+                {
+                    "id": 6625,
+                    "name": "Abdou Diallo",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-05-04",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 8371,
+                    "name": "Nordi Mukiele",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-11-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8478,
+                    "name": "Layvin Kurzawa",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-09-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 144570,
+                    "name": "Nuno Mendes",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-06-19",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 148288,
+                    "name": "Timothee Pembele",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-09-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 2012,
+                    "name": "Rafinha",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-02-12",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 3179,
+                    "name": "Julian Draxler",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-09-20",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 3214,
+                    "name": "Leandro Paredes",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-06-29",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 3627,
+                    "name": "Idrissa Gana Guèye",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-09-26",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 7904,
+                    "name": "Ander Herrera",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-08-14",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 8482,
+                    "name": "Marco Verratti",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-11-05",
+                    "nationality": "Italy"
+                },
+                {
+                    "id": 15909,
+                    "name": "Danilo Pereira",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-09-09",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 126148,
+                    "name": "Vítor Ferreira",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-13",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 74,
+                    "name": "Pablo Sarabia",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-05-11",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 2014,
+                    "name": "Mauro Icardi",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-02-19",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 3218,
+                    "name": "Lionel Messi",
+                    "position": "Offence",
+                    "dateOfBirth": "1987-06-24",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 3374,
+                    "name": "Kylian Mbappé",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-12-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7988,
+                    "name": "Renato Sanches",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-08-18",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 8491,
+                    "name": "Neymar",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-02-05",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 152454,
+                    "name": "Hugo Ekitike",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-06-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 160443,
+                    "name": "Edouard Michut",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-03-04",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-10T19:07:11Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 525,
+            "name": "FC Lorient",
+            "shortName": "Lorient",
+            "tla": "FCL",
+            "crest": "https://crests.football-data.org/525.png",
+            "address": "Tade Yves Allainmat<br>Rue Du Tour Des Portes, BP 404 Lorient 56104",
+            "website": "http://www.fclweb.fr",
+            "founded": 1926,
+            "clubColors": "Orange / Black",
+            "venue": "Stade Yves Allainmat - Le Moustoir",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 8315,
+                    "name": "Matthieu Dreyer",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1989-03-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 9534,
+                    "name": "Yvon Mvogo",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-06-06",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 16925,
+                    "name": "Paul Nardi",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-05-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 98756,
+                    "name": "Teddy Bartouche",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1997-06-05",
+                    "nationality": "France"
+                },
+                {
+                    "id": 566,
+                    "name": "Laurent Abergel",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-02-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 590,
+                    "name": "Vincent Le Goff",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-10-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 713,
+                    "name": "Julien Laporte",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-11-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 82600,
+                    "name": "Gédéon Kalulu",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-08-29",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 107128,
+                    "name": "Samuel Loric",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-07-05",
+                    "nationality": "France"
+                },
+                {
+                    "id": 117813,
+                    "name": "Léo Pétrot",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-04-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 131179,
+                    "name": "Darlin Yongwa",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-09-21",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 147912,
+                    "name": "Chrislain Matsima",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-05-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8303,
+                    "name": "Quentin Boisgard",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-03-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8592,
+                    "name": "Thomas Monconduit",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-02-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 16100,
+                    "name": "Bonke Innocent",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-01-20",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 79889,
+                    "name": "Julien Ponceau",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-11-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 99664,
+                    "name": "Enzo Le Fée",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-03",
+                    "nationality": "France"
+                },
+                {
+                    "id": 103003,
+                    "name": "Stéphane Diarra",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-12-09",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 865,
+                    "name": "Umut Bozok",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-09-19",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 8822,
+                    "name": "Armand Lauriente",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-12-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 10824,
+                    "name": "Adrian Grbic",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-08-04",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 37968,
+                    "name": "Ibrahima Koné",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-06-16",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 113427,
+                    "name": "Terem Moffi",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-05-25",
+                    "nationality": "Nigeria"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:25:01Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 529,
+            "name": "Stade Rennais FC 1901",
+            "shortName": "Stade Rennais",
+            "tla": "REN",
+            "crest": "https://crests.football-data.org/529.png",
+            "address": "La Piverdière - Chemin de la Taupinais CS 5390 Rennes 35039",
+            "website": "http://www.staderennais.com",
+            "founded": 1901,
+            "clubColors": "Red / Black",
+            "venue": "Roazhon Park",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 45101,
+                "firstName": "Bruno Alain",
+                "lastName": null,
+                "name": "Bruno Génésio",
+                "dateOfBirth": "1966-09-01",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 2345,
+                    "name": "Alfred Gomis",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-09-05",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 3356,
+                    "name": "Steve Mandanda",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1985-03-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 15875,
+                    "name": "Romain Salin",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1984-07-29",
+                    "nationality": "France"
+                },
+                {
+                    "id": 81872,
+                    "name": "Doğan Alemdar",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2002-10-29",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 5714,
+                    "name": "Joe Rodon",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-10-22",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 8808,
+                    "name": "Hamari Traoré",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-01-27",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 15569,
+                    "name": "Birger Meling",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-12-17",
+                    "nationality": "Norway"
+                },
+                {
+                    "id": 125678,
+                    "name": "Elias Damergy",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-10-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 135467,
+                    "name": "Warmed Omari",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-04-23",
+                    "nationality": "France"
+                },
+                {
+                    "id": 135482,
+                    "name": "Adrien Truffert",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-11-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 135485,
+                    "name": "Lorenz Assignon",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-06-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 136039,
+                    "name": "Loïc Bade",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-04-11",
+                    "nationality": "France"
+                },
+                {
+                    "id": 145893,
+                    "name": "Arthur Theate",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-05-25",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 8646,
+                    "name": "Baptiste Santamaria",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-03-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8647,
+                    "name": "Flavien Tait",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-02-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8818,
+                    "name": "Benjamin Bourigeaud",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-01-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 23214,
+                    "name": "Lovro Majer",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-01-17",
+                    "nationality": "Croatia"
+                },
+                {
+                    "id": 141023,
+                    "name": "Noah Francoise",
+                    "position": "Midfield",
+                    "dateOfBirth": "2003-07-05",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8517,
+                    "name": "Gaëtan Laborde",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-05-03",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8797,
+                    "name": "Martin Terrier",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-03-04",
+                    "nationality": "France"
+                },
+                {
+                    "id": 99775,
+                    "name": "Jeremy Doku",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-05-27",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 130668,
+                    "name": "Arnaud Kalimuendo",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-01-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 142140,
+                    "name": "Kamal Deen Sulemana",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-02-15",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 170412,
+                    "name": "Matthis Abline",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-03-28",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-03-20T11:21:26Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 531,
+            "name": "ES Troyes AC",
+            "shortName": "Troyes",
+            "tla": "ETR",
+            "crest": "https://crests.football-data.org/531.svg",
+            "address": "29bis Rue Saint-Exupéry Pont-Sainte-Marie 10158",
+            "website": "http://www.estac.fr",
+            "founded": 1986,
+            "clubColors": "Blue / White",
+            "venue": "Stade de l'Aube",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 108988,
+                "firstName": "Bruno",
+                "lastName": null,
+                "name": "Bruno Irles",
+                "dateOfBirth": "1975-08-16",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 899,
+                    "name": "Gauthier Gallon",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-04-23",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8524,
+                    "name": "Jessy Moulin",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1986-01-13",
+                    "nationality": "France"
+                },
+                {
+                    "id": 905,
+                    "name": "Gabriel Mutombo Kupa",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-01-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8348,
+                    "name": "Adil Rami",
+                    "position": "Defence",
+                    "dateOfBirth": "1985-12-27",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8619,
+                    "name": "Karim Azamoum",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-01-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8775,
+                    "name": "Yoann Salmier",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-11-21",
+                    "nationality": "French Guiana"
+                },
+                {
+                    "id": 9004,
+                    "name": "Erik Palmer-Brown",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-04-24",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 16343,
+                    "name": "Mahamadou Dembélé",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-04-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 24126,
+                    "name": "Andreas Bruus",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-01-16",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 37728,
+                    "name": "Abdu Conté",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-03-24",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 114331,
+                    "name": "Jackson Porozo",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-08-04",
+                    "nationality": "Ecuador"
+                },
+                {
+                    "id": 133766,
+                    "name": "Yasser Larouci",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-01-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 170627,
+                    "name": "Thierno Baldé",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-06-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 507,
+                    "name": "Florian Tardieu",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-04-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 824,
+                    "name": "Xavier Chavalerin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-03-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 851,
+                    "name": "Renaud Ripart",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-03-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8623,
+                    "name": "Tristan Dingomé",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-02-17",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 43707,
+                    "name": "Mama Baldé",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-11-06",
+                    "nationality": "Guinea-Bissau"
+                },
+                {
+                    "id": 67707,
+                    "name": "Luka Ilić",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-07-02",
+                    "nationality": "Serbia"
+                },
+                {
+                    "id": 151093,
+                    "name": "Brandon Domingues",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-06-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 184999,
+                    "name": "Wilson Odobert",
+                    "position": "Midfield",
+                    "dateOfBirth": "2004-11-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 519,
+                    "name": "Yoann Touzghar",
+                    "position": "Offence",
+                    "dateOfBirth": "1986-11-28",
+                    "nationality": "Tunisia"
+                },
+                {
+                    "id": 6406,
+                    "name": "Iké Ugbo",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-09-21",
+                    "nationality": "Canada"
+                },
+                {
+                    "id": 8166,
+                    "name": "Levi Lumeka",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-09-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8415,
+                    "name": "Rominigue Kouamé",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-12-17",
+                    "nationality": "Mali"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2021-02-06T18:01:51Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 532,
+            "name": "Angers SCO",
+            "shortName": "Angers SCO",
+            "tla": "ANG",
+            "crest": "https://crests.football-data.org/532.svg",
+            "address": "73 boulevard Jacques Portet, BP 20212 Angers 49002",
+            "website": "http://www.angers-sco.fr",
+            "founded": 1919,
+            "clubColors": "Black / White / Gold",
+            "venue": "Stade Raymond Kopa",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 616,
+                    "name": "Yahia Fofana",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2000-08-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 704,
+                    "name": "Paul Bernardoni",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1997-04-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8640,
+                    "name": "Abdoulaye Bamba",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-04-25",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 17871,
+                    "name": "Halid Šabanović",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-08-22",
+                    "nationality": "Bosnia-Herzegovina"
+                },
+                {
+                    "id": 30877,
+                    "name": "Souleymane Doumbia",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-09-24",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 63254,
+                    "name": "Miha Blažič",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-05-08",
+                    "nationality": "Slovenia"
+                },
+                {
+                    "id": 64809,
+                    "name": "Cédric Hountondji",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-01-19",
+                    "nationality": "Benin"
+                },
+                {
+                    "id": 129598,
+                    "name": "Ilyes Chetti",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-01-22",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 147895,
+                    "name": "Ousman Camara",
+                    "position": "Defence",
+                    "dateOfBirth": "2003-03-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 864,
+                    "name": "Antonin Bobichon",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-09-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 3706,
+                    "name": "Sofiane Boufal",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-09-17",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 6503,
+                    "name": "Nabil Bentaleb",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-11-24",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 8645,
+                    "name": "Pierrick Capelle",
+                    "position": "Midfield",
+                    "dateOfBirth": "1987-04-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 80754,
+                    "name": "Himad Abdelli",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-11-17",
+                    "nationality": "France"
+                },
+                {
+                    "id": 122511,
+                    "name": "Azzedine Ounahi",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-04-19",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 136385,
+                    "name": "Zinédine Ould Khaled",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-01-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 140251,
+                    "name": "Batista Mendy",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-01-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185882,
+                    "name": "Jean Bahoya",
+                    "position": "Midfield",
+                    "dateOfBirth": "2005-05-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 860,
+                    "name": "Sada Thioub",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-06-01",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 4416,
+                    "name": "Loïs Diony",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-12-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8814,
+                    "name": "Adrien Hunou",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-01-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 10760,
+                    "name": "Marin Jakoliš",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-12-26",
+                    "nationality": "Croatia"
+                },
+                {
+                    "id": 79959,
+                    "name": "Farid El Melali",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-05-05",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 136386,
+                    "name": "Jason Mbock",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-11-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 147869,
+                    "name": "Waniss Taibi",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-03-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 151264,
+                    "name": "Abdallah Sima",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-06-17",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 177652,
+                    "name": "Amine Salama",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-07-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185008,
+                    "name": "Ulrick Eneme-Ella",
+                    "position": "",
+                    "dateOfBirth": "2001-05-22",
+                    "nationality": "Gabon"
+                }
+            ],
+            "staff": [
+                {
+                    "id": 45102,
+                    "firstName": "Gérald",
+                    "lastName": null,
+                    "name": "Gérald Baticle",
+                    "dateOfBirth": "1969-09-10",
+                    "nationality": "France",
+                    "contract": { "start": null, "until": null }
+                }
+            ],
+            "lastUpdated": "2021-02-06T18:01:53Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 541,
+            "name": "Clermont Foot 63",
+            "shortName": "Clermont Foot",
+            "tla": "CLF",
+            "crest": "https://crests.football-data.org/541.svg",
+            "address": "Rue Adrien Mabrut Clermont-Ferrand 63100",
+            "website": "http://www.clermontfoot.com",
+            "founded": 1911,
+            "clubColors": "Red / Blue",
+            "venue": "Stade Gabriel Montpied",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 64801,
+                "firstName": "Pascal",
+                "lastName": null,
+                "name": "Pascal Gastien",
+                "dateOfBirth": "1963-12-02",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 20931,
+                    "name": "Mory Diaw",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-06-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 118698,
+                    "name": "Ouparine Djoco",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-04-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 148293,
+                    "name": "Lucas Margueron",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-02-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 499,
+                    "name": "Florent Ogier",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-03-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 2318,
+                    "name": "Jean-Claude Billong",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-12-28",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 8803,
+                    "name": "Mehdi Zeffane",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-05-19",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 30972,
+                    "name": "Neto Borges",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-09-13",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 59072,
+                    "name": "Mateusz Wieteska",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-02-11",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 74553,
+                    "name": "Arial Mendy",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-11-07",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 128285,
+                    "name": "Yadaly Diaby",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-08-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 147893,
+                    "name": "Alidu Seidu",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-06-04",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 157843,
+                    "name": "Baila Diallo",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-06-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185001,
+                    "name": "Oliver Kamdem",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-10-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185002,
+                    "name": "Souleymane Cissé",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-08-08",
+                    "nationality": "France"
+                },
+                {
+                    "id": 452,
+                    "name": "Johan Gastien",
+                    "position": "Midfield",
+                    "dateOfBirth": "1988-01-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 454,
+                    "name": "Jason Berthomier",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-01-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 1816,
+                    "name": "Maxime Gonalons",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-03-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 3607,
+                    "name": "Saîf-Eddine Khaoui",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-04-27",
+                    "nationality": "Tunisia"
+                },
+                {
+                    "id": 60198,
+                    "name": "Jodel Dossou",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-03-17",
+                    "nationality": "Benin"
+                },
+                {
+                    "id": 73216,
+                    "name": "Brandon Baiye",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-12-27",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 74683,
+                    "name": "Yohann Magnin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-06-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185000,
+                    "name": "Muhammed Cham",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-09-26",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 185011,
+                    "name": "Yanis Massolin",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-09-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 832,
+                    "name": "Grejohn Kyei",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-08-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 15674,
+                    "name": "Elbasan Rashani",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-05-09",
+                    "nationality": "Kosovo"
+                },
+                {
+                    "id": 24336,
+                    "name": "Komnen Andrić",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-07-01",
+                    "nationality": "Serbia"
+                },
+                {
+                    "id": 32315,
+                    "name": "Jérémie Bela",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-04-08",
+                    "nationality": "Angola"
+                },
+                {
+                    "id": 101297,
+                    "name": "Jim Allevinah",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-02-27",
+                    "nationality": "Gabon"
+                },
+                {
+                    "id": 128451,
+                    "name": "Nael Jaby",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-04-20",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2021-04-14T07:58:21Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 543,
+            "name": "FC Nantes",
+            "shortName": "Nantes",
+            "tla": "NAN",
+            "crest": "https://crests.football-data.org/543.svg",
+            "address": "Centre Sportif José Arribas, La Jonelière Nantes 44240",
+            "website": "http://www.fcnantes.com",
+            "founded": 1943,
+            "clubColors": "Green / Yellow",
+            "venue": "Stade de la Beaujoire - Louis Fonteneau",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 733,
+                    "name": "Rémy Descamps",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-06-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8292,
+                    "name": "Alban Lafont",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-01-23",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8662,
+                    "name": "Denis Petrić",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1988-05-24",
+                    "nationality": "Slovenia"
+                },
+                {
+                    "id": 97,
+                    "name": "Sébastien Corchia",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-11-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 444,
+                    "name": "Jean-Charles Castelletto",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-01-26",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 4208,
+                    "name": "Fábio",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-07-09",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 8611,
+                    "name": "Charles Traoré",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-01-01",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 8693,
+                    "name": "Nicolas Pallois",
+                    "position": "Defence",
+                    "dateOfBirth": "1987-09-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8703,
+                    "name": "Andrei Girotto",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-02-17",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 8843,
+                    "name": "Dennis Appiah",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-06-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 160410,
+                    "name": "Quentin Merlin",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-05-16",
+                    "nationality": "France"
+                },
+                {
+                    "id": 182059,
+                    "name": "Robin Voisine",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-04-07",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7397,
+                    "name": "Pedro Chirivella",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-05-23",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 8001,
+                    "name": "Moussa Sissoko",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-08-16",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8674,
+                    "name": "Marcus Coco",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-06-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8701,
+                    "name": "Samuel Moutoussamy",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-08-12",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 96869,
+                    "name": "Ludovic Blas",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-12-31",
+                    "nationality": "France"
+                },
+                {
+                    "id": 184998,
+                    "name": "Samuel Yépié Yépié",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-10-02",
+                    "nationality": "France"
+                },
+                {
+                    "id": 3398,
+                    "name": "Moses Simon",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-07-12",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 74545,
+                    "name": "Bridge Ndilu",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-07-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 101508,
+                    "name": "Abdoul Kader Bamba",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-04-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 114672,
+                    "name": "Mostafa Mohamed",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-11-28",
+                    "nationality": "Egypt"
+                },
+                {
+                    "id": 128710,
+                    "name": "Evann Guessand",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-07-01",
+                    "nationality": "France"
+                },
+                {
+                    "id": 185006,
+                    "name": "Joe-Loic Affamah",
+                    "position": "",
+                    "dateOfBirth": "2002-06-29",
+                    "nationality": "France"
+                }
+            ],
+            "staff": [
+                {
+                    "id": 45117,
+                    "firstName": "Antoine",
+                    "lastName": null,
+                    "name": "Antoine Kombouare",
+                    "dateOfBirth": "1963-11-16",
+                    "nationality": "France",
+                    "contract": { "start": null, "until": null }
+                }
+            ],
+            "lastUpdated": "2021-02-06T18:02:04Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 546,
+            "name": "Racing Club de Lens",
+            "shortName": "RC Lens",
+            "tla": "RCL",
+            "crest": "https://crests.football-data.org/546.png",
+            "address": "33 rue Arthur Lamendin Avion 62210",
+            "website": "http://www.rclens.fr",
+            "founded": 1906,
+            "clubColors": "Red / Yellow",
+            "venue": "Stade Bollaert-Delelis",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 142508,
+                "firstName": "Franck",
+                "lastName": null,
+                "name": "Franck Haise",
+                "dateOfBirth": "1971-04-15",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 409,
+                    "name": "Jean-Louis Leca",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1985-09-21",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8316,
+                    "name": "Brice Samba",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-04-25",
+                    "nationality": "Congo"
+                },
+                {
+                    "id": 22721,
+                    "name": "Wuilker Fariñez",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-02-15",
+                    "nationality": "Venezuela"
+                },
+                {
+                    "id": 592,
+                    "name": "Jimmy Cabot",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-04-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 735,
+                    "name": "Jonathan Gradit",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-11-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 6655,
+                    "name": "Kevin Danso",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-09-19",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 7916,
+                    "name": "Massadio Haïdara",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-12-02",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 8300,
+                    "name": "Steven Fortes",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-04-17",
+                    "nationality": "Cape Verde"
+                },
+                {
+                    "id": 8913,
+                    "name": "Deiver Machado",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-02",
+                    "nationality": "Colombia"
+                },
+                {
+                    "id": 46125,
+                    "name": "Facundo Medina",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-05-28",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 99691,
+                    "name": "Christopher Wooh",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-09-18",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 147927,
+                    "name": "Ismaëlben Boura",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-08-14",
+                    "nationality": "France"
+                },
+                {
+                    "id": 2126,
+                    "name": "Seko Fofana",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-05-07",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 8596,
+                    "name": "Gaël Kakuta",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-06-21",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 37924,
+                    "name": "Patrick Berg",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-11-24",
+                    "nationality": "Norway"
+                },
+                {
+                    "id": 123206,
+                    "name": "Salis Abdul Samed",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-03-26",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 143101,
+                    "name": "David Pereira da Costa",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-01-05",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 148294,
+                    "name": "Adam Oudjani",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-08-29",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 185004,
+                    "name": "Lukasz Poreba",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-03-13",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 8447,
+                    "name": "Ignatius Ganago",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-02-16",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 8575,
+                    "name": "Wesley Saïd",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-04-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 64087,
+                    "name": "Adam Buksa",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-07-12",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 64837,
+                    "name": "Florian Sotoca",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-10-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 73215,
+                    "name": "Loïs Openda",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-02-16",
+                    "nationality": "Belgium"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:24:45Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 547,
+            "name": "Stade de Reims",
+            "shortName": "Stade de Reims",
+            "tla": "SDR",
+            "crest": "https://crests.football-data.org/547.png",
+            "address": "26 rue Robert-Fulton Reims 51100",
+            "website": "http://www.stade-de-reims.com",
+            "founded": 1909,
+            "clubColors": "Red / White / Cyan",
+            "venue": "Stade Auguste-Delaune II",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 57047,
+                "firstName": "Óscar",
+                "lastName": null,
+                "name": "Óscar García",
+                "dateOfBirth": "1973-04-26",
+                "nationality": "Spain",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 8608,
+                    "name": "Yehvann Diouf",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-11-16",
+                    "nationality": "France"
+                },
+                {
+                    "id": 9254,
+                    "name": "Nicolas Penneteau",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1981-02-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 10837,
+                    "name": "Patrick Pentz",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1997-01-02",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 185009,
+                    "name": "Florent Duparchy",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2000-06-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 810,
+                    "name": "Yunis Abdelhamid",
+                    "position": "Defence",
+                    "dateOfBirth": "1987-09-28",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 2869,
+                    "name": "Andreaw Gravillon",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-02-08",
+                    "nationality": "Guadeloupe"
+                },
+                {
+                    "id": 7328,
+                    "name": "Wout Faes",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-04-03",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 8900,
+                    "name": "Thibault De Smet",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-06-05",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 8908,
+                    "name": "Thomas Foket",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-09-25",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 75743,
+                    "name": "Maxime Busi",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-10-14",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 149731,
+                    "name": "Emmanuel Agbadou",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-06-17",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 636,
+                    "name": "Rafik Guitane",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-05-26",
+                    "nationality": "France"
+                },
+                {
+                    "id": 7422,
+                    "name": "Arbër Zeneli",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-02-25",
+                    "nationality": "Kosovo"
+                },
+                {
+                    "id": 7566,
+                    "name": "Azor Matusiwa",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-04-28",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 7592,
+                    "name": "Mitchell van Bergen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-08-27",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 9399,
+                    "name": "Tasos Donis",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-08-29",
+                    "nationality": "Greece"
+                },
+                {
+                    "id": 15099,
+                    "name": "Valon Berisha",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-02-07",
+                    "nationality": "Kosovo"
+                },
+                {
+                    "id": 30727,
+                    "name": "Dereck Kutesa",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-12-06",
+                    "nationality": "Angola"
+                },
+                {
+                    "id": 31676,
+                    "name": "Jens Cajuste",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-08-10",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 34754,
+                    "name": "Marshall Munetsi",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-06-22",
+                    "nationality": "Zimbabwe"
+                },
+                {
+                    "id": 38522,
+                    "name": "Moreto Cassamá",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-02-16",
+                    "nationality": "Guinea-Bissau"
+                },
+                {
+                    "id": 49080,
+                    "name": "Junya Ito",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-03-09",
+                    "nationality": "Japan"
+                },
+                {
+                    "id": 108520,
+                    "name": "Ilan Kebbal",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-07-10",
+                    "nationality": "Algeria"
+                },
+                {
+                    "id": 126427,
+                    "name": "Dion Lopy",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-02-02",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 7574,
+                    "name": "Kaj Sierhuis",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-04-27",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 8417,
+                    "name": "Alexis Flips",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-01-18",
+                    "nationality": "France"
+                },
+                {
+                    "id": 115639,
+                    "name": "Timothée Nkada",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-07-20",
+                    "nationality": "France"
+                },
+                {
+                    "id": 125668,
+                    "name": "Nathanael Mbuku",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-03-16",
+                    "nationality": "France"
+                },
+                {
+                    "id": 131040,
+                    "name": "Folarin Balogun",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-07-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 140773,
+                    "name": "El Bilal Touré",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-10-03",
+                    "nationality": "Mali"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-03-20T11:25:01Z"
+        },
+        {
+            "area": {
+                "id": 2152,
+                "name": "Monaco",
+                "code": "MCO",
+                "flag": null
+            },
+            "id": 548,
+            "name": "AS Monaco FC",
+            "shortName": "Monaco",
+            "tla": "ASM",
+            "crest": "https://crests.football-data.org/548.png",
+            "address": "Avenue des Castellans Monaco 98000",
+            "website": "http://www.asmonaco.com",
+            "founded": 1919,
+            "clubColors": "Red / White",
+            "venue": "Stade Louis II.",
+            "runningCompetitions": [
+                {
+                    "id": 2001,
+                    "name": "UEFA Champions League",
+                    "code": "CL",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/CL.png"
+                },
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 11886,
+                "firstName": "Philippe",
+                "lastName": "Clement",
+                "name": "Philippe Clement",
+                "dateOfBirth": "1974-03-22",
+                "nationality": "Belgium",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 6491,
+                    "name": "Alexander Nübel",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-09-30",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 8712,
+                    "name": "Thomas Didillon",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-11-28",
+                    "nationality": "France"
+                },
+                {
+                    "id": 194,
+                    "name": "Ismail Jakobs",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-08-17",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 280,
+                    "name": "Guillermo Maripán",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-05-06",
+                    "nationality": "Chile"
+                },
+                {
+                    "id": 533,
+                    "name": "Jean Marcelin",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-02-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 813,
+                    "name": "Axel Disasi",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-03-11",
+                    "nationality": "France"
+                },
+                {
+                    "id": 1612,
+                    "name": "Caio Henrique",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-07-31",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 2279,
+                    "name": "Antonio Barreca",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-03-18",
+                    "nationality": "Italy"
+                },
+                {
+                    "id": 8372,
+                    "name": "Ruben Aguilar",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-04-26",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8424,
+                    "name": "Malang Sarr",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-01-23",
+                    "nationality": "France"
+                },
+                {
+                    "id": 154607,
+                    "name": "Vanderson",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-06-21",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 1547,
+                    "name": "Jean Lucas",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-06-22",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 3256,
+                    "name": "Gelson Martins",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-05-11",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 3683,
+                    "name": "Aleksandr Golovin",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-05-30",
+                    "nationality": "Russia"
+                },
+                {
+                    "id": 60424,
+                    "name": "Mohamed Camara",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-01-06",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 76723,
+                    "name": "Sofiane Diop",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-06-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 81299,
+                    "name": "Youssouf Fofana",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-01-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 147914,
+                    "name": "Eliot Matazo",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-02-15",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 73,
+                    "name": "Wissam Ben Yedder",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-08-12",
+                    "nationality": "France"
+                },
+                {
+                    "id": 150,
+                    "name": "Kevin Volland",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-07-30",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 3483,
+                    "name": "Breel Embolo",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-02-14",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 7703,
+                    "name": "Myron Boadu",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-01-14",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 8475,
+                    "name": "Willem Geubbels",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-08-16",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8887,
+                    "name": "Krépin Diatta",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-02-25",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 15100,
+                    "name": "Takumi Minamino",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-01-16",
+                    "nationality": "Japan"
+                },
+                {
+                    "id": 114099,
+                    "name": "Anthony Musaba",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-12-06",
+                    "nationality": "Netherlands"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2021-11-06T13:27:09Z"
+        },
+        {
+            "area": {
+                "id": 2081,
+                "name": "France",
+                "code": "FRA",
+                "flag": "https://crests.football-data.org/773.svg"
+            },
+            "id": 576,
+            "name": "RC Strasbourg Alsace",
+            "shortName": "Strasbourg",
+            "tla": "RC ",
+            "crest": "https://crests.football-data.org/576.png",
+            "address": "12 Rue Extenwoerth Strasbourg 67000",
+            "website": "http://www.rcstrasbourgalsace.fr",
+            "founded": 1906,
+            "clubColors": "Blue / White",
+            "venue": "Stade de la Meinau",
+            "runningCompetitions": [
+                {
+                    "id": 2015,
+                    "name": "Ligue 1",
+                    "code": "FL1",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/FL1.png"
+                }
+            ],
+            "coach": {
+                "id": 99974,
+                "firstName": "Julien",
+                "lastName": null,
+                "name": "Julien Stéphan",
+                "dateOfBirth": "1980-09-18",
+                "nationality": "France",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 3260,
+                    "name": "Eiji Kawashima",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1983-03-20",
+                    "nationality": "Japan"
+                },
+                {
+                    "id": 3643,
+                    "name": "Matz Sels",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-02-26",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 8771,
+                    "name": "Bingourou Kamara",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-10-21",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 154781,
+                    "name": "Alexandre Pierre",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-02-25",
+                    "nationality": "Haiti"
+                },
+                {
+                    "id": 684,
+                    "name": "Gerzino Nyamsi",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-01-22",
+                    "nationality": "France"
+                },
+                {
+                    "id": 935,
+                    "name": "Thomas Delaine",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-03-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8323,
+                    "name": "Alexander Djiku",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-08-09",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 8422,
+                    "name": "Maxime Le Marchand",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-10-11",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8529,
+                    "name": "Ronaël Pierre-Gabriel",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-06-13",
+                    "nationality": "France"
+                },
+                {
+                    "id": 64371,
+                    "name": "Karol Fila",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-06-13",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 76722,
+                    "name": "Colin Dagba",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-09-06",
+                    "nationality": "France"
+                },
+                {
+                    "id": 119063,
+                    "name": "Lucas Perrin",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-11-19",
+                    "nationality": "France"
+                },
+                {
+                    "id": 147878,
+                    "name": "Ismaël Doukouré",
+                    "position": "Defence",
+                    "dateOfBirth": "2003-07-24",
+                    "nationality": "France"
+                },
+                {
+                    "id": 451,
+                    "name": "Ibrahima Sissoko",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-10-27",
+                    "nationality": "France"
+                },
+                {
+                    "id": 456,
+                    "name": "Habib Diallo",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-06-15",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 788,
+                    "name": "Jean-Ricner Bellegarde",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-06-27",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8786,
+                    "name": "Jean-Eudes Aholou",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-03-20",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 8815,
+                    "name": "Sanjin Prcić",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-11-20",
+                    "nationality": "Bosnia-Herzegovina"
+                },
+                {
+                    "id": 127,
+                    "name": "Kevin Gameiro",
+                    "position": "Offence",
+                    "dateOfBirth": "1987-05-09",
+                    "nationality": "France"
+                },
+                {
+                    "id": 723,
+                    "name": "Ludovic Ajorque",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-02-25",
+                    "nationality": "France"
+                },
+                {
+                    "id": 1043,
+                    "name": "Lebo Mothiba",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-01-28",
+                    "nationality": "South Africa"
+                },
+                {
+                    "id": 8706,
+                    "name": "Adrien Thomasson",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-12-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 8794,
+                    "name": "Dimitri Liénard",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-02-13",
+                    "nationality": "France"
+                },
+                {
+                    "id": 150562,
+                    "name": "Benjamin Besic",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-06-02",
+                    "nationality": "Bosnia-Herzegovina"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:40:46Z"
+        }
+    ]
+}

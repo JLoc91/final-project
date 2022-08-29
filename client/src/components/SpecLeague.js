@@ -8,7 +8,7 @@ import {
 } from "../redux/Football/slice";
 import { Link } from "react-router-dom";
 
-let leaguesJSON = require("../../../server/uploads/leagues.json");
+let leaguesJSON = require("../../../server/data/leagues.json");
 
 console.log("leaguesJSON in specLeague: ", leaguesJSON);
 
@@ -34,7 +34,7 @@ export default function SpecLeague() {
         (state) => state.footballList.teamsData && state.footballList.teamsData
     );
 
-    let teamsJSON = require(`../../../server/uploads/teams${leagueCode}.json`);
+    let teamsJSON = require(`../../../server/data/teams${leagueCode}.json`);
     dispatch(addFootballTeams(teamsJSON));
     console.log("leagues in SpecLeagues: ", leagues);
     console.log("leagueCode: ", leagueCode);

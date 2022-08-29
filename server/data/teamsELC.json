@@ -1,0 +1,5064 @@
+{
+    "count": 24,
+    "filters": { "season": "2022" },
+    "competition": {
+        "id": 2016,
+        "name": "Championship",
+        "code": "ELC",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/ELC.png"
+    },
+    "season": {
+        "id": 1502,
+        "startDate": "2022-07-29",
+        "endDate": "2023-05-06",
+        "currentMatchday": 6,
+        "winner": null
+    },
+    "teams": [
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 59,
+            "name": "Blackburn Rovers FC",
+            "shortName": "Blackburn",
+            "tla": "BLA",
+            "crest": "https://crests.football-data.org/59.png",
+            "address": "Ewood Park Blackburn BB2 4JF",
+            "website": "http://www.rovers.co.uk",
+            "founded": 1874,
+            "clubColors": "Blue / White",
+            "venue": "Ewood Park",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 136065,
+                "firstName": "Jon ",
+                "lastName": "Dahl Tomasson",
+                "name": "Jon  Dahl Tomasson",
+                "dateOfBirth": "1976-08-29",
+                "nationality": "Denmark",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4204,
+                    "name": "Aynsley Pears",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-04-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8991,
+                    "name": "Thomas Kamiński",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-10-23",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 3958,
+                    "name": "Tayo Edun",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-05-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4206,
+                    "name": "Daniel Ayala",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-11-07",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 4838,
+                    "name": "Lewis Travis",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-10-16",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4852,
+                    "name": "Joe Rankin-Costello",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-07-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5739,
+                    "name": "Harry Pickering",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-12-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5842,
+                    "name": "Scott Wharton",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-10-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6400,
+                    "name": "Callum Brittain",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-03-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 114002,
+                    "name": "Tyler Magloire",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-12-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 141765,
+                    "name": "Hayden Carter",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-12-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4850,
+                    "name": "Bradley Dack",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-12-31",
+                    "nationality": "England"
+                },
+                {
+                    "id": 114122,
+                    "name": "John Buckley",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-10-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 149049,
+                    "name": "Tyrhys Dolan",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-12-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4129,
+                    "name": "Sam Gallagher",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-09-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4355,
+                    "name": "Ryan Hedges",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-07-08",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 4862,
+                    "name": "Daniel Butterworth",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-09-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11300,
+                    "name": "Ben Brereton",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-04-18",
+                    "nationality": "Chile"
+                },
+                {
+                    "id": 101197,
+                    "name": "Ethan Walker",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-07-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 161014,
+                    "name": "Dilan Markanday",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-08-20",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:50:27Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 68,
+            "name": "Norwich City FC",
+            "shortName": "Norwich",
+            "tla": "NOR",
+            "crest": "https://crests.football-data.org/68.png",
+            "address": "Carrow Road Norwich NR1 1JE",
+            "website": "http://www.canaries.co.uk",
+            "founded": 1902,
+            "clubColors": "Yellow / Green",
+            "venue": "Carrow Road",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 11339,
+                "firstName": "Dean",
+                "lastName": null,
+                "name": "Dean Smith",
+                "dateOfBirth": "1971-03-19",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 3980,
+                    "name": "Michael McGovern",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1984-07-12",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 3981,
+                    "name": "Angus Gunn",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-01-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8258,
+                    "name": "Tim Krul",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1988-04-03",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 135580,
+                    "name": "Daniel Barden",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-01-02",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 3986,
+                    "name": "Grant Hanley",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-11-20",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 4207,
+                    "name": "Ben Gibson",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-01-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8203,
+                    "name": "Sam Byram",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-16",
+                    "nationality": "England"
+                },
+                {
+                    "id": 43195,
+                    "name": "Dimitris Giannoulis",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-17",
+                    "nationality": "Greece"
+                },
+                {
+                    "id": 80765,
+                    "name": "Max Aarons",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-01-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 83370,
+                    "name": "Sam McCallum",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-09-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 149920,
+                    "name": "Andrew Omobamidele",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-06-23",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4000,
+                    "name": "Onel Hernández",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-02-01",
+                    "nationality": "Cuba"
+                },
+                {
+                    "id": 7922,
+                    "name": "Isaac Hayden",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-03-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 9459,
+                    "name": "Milot Rashica",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-06-28",
+                    "nationality": "Kosovo"
+                },
+                {
+                    "id": 11306,
+                    "name": "Kieran Dowell",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-10-10",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11601,
+                    "name": "Todd Cantwell",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-02-27",
+                    "nationality": "England"
+                },
+                {
+                    "id": 15243,
+                    "name": "Danel Sinani",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-04-05",
+                    "nationality": "Luxembourg"
+                },
+                {
+                    "id": 24495,
+                    "name": "Jacob Sørensen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-03-03",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 34494,
+                    "name": "Kenny McLean",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-01-08",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 140205,
+                    "name": "Josh Martin",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-09-09",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8225,
+                    "name": "Jordan Hugill",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-06-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 24121,
+                    "name": "Teemu Pukki",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-03-29",
+                    "nationality": "Finland"
+                },
+                {
+                    "id": 56852,
+                    "name": "Josh Sargent",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-02-20",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 115429,
+                    "name": "Sebastian Soto",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-07-28",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 125561,
+                    "name": "Adam Idah",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-02-11",
+                    "nationality": "Ireland"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-03-23T08:28:03Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 69,
+            "name": "Queens Park Rangers FC",
+            "shortName": "QPR",
+            "tla": "QPR",
+            "crest": "https://crests.football-data.org/69.png",
+            "address": "South Africa Road, Shepherds Bush London W12 7PA",
+            "website": "http://www.qpr.co.uk",
+            "founded": 1882,
+            "clubColors": "Blue / White",
+            "venue": "Kiyan Prince Foundation Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4008,
+                    "name": "Seny Dieng",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-11-23",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 4361,
+                    "name": "Jordan Archer",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-04-12",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 4023,
+                    "name": "Niko Hämäläinen",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-03-05",
+                    "nationality": "Finland"
+                },
+                {
+                    "id": 4028,
+                    "name": "Osman Kakay",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-08-25",
+                    "nationality": "Sierra Leone"
+                },
+                {
+                    "id": 4052,
+                    "name": "Jake Clarke-Salter",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-09-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4423,
+                    "name": "Yoann Barbet",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-05-10",
+                    "nationality": "France"
+                },
+                {
+                    "id": 5502,
+                    "name": "Rob Dickie",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-03-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6188,
+                    "name": "Luke Amos",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-02-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7445,
+                    "name": "Kenneth Paal",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-06-24",
+                    "nationality": "Suriname"
+                },
+                {
+                    "id": 7864,
+                    "name": "Conor Masterson",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-09-08",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 26375,
+                    "name": "Jimmy Dunne",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-10-19",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 3897,
+                    "name": "Albert Adomah",
+                    "position": "Midfield",
+                    "dateOfBirth": "1987-12-13",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 3970,
+                    "name": "Stefan Johansen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-01-08",
+                    "nationality": "Norway"
+                },
+                {
+                    "id": 4026,
+                    "name": "Charlie Owens",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-12-07",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 4029,
+                    "name": "Ilias Chair",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-10-30",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 4240,
+                    "name": "Andre Dozzell",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-05-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8022,
+                    "name": "Sam Field",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-05-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8074,
+                    "name": "George Thomas",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-03-24",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 16749,
+                    "name": "Chris Willock",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-01-31",
+                    "nationality": "England"
+                },
+                {
+                    "id": 82156,
+                    "name": "Faysal Bettache",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-07-07",
+                    "nationality": "England"
+                },
+                {
+                    "id": 102439,
+                    "name": "Taylor Richards",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-12-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4170,
+                    "name": "Tyler Roberts",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-01-12",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 5594,
+                    "name": "Olamide Shodipo",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-07-05",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 25034,
+                    "name": "Macauley Bonne",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-10-26",
+                    "nationality": "Zimbabwe"
+                },
+                {
+                    "id": 35126,
+                    "name": "Lyndon Dykes",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-10-07",
+                    "nationality": "Scotland"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-22T14:17:12Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 70,
+            "name": "Stoke City FC",
+            "shortName": "Stoke",
+            "tla": "STK",
+            "crest": "https://crests.football-data.org/70.png",
+            "address": "Stanley Matthews Way Stoke-on-Trent ST4 4EG",
+            "website": "http://www.stokecityfc.com",
+            "founded": 1863,
+            "clubColors": "Red / White",
+            "venue": "Bet365 Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 57183,
+                "firstName": "Michael Andrew Martin",
+                "lastName": null,
+                "name": "Michael O'Neill",
+                "dateOfBirth": "1969-07-05",
+                "nationality": "Northern Ireland",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4388,
+                    "name": "Frankie Fielding",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1988-04-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6054,
+                    "name": "Jack Bonham",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-09-14",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 124651,
+                    "name": "Josef Bursik",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2000-07-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 145505,
+                    "name": "Blondy Noukeu",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-09-17",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 4392,
+                    "name": "Aden Flint",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-07-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6185,
+                    "name": "Ben Wilmot",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-11-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6383,
+                    "name": "Josh Tymon",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-05-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7825,
+                    "name": "Phil Jagielka",
+                    "position": "Defence",
+                    "dateOfBirth": "1982-08-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7883,
+                    "name": "Demeaco Duhaney",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-10-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11369,
+                    "name": "Morgan Fox",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-21",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 11636,
+                    "name": "Harry Souttar",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-10-22",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 82703,
+                    "name": "Liam McCarron",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-03-07",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 152550,
+                    "name": "Harrison Clarke",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-03-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4218,
+                    "name": "Lewis Baker",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-04-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4883,
+                    "name": "Nick Powell",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-03-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5224,
+                    "name": "Joshua Laurent",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-05-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7979,
+                    "name": "Sam Clucas",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-09-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 37800,
+                    "name": "Jordan Thompson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-03",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 128312,
+                    "name": "Gavin Kilkenny",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-01",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 137396,
+                    "name": "William Smallbone",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-02-21",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 5552,
+                    "name": "Jacob Brown",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-04-10",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 7937,
+                    "name": "Dwight Gayle",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-10-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7965,
+                    "name": "Tyrese Campbell",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-12-28",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-25T16:56:58Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 71,
+            "name": "Sunderland AFC",
+            "shortName": "Sunderland",
+            "tla": "SUN",
+            "crest": "https://crests.football-data.org/71.png",
+            "address": "The Sunderland Stadium of Light Sunderland SR5 1SU",
+            "website": "http://www.safc.com",
+            "founded": 1879,
+            "clubColors": "Red / White",
+            "venue": "Stadium of Light",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 97249,
+                    "name": "Anthony Patterson",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2000-05-10",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3405,
+                    "name": "Bailey Wright",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-07-28",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 4080,
+                    "name": "Danny Batth",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-09-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 117687,
+                    "name": "Trai Hume",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-03-18",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 121109,
+                    "name": "Daniel Ballard",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-09-22",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 157194,
+                    "name": "Niall Huggins",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-12-18",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 4059,
+                    "name": "Lynden Gooch",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-12-24",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 4061,
+                    "name": "Elliot Embleton",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-04-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4158,
+                    "name": "Jack Clarke",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-11-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4844,
+                    "name": "Corry Evans",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-07-30",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 5716,
+                    "name": "Carl Winchester",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-04-12",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 6259,
+                    "name": "Luke O'Nien",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-11-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8189,
+                    "name": "Alex Pritchard",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-05-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 131135,
+                    "name": "Jay Matete",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-02-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 16076,
+                    "name": "Patrick Roberts",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-02-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 35101,
+                    "name": "Ross Stewart",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-09-01",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 96376,
+                    "name": "Jack Diamond",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-01-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 99692,
+                    "name": "Leon Dajaku",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-04-12",
+                    "nationality": "Germany"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T09:12:07Z"
+        },
+        {
+            "area": {
+                "id": 2264,
+                "name": "Wales",
+                "code": "WAL",
+                "flag": "https://crests.football-data.org/833.svg"
+            },
+            "id": 72,
+            "name": "Swansea City AFC",
+            "shortName": "Swansea",
+            "tla": "SWA",
+            "crest": "https://crests.football-data.org/72.png",
+            "address": "Liberty Stadium, Landore Swansea, Glamorgan SA1 2FA",
+            "website": "http://www.swanseacity.net",
+            "founded": 1912,
+            "clubColors": "White / Black",
+            "venue": "Liberty Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 11321,
+                "firstName": "Russell",
+                "lastName": null,
+                "name": "Russell Martin",
+                "dateOfBirth": "1986-01-04",
+                "nationality": "Scotland",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4833,
+                    "name": "Andy Fisher",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-02-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 81055,
+                    "name": "Steven Benda",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-10-01",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 4024,
+                    "name": "Ryan Manning",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-06-14",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4084,
+                    "name": "Ryan Bennett",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-03-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6276,
+                    "name": "Harry Darling",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-08-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7969,
+                    "name": "Kyle Naughton",
+                    "position": "Defence",
+                    "dateOfBirth": "1988-11-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 59089,
+                    "name": "Benjamin Cabango",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-05-30",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 76745,
+                    "name": "Nathan Wood-Gordon",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-05-31",
+                    "nationality": "England"
+                },
+                {
+                    "id": 82150,
+                    "name": "Brandon Cooper",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-01-14",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 128952,
+                    "name": "Matthew Sorinola",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-02-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 130044,
+                    "name": "Joel Latibeaudiere",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-01-06",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 157711,
+                    "name": "Nathanael Ogbeta",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-04-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4406,
+                    "name": "Liam Walsh",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-09-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4896,
+                    "name": "Jay Fulton",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-04-04",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 6358,
+                    "name": "Matt Grimes",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-07-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7956,
+                    "name": "Joe Allen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-03-14",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 15717,
+                    "name": "Jules Ntcham",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-02-09",
+                    "nationality": "Cameroon"
+                },
+                {
+                    "id": 82151,
+                    "name": "Liam Cullen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-04-23",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 4408,
+                    "name": "Jamie Paterson",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-12-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8102,
+                    "name": "Michael Obafemi",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-07-06",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 67978,
+                    "name": "Joël Piroe",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-08-02",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 125974,
+                    "name": "Jordan Garrick",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-07-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 149911,
+                    "name": "Kyle Joseph",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-09-10",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 154747,
+                    "name": "Oliver Cooper",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-12-14",
+                    "nationality": "Wales"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-03-22T10:08:20Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 74,
+            "name": "West Bromwich Albion FC",
+            "shortName": "West Brom",
+            "tla": "WBA",
+            "crest": "https://crests.football-data.org/74.png",
+            "address": "The Hawthorns West Bromwich B71 4LF",
+            "website": "http://www.wba.co.uk",
+            "founded": 1879,
+            "clubColors": "White / Navy Blue",
+            "venue": "The Hawthorns",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 11421,
+                "firstName": "Steve",
+                "lastName": null,
+                "name": "Steve Bruce",
+                "dateOfBirth": "1960-12-31",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 3954,
+                    "name": "David Button",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1989-02-27",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8011,
+                    "name": "Alex Palmer",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-08-10",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4017,
+                    "name": "Darnell Furlong",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-31",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5364,
+                    "name": "Kean Bryan",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-11-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5430,
+                    "name": "Conor Townsend",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-03-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6451,
+                    "name": "Semi Ajayi",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-11-09",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 7971,
+                    "name": "Kyle Bartley",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-05-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 25650,
+                    "name": "Dara O'Shea",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-03-04",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 3321,
+                    "name": "Jake Livermore",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-11-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4275,
+                    "name": "John Swift",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-06-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4380,
+                    "name": "Jed Wallace",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-03-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5514,
+                    "name": "Alex Mowatt",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-02-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8023,
+                    "name": "Matt Phillips",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-03-13",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 8214,
+                    "name": "Grady Diangana",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-04-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8276,
+                    "name": "Jayson Molumby",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-08-06",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 11352,
+                    "name": "Adam Reach",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-02-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 30297,
+                    "name": "Okay Yokuşlu",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-03-09",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 4467,
+                    "name": "Kenneth Zohorè",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-01-31",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 5948,
+                    "name": "Karlan Ahearne-Grant",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-09-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11357,
+                    "name": "Callum Robinson",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-02-02",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 140423,
+                    "name": "Daryl Dike",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-06-03",
+                    "nationality": "United States"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T09:11:36Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 75,
+            "name": "Wigan Athletic FC",
+            "shortName": "Wigan Athletic",
+            "tla": "WIG",
+            "crest": "https://crests.football-data.org/75.png",
+            "address": "Loire Drive Wigan WN5 0UZ",
+            "website": "http://www.wiganlatics.co.uk",
+            "founded": 1932,
+            "clubColors": "Blue / White",
+            "venue": "The DW Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 149927,
+                "firstName": "Leam Nathan",
+                "lastName": null,
+                "name": "Leam Richardson",
+                "dateOfBirth": "1979-11-19",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4865,
+                    "name": "Jamie Jones",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1989-02-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6302,
+                    "name": "Ben Amos",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-04-10",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4142,
+                    "name": "Tom Pearce",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-04-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4452,
+                    "name": "Joe Bennett",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-03-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4475,
+                    "name": "Tom Naylor",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-06-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4835,
+                    "name": "Ryan Nyambe",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-12-04",
+                    "nationality": "Namibia"
+                },
+                {
+                    "id": 4909,
+                    "name": "Jack Whatmough",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-08-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4964,
+                    "name": "Curtis Tilt",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-08-04",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 11297,
+                    "name": "Tendayi Darikwa",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-12-13",
+                    "nationality": "Zimbabwe"
+                },
+                {
+                    "id": 34483,
+                    "name": "Graeme Shinnie",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-08-04",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 35056,
+                    "name": "Jason Kerr",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-02-06",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 4019,
+                    "name": "Jordan Cousins",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-03-06",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 4882,
+                    "name": "Max Power",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-07-27",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5401,
+                    "name": "Gwion Edwards",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-03-01",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 8021,
+                    "name": "James McClean",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-04-22",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 15577,
+                    "name": "Jamie McGrath",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-09-30",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 150589,
+                    "name": "Thelo Aasgaard",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-05-02",
+                    "nationality": "Norway"
+                },
+                {
+                    "id": 156725,
+                    "name": "Scott Smith",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-02-07",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 5044,
+                    "name": "Stephen Humphrys",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-09-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5193,
+                    "name": "Charlie Wyke",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-12-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6145,
+                    "name": "Callum Lang",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-09-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6326,
+                    "name": "Josh Magennis",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-08-15",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 11770,
+                    "name": "Will Keane",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-01-11",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 184966,
+                    "name": "Matt Wonnacott",
+                    "position": "Keeper",
+                    "dateOfBirth": "2022-07-01",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-07-26T17:54:09Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 322,
+            "name": "Hull City AFC",
+            "shortName": "Hull City",
+            "tla": "HUL",
+            "crest": "https://crests.football-data.org/322.png",
+            "address": "Walton Street Hull HU3 6HU",
+            "website": "http://www.hullcitytigers.com",
+            "founded": 1904,
+            "clubColors": "Orange / Black",
+            "venue": "Kingston Communications Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4009,
+                    "name": "Matt Ingram",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-12-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 25251,
+                    "name": "Nathan Baxter",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-11-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4887,
+                    "name": "Callum Elder",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-01-27",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 5322,
+                    "name": "Lewie Coyle",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6454,
+                    "name": "Josh Emmanuel",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-08-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11776,
+                    "name": "Tobias Figueiredo",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-02-02",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 25583,
+                    "name": "Brandon Fleming",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-12-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 30507,
+                    "name": "Ozan Tufan",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-03-23",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 36914,
+                    "name": "Sean McLoughlin",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-11-13",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 81286,
+                    "name": "Alfie Jones",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-10-07",
+                    "nationality": "England"
+                },
+                {
+                    "id": 125651,
+                    "name": "Jacob Greaves",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-09-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 125660,
+                    "name": "Festus Arthur",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-02-27",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 4309,
+                    "name": "Regan Slater",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-09-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5027,
+                    "name": "Andy Cannon",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-03-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8430,
+                    "name": "Jean Michaël Seri",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-07-19",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 16774,
+                    "name": "Callum Jones",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-04-05",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 30836,
+                    "name": "Doğukan Sinik",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-01-21",
+                    "nationality": "Turkey"
+                },
+                {
+                    "id": 34979,
+                    "name": "Greg Docherty",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-09-10",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 131122,
+                    "name": "Ryan Longman",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-11-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 150361,
+                    "name": "Billy Chadwick",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-01-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6116,
+                    "name": "Mallik Wilks",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-12-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6269,
+                    "name": "Randell Williams",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-12-30",
+                    "nationality": "England"
+                },
+                {
+                    "id": 34899,
+                    "name": "James Scott",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-08-30",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 37451,
+                    "name": "Oscar Estupiñán",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-09-29",
+                    "nationality": "Colombia"
+                },
+                {
+                    "id": 56614,
+                    "name": "Benjamin Tetteh",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-07-10",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 77307,
+                    "name": "Tyler Smith",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-12-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 119531,
+                    "name": "Allahyar Sayyadmanesh",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-06-29",
+                    "nationality": "Iran"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-22T14:19:00Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 328,
+            "name": "Burnley FC",
+            "shortName": "Burnley",
+            "tla": "BUR",
+            "crest": "https://crests.football-data.org/328.png",
+            "address": "Harry Potts Way Burnley BB10 4BX",
+            "website": "http://www.burnleyfootballclub.com",
+            "founded": 1881,
+            "clubColors": "Claret / Sky Blue",
+            "venue": "Turf Moor",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4079,
+                    "name": "Will Norris",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-08-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4131,
+                    "name": "Bailey Peacock-Farrell",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-10-29",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 81179,
+                    "name": "Arijanet Muric",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-11-07",
+                    "nationality": "Kosovo"
+                },
+                {
+                    "id": 7980,
+                    "name": "Connor Roberts",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-09-23",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 8040,
+                    "name": "Matthew Lowton",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-06-09",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8041,
+                    "name": "Kevin Long",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-08-18",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 8043,
+                    "name": "Charlie Taylor",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 131035,
+                    "name": "Taylor Harwood-Bellis",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-01-30",
+                    "nationality": "England"
+                },
+                {
+                    "id": 131120,
+                    "name": "Ian Maatsen",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-03-10",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 137118,
+                    "name": "Luke McNally",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-09-20",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 1948,
+                    "name": "Samuel Bastien",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-09-26",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 3839,
+                    "name": "Jóhann Berg Guðmundsson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-10-27",
+                    "nationality": "Iceland"
+                },
+                {
+                    "id": 4401,
+                    "name": "Josh Brownhill",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-12-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5812,
+                    "name": "Scott Twine",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-07-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8050,
+                    "name": "Ashley Westwood",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-04-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8051,
+                    "name": "Jack Cork",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-06-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8217,
+                    "name": "Josh Cullen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-04-07",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 11623,
+                    "name": "Dwight McNeil",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-11-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4195,
+                    "name": "Matěj Vydra",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-05-01",
+                    "nationality": "Czech Republic"
+                },
+                {
+                    "id": 6296,
+                    "name": "Adam Phillips",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-01-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8032,
+                    "name": "Jay Rodriguez",
+                    "position": "Offence",
+                    "dateOfBirth": "1989-07-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8054,
+                    "name": "Ashley Barnes",
+                    "position": "Offence",
+                    "dateOfBirth": "1989-10-30",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8471,
+                    "name": "Maxwel Cornet",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-09-27",
+                    "nationality": "Cote d'Ivoire"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-10T19:24:11Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 332,
+            "name": "Birmingham City FC",
+            "shortName": "Birmingham",
+            "tla": "BIR",
+            "crest": "https://crests.football-data.org/332.png",
+            "address": "St. Andrew's Stadium Birmingham B9 4RL",
+            "website": "http://www.bcfc.com",
+            "founded": 1875,
+            "clubColors": "Blue / White",
+            "venue": "St Andrew's Trillion Trophy Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4078,
+                    "name": "John Ruddy",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1986-10-24",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4447,
+                    "name": "Neil Etheridge",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-02-07",
+                    "nationality": "Philippines"
+                },
+                {
+                    "id": 4110,
+                    "name": "Marc Roberts",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-07-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4114,
+                    "name": "Maxime Colin",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-11-15",
+                    "nationality": "France"
+                },
+                {
+                    "id": 4122,
+                    "name": "Harlee Dean",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-07-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4205,
+                    "name": "George Friend",
+                    "position": "Defence",
+                    "dateOfBirth": "1987-10-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7518,
+                    "name": "Juninho Bacuna",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-08-07",
+                    "nationality": "Curacao"
+                },
+                {
+                    "id": 77185,
+                    "name": "Auston Trusty",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-08-12",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 122990,
+                    "name": "Dion Sanderson",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-12-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 144744,
+                    "name": "Nico Gordon",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-04-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4126,
+                    "name": "Odin Bailey",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-12-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4349,
+                    "name": "Gary Gardner",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-06-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4432,
+                    "name": "Ryan Woods",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-12-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 58432,
+                    "name": "Przemysław Płacheta",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-03-23",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 3902,
+                    "name": "Scott Hogan",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-04-13",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4099,
+                    "name": "Jordan Graham",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-03-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4127,
+                    "name": "Lukas Jutkiewicz",
+                    "position": "Offence",
+                    "dateOfBirth": "1989-03-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8033,
+                    "name": "Jonathan Leko",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-04-24",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8130,
+                    "name": "Troy Deeney",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-06-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 34524,
+                    "name": "Sam Cosgrove",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-12-02",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-20T08:43:10Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 336,
+            "name": "Blackpool FC",
+            "shortName": "Blackpool",
+            "tla": "BLA",
+            "crest": "https://crests.football-data.org/336.png",
+            "address": "Bloomfield Road, Seasiders Way Blackpool FY1 6JJ",
+            "website": "http://www.blackpoolfc.co.uk",
+            "founded": 1887,
+            "clubColors": "Orange / White",
+            "venue": "Bloomfield Road",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 5798,
+                    "name": "Stuart Moore",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-09-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11361,
+                    "name": "Chris Maxwell",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-07-30",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 102441,
+                    "name": "Daniel Grimshaw",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-01-16",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3984,
+                    "name": "James Husband",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-01-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4176,
+                    "name": "Richard Keogh",
+                    "position": "Defence",
+                    "dateOfBirth": "1986-08-11",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4232,
+                    "name": "Callum Connolly",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-09-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7834,
+                    "name": "Luke Garbutt",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-05-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11500,
+                    "name": "Kevin Stewart",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-07",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 11765,
+                    "name": "Jordan Thorniley",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-11-24",
+                    "nationality": "England"
+                },
+                {
+                    "id": 25720,
+                    "name": "Marvin Ekpiteta",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-08-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 125217,
+                    "name": "Dominic Thompson",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-07-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 131042,
+                    "name": "Jordan Gabriel",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-09-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 135636,
+                    "name": "Rhys Williams",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-02-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 184965,
+                    "name": "Doug Tharme",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-08-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5658,
+                    "name": "Matthew Virtue-Thick",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-05-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5819,
+                    "name": "Keshi Anderson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-04-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5958,
+                    "name": "CJ Hamilton",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-03-23",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 6459,
+                    "name": "Jerry Yates",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-11-10",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7756,
+                    "name": "Ken Dougall",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-05-07",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 7847,
+                    "name": "Shayne Lavery",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-12-08",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 149075,
+                    "name": "Lewis Fiorini",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-05-17",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 151508,
+                    "name": "Sonny Carey",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-01-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4130,
+                    "name": "Beryly Lubala",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-01-08",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 4471,
+                    "name": "Gary Madine",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-08-24",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5758,
+                    "name": "Owen Dale",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-11-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 122467,
+                    "name": "Josh Bowler",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-03-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 124617,
+                    "name": "Jake Beesley",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-12-02",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [
+                {
+                    "id": 11640,
+                    "firstName": "Michael",
+                    "lastName": null,
+                    "name": "Michael Appleton",
+                    "dateOfBirth": "1975-12-04",
+                    "nationality": "England",
+                    "contract": { "start": null, "until": null }
+                }
+            ],
+            "lastUpdated": "2022-02-10T19:11:47Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 343,
+            "name": "Middlesbrough FC",
+            "shortName": "Middlesbrough",
+            "tla": "MID",
+            "crest": "https://crests.football-data.org/343.png",
+            "address": "Riverside Stadium Middlesbrough TS3 6RS",
+            "website": "http://www.mfc.co.uk",
+            "founded": 1876,
+            "clubColors": "Red / White",
+            "venue": "Riverside Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 11338,
+                "firstName": "Chris",
+                "lastName": null,
+                "name": "Chris Wilder",
+                "dateOfBirth": "1967-09-23",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4420,
+                    "name": "Luke Daniels",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1988-01-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5049,
+                    "name": "Liam Roberts",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-11-24",
+                    "nationality": "England"
+                },
+                {
+                    "id": 76596,
+                    "name": "Zack Steffen",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-04-02",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 4058,
+                    "name": "Paddy McNair",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-04-27",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 4209,
+                    "name": "Dael Fry",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-08-30",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4845,
+                    "name": "Darragh Lenihan",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-03-16",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 5126,
+                    "name": "Marc Bola",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-12-09",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6320,
+                    "name": "Anfernee Dijksteel",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-10-27",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 11356,
+                    "name": "Darnell Fisher",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-04-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 60868,
+                    "name": "Hayden Coulson",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-06-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4217,
+                    "name": "Jonathan Howson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1988-05-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4525,
+                    "name": "Riley McGree",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-11-02",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 6357,
+                    "name": "Matty Crooks",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-01-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6396,
+                    "name": "Marcus Tavernier",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-03-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 80774,
+                    "name": "Stephen Walker",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-10-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 82148,
+                    "name": "Ryan John Giles",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-01-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 140993,
+                    "name": "Isaiah Jones",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-06-26",
+                    "nationality": "England"
+                },
+                {
+                    "id": 165187,
+                    "name": "Josh Coburn",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-12-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4070,
+                    "name": "Duncan Watmore",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-03-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6292,
+                    "name": "Uche Ikpeazu",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-02-28",
+                    "nationality": "Uganda"
+                },
+                {
+                    "id": 9053,
+                    "name": "Chuba Akpom",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-10-09",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:58:41Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 346,
+            "name": "Watford FC",
+            "shortName": "Watford",
+            "tla": "WAT",
+            "crest": "https://crests.football-data.org/346.png",
+            "address": "Vicarage Road Watford WD18 0ER",
+            "website": "http://www.watfordfc.com",
+            "founded": 1881,
+            "clubColors": "Yellow / Black",
+            "venue": "Vicarage Road Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                }
+            ],
+            "coach": {
+                "id": 46697,
+                "firstName": "Rob",
+                "lastName": null,
+                "name": "Rob Edwards",
+                "dateOfBirth": "1981-12-27",
+                "nationality": "Wales",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 8059,
+                    "name": "Ben Hamer",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1987-11-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8105,
+                    "name": "Daniel Bachmann",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-07-09",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 31025,
+                    "name": "Pontus Dahlberg",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-01-21",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 65480,
+                    "name": "Maduka Okoye",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-08-28",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 822,
+                    "name": "Hassane Kamara",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-03-05",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 2117,
+                    "name": "Samir",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-12-05",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 2402,
+                    "name": "Francisco Sierralta",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-05-06",
+                    "nationality": "Chile"
+                },
+                {
+                    "id": 3319,
+                    "name": "Danny Rose",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-07-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3381,
+                    "name": "William Troost-Ekong",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-01",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 8107,
+                    "name": "Craig Cathcart",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-02-06",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 8111,
+                    "name": "Christian Kabasele",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-02-24",
+                    "nationality": "Belgium"
+                },
+                {
+                    "id": 8125,
+                    "name": "Femenía Far",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-02-02",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 97285,
+                    "name": "Matthew Pollock",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-09-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 137657,
+                    "name": "Jeremy Ngakia",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-09-07",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 3500,
+                    "name": "Ken Sema",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-09-30",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 7890,
+                    "name": "Tom Dele-Bashiru",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-09-17",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 8122,
+                    "name": "Tom Cleverley",
+                    "position": "Midfield",
+                    "dateOfBirth": "1989-08-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8213,
+                    "name": "Quina",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-11-18",
+                    "nationality": "Portugal"
+                },
+                {
+                    "id": 8243,
+                    "name": "Dan Gosling",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-02-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8854,
+                    "name": "Edo Kayembe",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-06-03",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 32839,
+                    "name": "Adalberto Peñaranda",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-05-31",
+                    "nationality": "Venezuela"
+                },
+                {
+                    "id": 45877,
+                    "name": "Ignacio Pussetto",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-12-21",
+                    "nationality": "Argentina"
+                },
+                {
+                    "id": 84493,
+                    "name": "Vakoun Issouf Bayo",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-10",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 99830,
+                    "name": "Imran Louza",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-05-01",
+                    "nationality": "Morocco"
+                },
+                {
+                    "id": 3638,
+                    "name": "Ismaïla Sarr",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-02-25",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 4074,
+                    "name": "Ashley Fletcher",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-10-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8894,
+                    "name": "Emmanuel Dennis",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-11-15",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 8920,
+                    "name": "Samuel Kalu",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-08-26",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 32067,
+                    "name": "Rey Manaj",
+                    "position": "Offence",
+                    "dateOfBirth": "1997-02-24",
+                    "nationality": "Albania"
+                },
+                {
+                    "id": 103125,
+                    "name": "João Pedro",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-09-26",
+                    "nationality": "Brazil"
+                },
+                {
+                    "id": 131893,
+                    "name": "Kwadwo Baah",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-01-27",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 156794,
+                    "name": "Yaser Asprilla",
+                    "position": "Midfielder",
+                    "dateOfBirth": "2003-11-19",
+                    "nationality": "Colombia"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-07-26T17:53:47Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 355,
+            "name": "Reading FC",
+            "shortName": "Reading",
+            "tla": "REA",
+            "crest": "https://crests.football-data.org/355.png",
+            "address": "Junction 11 M4 Reading RG2 0FL",
+            "website": "http://www.readingfc.co.uk",
+            "founded": 1871,
+            "clubColors": "Blue / White",
+            "venue": "Madejski Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4010,
+                    "name": "Joe Lumley",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-02-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4600,
+                    "name": "Dean Bouzanis",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-10-02",
+                    "nationality": "Australia"
+                },
+                {
+                    "id": 4264,
+                    "name": "Liam Moore",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-01-31",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 4269,
+                    "name": "Tom Holmes",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-03-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4342,
+                    "name": "Andy Yiadom",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-12-02",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 8142,
+                    "name": "Scott Dann",
+                    "position": "Defence",
+                    "dateOfBirth": "1987-02-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11349,
+                    "name": "Sam Hutchinson",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-08-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 99841,
+                    "name": "Tom McIntyre",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-11-06",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 137822,
+                    "name": "Jeriel Dorsett",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-05-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 512,
+                    "name": "Yakou Meïté",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-02-11",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 4068,
+                    "name": "Ovie Ejaria",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-11-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8049,
+                    "name": "Jeff Hendrick",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-01-31",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 29319,
+                    "name": "Femi Azeez",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-06-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 137496,
+                    "name": "Tyrese Fornah",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-09-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 149923,
+                    "name": "Dejan Tetek",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-09-24",
+                    "nationality": "Serbia"
+                },
+                {
+                    "id": 2919,
+                    "name": "George Puşcaş",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-04-08",
+                    "nationality": "Romania"
+                },
+                {
+                    "id": 4469,
+                    "name": "Junior Hoilett",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-06-05",
+                    "nationality": "Canada"
+                },
+                {
+                    "id": 8098,
+                    "name": "Shane Long",
+                    "position": "Offence",
+                    "dateOfBirth": "1987-01-22",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 8192,
+                    "name": "Tom Ince",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-01-30",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11541,
+                    "name": "Lucas João",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-09-04",
+                    "nationality": "Angola"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-07-26T17:53:40Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 356,
+            "name": "Sheffield United FC",
+            "shortName": "Sheffield Utd",
+            "tla": "SHE",
+            "crest": "https://crests.football-data.org/356.svg",
+            "address": "Bramall Lane Sheffield, Yorkshire S2 4SU",
+            "website": "http://www.sufc.co.uk",
+            "founded": null,
+            "clubColors": "Red / White / Black",
+            "venue": "Bramall Lane",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 11386,
+                "firstName": "Paul",
+                "lastName": null,
+                "name": "Paul Heckingbottom",
+                "dateOfBirth": "1977-07-17",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4327,
+                    "name": "Adam Davies",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-07-17",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 34907,
+                    "name": "Wesley Foderingham",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1991-01-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4013,
+                    "name": "Jack Robinson",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4184,
+                    "name": "Jayden Bogle",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-07-27",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4295,
+                    "name": "Chris Basham",
+                    "position": "Defence",
+                    "dateOfBirth": "1988-07-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4297,
+                    "name": "Jack O'Connell",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-03-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4302,
+                    "name": "Enda Stevens",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-07-09",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4305,
+                    "name": "Rhys Norrington-Davies",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-04-22",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 4313,
+                    "name": "George Baldock",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-03-09",
+                    "nationality": "Greece"
+                },
+                {
+                    "id": 4425,
+                    "name": "John Egan",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-10-20",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 5469,
+                    "name": "Max Lowe",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-05-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7923,
+                    "name": "Ciaran Clark",
+                    "position": "Defence",
+                    "dateOfBirth": "1989-09-26",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 25615,
+                    "name": "Anel Ahmedhodzic",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-03-26",
+                    "nationality": "Bosnia-Herzegovina"
+                },
+                {
+                    "id": 3972,
+                    "name": "Oliver Norwood",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-04-12",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 4307,
+                    "name": "John Fleck",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-08-24",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 8973,
+                    "name": "Sander Berge",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-02-14",
+                    "nationality": "Norway"
+                },
+                {
+                    "id": 11296,
+                    "name": "Ben Osborn",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-08-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 94091,
+                    "name": "Iliman Ndiaye",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-07-22",
+                    "nationality": "Senegal"
+                },
+                {
+                    "id": 184964,
+                    "name": "Ismaila Coulibaly",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-12-25",
+                    "nationality": "Mali"
+                },
+                {
+                    "id": 4320,
+                    "name": "Billy Sharp",
+                    "position": "Offence",
+                    "dateOfBirth": "1986-02-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4359,
+                    "name": "Oliver McBurnie",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-06-04",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 7877,
+                    "name": "Rhian Brewster",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-04-01",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2020-11-26T02:14:35Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 384,
+            "name": "Millwall FC",
+            "shortName": "Millwall",
+            "tla": "MIL",
+            "crest": "https://crests.football-data.org/384.png",
+            "address": "Zampa Road London SE16 3LN",
+            "website": "http://www.millwallfc.co.uk",
+            "founded": 1885,
+            "clubColors": "Blue / White",
+            "venue": "The Den",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 11286,
+                "firstName": "Gary",
+                "lastName": null,
+                "name": "Gary Rowett",
+                "dateOfBirth": "1974-03-06",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 3527,
+                    "name": "Bartosz Białkowski",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1987-07-06",
+                    "nationality": "Poland"
+                },
+                {
+                    "id": 4972,
+                    "name": "George Long",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-11-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4371,
+                    "name": "Shaun Hutchinson",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-11-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4373,
+                    "name": "Jake Cooper",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-02-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5429,
+                    "name": "Murray Wallace",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-01-10",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 8177,
+                    "name": "Scott Malone",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-03-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 150797,
+                    "name": "Charlie Cresswell",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-12-07",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4057,
+                    "name": "George Honeyman",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-09-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4274,
+                    "name": "George Evans",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-12-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4318,
+                    "name": "Ryan Leonard",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-05-24",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4381,
+                    "name": "George Saville",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-06-01",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 80308,
+                    "name": "Jamie Shackleton",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-10-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 117960,
+                    "name": "Billy Mitchell",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-04-07",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4100,
+                    "name": "Benik Afobe",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-02-12",
+                    "nationality": "DR Congo"
+                },
+                {
+                    "id": 4354,
+                    "name": "Tom Bradshaw",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-07-27",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 5666,
+                    "name": "Mason Bennett",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-07-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 67893,
+                    "name": "Zian Flemming",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-08-01",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 81837,
+                    "name": "Tyler Burey",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-01-09",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T09:00:14Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 385,
+            "name": "Rotherham United FC",
+            "shortName": "Rotherham Utd",
+            "tla": "ROT",
+            "crest": "https://crests.football-data.org/385.png",
+            "address": "New York Way Rotherham S60 1AH",
+            "website": "http://www.themillers.co.uk",
+            "founded": 1870,
+            "clubColors": "Red / White",
+            "venue": "New York Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 14603,
+                "firstName": "Paul",
+                "lastName": null,
+                "name": "Paul Warne",
+                "dateOfBirth": "1973-05-08",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 5830,
+                    "name": "Josh Vickers",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-12-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 149732,
+                    "name": "Viktor Johansson",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1998-09-14",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 4014,
+                    "name": "Grant Hall",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-10-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4111,
+                    "name": "Wes Harding",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-10-20",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 4113,
+                    "name": "Cohen Bramall",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-04-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4368,
+                    "name": "Shane Ferguson",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-07-12",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 6447,
+                    "name": "Richard Wood",
+                    "position": "Defence",
+                    "dateOfBirth": "1985-07-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 34549,
+                    "name": "Jamie Lindsay",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-11",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 35280,
+                    "name": "Jamie McCart",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-06-20",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 60866,
+                    "name": "Hakeem Odoffin",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-04-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 114000,
+                    "name": "Cameron Humphreys",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-08-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 131038,
+                    "name": "Tolaji Bola",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-01-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4440,
+                    "name": "Chiedozie Ogbene",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-05-01",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 5031,
+                    "name": "Oliver Rathbone",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-10-10",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6467,
+                    "name": "Ben Wiles",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-04-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 58086,
+                    "name": "Daniel Barlaser",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-01-18",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4034,
+                    "name": "Conor Washington",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-05-18",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 5113,
+                    "name": "Tom Eaves",
+                    "position": "Offence",
+                    "dateOfBirth": "1992-12-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 58189,
+                    "name": "Georgie Kelly",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-11-12",
+                    "nationality": "Ireland"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-25T16:43:19Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 387,
+            "name": "Bristol City FC",
+            "shortName": "Bristol City",
+            "tla": "BRI",
+            "crest": "https://crests.football-data.org/387.svg",
+            "address": "Ashton Gate Bristol BS3 2EJ",
+            "website": "http://www.bcfc.co.uk",
+            "founded": 1894,
+            "clubColors": "Red / White",
+            "venue": "Ashton Gate Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 17080,
+                "firstName": "Nigel",
+                "lastName": null,
+                "name": "Nigel Pearson",
+                "dateOfBirth": "1963-08-21",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4418,
+                    "name": "Daniel Bentley",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-07-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11763,
+                    "name": "Max O’Leary",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1996-10-10",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 131109,
+                    "name": "Stefan Bajic",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "2001-12-23",
+                    "nationality": "France"
+                },
+                {
+                    "id": 3961,
+                    "name": "Tomáš Kalas",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-05-15",
+                    "nationality": "Czech Republic"
+                },
+                {
+                    "id": 3982,
+                    "name": "Timm Klose",
+                    "position": "Defence",
+                    "dateOfBirth": "1988-05-09",
+                    "nationality": "Switzerland"
+                },
+                {
+                    "id": 4394,
+                    "name": "Nathan Baker",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-04-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4919,
+                    "name": "Kal Naismith",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-02-18",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 6031,
+                    "name": "Kane Wilson",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-03-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6308,
+                    "name": "Jay Dasilva",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-04-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6424,
+                    "name": "Zak Vyner",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-05-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 25651,
+                    "name": "Cameron Pring",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-01-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 101714,
+                    "name": "Robert Atkinson",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-07-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 125973,
+                    "name": "George Tanner",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-11-16",
+                    "nationality": "England"
+                },
+                {
+                    "id": 165262,
+                    "name": "Harvey Wiles-Richards",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-05-27",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4347,
+                    "name": "Joe Williams",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-12-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7981,
+                    "name": "Andy King",
+                    "position": "Midfield",
+                    "dateOfBirth": "1988-10-29",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 8070,
+                    "name": "Matty James",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-07-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 38660,
+                    "name": "Mark Sykes",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-08-04",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 98953,
+                    "name": "Han-Noah Massengo",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-07-07",
+                    "nationality": "Congo"
+                },
+                {
+                    "id": 4197,
+                    "name": "Andreas Weimann",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-08-05",
+                    "nationality": "Austria"
+                },
+                {
+                    "id": 4290,
+                    "name": "Chris Martin",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-11-04",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 4417,
+                    "name": "Antoine Semenyo",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-01-07",
+                    "nationality": "Ghana"
+                },
+                {
+                    "id": 8058,
+                    "name": "Nahki Wells",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-06-01",
+                    "nationality": "Bermuda"
+                },
+                {
+                    "id": 156796,
+                    "name": "Sam Bell",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-05-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 161088,
+                    "name": "Alex Scott",
+                    "position": "Offence",
+                    "dateOfBirth": "2003-08-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 161089,
+                    "name": "Tommy Conway",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-08-06",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2020-09-10T02:39:13Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 389,
+            "name": "Luton Town FC",
+            "shortName": "Luton Town",
+            "tla": "LUT",
+            "crest": "https://crests.football-data.org/389.png",
+            "address": "1 Maple Road Luton LU4 8AW",
+            "website": "http://www.lutontown.co.uk",
+            "founded": 1885,
+            "clubColors": "White / Navy Blue / Orange",
+            "venue": "Kenilworth Road Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 25456,
+                "firstName": "Nathan",
+                "lastName": null,
+                "name": "Nathan Jones",
+                "dateOfBirth": "1973-05-28",
+                "nationality": "Wales",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 5597,
+                    "name": "James Shea",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1991-06-16",
+                    "nationality": "England"
+                },
+                {
+                    "id": 7779,
+                    "name": "Matt Macey",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1994-09-09",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8866,
+                    "name": "Ethan Horvath",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-06-09",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 3899,
+                    "name": "James Bree",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-10-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3928,
+                    "name": "Reece Burke",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-09-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4842,
+                    "name": "Amari'i Bell",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-05-05",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 5123,
+                    "name": "Tom Lockyer",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-12-03",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 5600,
+                    "name": "Daniel Potts",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-04-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5602,
+                    "name": "Glen Rea",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-09-03",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 6419,
+                    "name": "Sonny Bradley",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-06-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 46751,
+                    "name": "Gabriel Osho",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-08-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 80781,
+                    "name": "Alfie Doughty",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-12-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3898,
+                    "name": "Henri Lansbury",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-10-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3908,
+                    "name": "Robert Snodgrass",
+                    "position": "Midfield",
+                    "dateOfBirth": "1987-09-07",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 4035,
+                    "name": "Luke Freeman",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-03-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4378,
+                    "name": "Fred Onyedinma",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-11-24",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 5623,
+                    "name": "Luke Berry",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-07-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8123,
+                    "name": "Dion Pereira",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-03-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 34877,
+                    "name": "Allan Campbell",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-07-04",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 157149,
+                    "name": "Louie Watson",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-06-07",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4200,
+                    "name": "Cameron Jerome",
+                    "position": "Offence",
+                    "dateOfBirth": "1986-08-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4413,
+                    "name": "Cauley Woodrow",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-12-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5483,
+                    "name": "Carlton Morris",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-12-16",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5632,
+                    "name": "Harry Cornick",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-03-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6240,
+                    "name": "Jordan Clark",
+                    "position": "Offence",
+                    "dateOfBirth": "1993-09-22",
+                    "nationality": "England"
+                },
+                {
+                    "id": 58085,
+                    "name": "Elijah Adebayo",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-01-07",
+                    "nationality": "England"
+                },
+                {
+                    "id": 80787,
+                    "name": "Carlos Mendes Gomes",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-11-14",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 128995,
+                    "name": "Admiral Muskwe",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-08-21",
+                    "nationality": "Zimbabwe"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:50:08Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 394,
+            "name": "Huddersfield Town AFC",
+            "shortName": "Huddersfield",
+            "tla": "HUD",
+            "crest": "https://crests.football-data.org/394.png",
+            "address": "Stadium Way Huddersfield HD1 6PX",
+            "website": "http://www.htafc.com",
+            "founded": 1908,
+            "clubColors": "Blue / White",
+            "venue": "The John Smith's Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 146241,
+                "firstName": "Danny",
+                "lastName": null,
+                "name": "Danny Schofield",
+                "dateOfBirth": "1980-04-10",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 6371,
+                    "name": "Lee Nicholls",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-10-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8170,
+                    "name": "Ryan Schofield",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1999-12-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4336,
+                    "name": "Matthew Pearson",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-08-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4944,
+                    "name": "Oliver Turton",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-12-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5505,
+                    "name": "Josh Ruffels",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-10-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5708,
+                    "name": "William Boyle",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-09-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11350,
+                    "name": "Tom Lees",
+                    "position": "Defence",
+                    "dateOfBirth": "1990-11-28",
+                    "nationality": "England"
+                },
+                {
+                    "id": 49058,
+                    "name": "Yuta Nakayama",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-02-16",
+                    "nationality": "Japan"
+                },
+                {
+                    "id": 113763,
+                    "name": "Aaron Rowe",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-09-07",
+                    "nationality": "England"
+                },
+                {
+                    "id": 125976,
+                    "name": "Rarmani Edmonds-Green",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-01-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 2167,
+                    "name": "Rolando Aarons",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-11-16",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 4352,
+                    "name": "Connor Mahoney",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-02-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4462,
+                    "name": "Daniel Ward",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-12-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5441,
+                    "name": "Duane Holmes",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-11-06",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 6387,
+                    "name": "David Kasumu",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-10-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8182,
+                    "name": "Jonathan Hogg",
+                    "position": "Midfield",
+                    "dateOfBirth": "1988-12-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 25053,
+                    "name": "Josh Koroma",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-11-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 114123,
+                    "name": "Jack Rudoni",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-06-14",
+                    "nationality": "England"
+                },
+                {
+                    "id": 131119,
+                    "name": "Faustino Anjorin",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-11-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 136728,
+                    "name": "Scott High",
+                    "position": "Midfield",
+                    "dateOfBirth": "2001-02-15",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 151479,
+                    "name": "Jonathan Russell",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-10-09",
+                    "nationality": "England"
+                },
+                {
+                    "id": 11344,
+                    "name": "Jordan Rhodes",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-02-05",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 26444,
+                    "name": "Sorba Thomas",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-08-22",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 36827,
+                    "name": "Danny Grant",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-12-23",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 150234,
+                    "name": "Kieran Phillips",
+                    "position": "Offence",
+                    "dateOfBirth": "2000-02-18",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-10T19:15:53Z"
+        },
+        {
+            "area": {
+                "id": 2264,
+                "name": "Wales",
+                "code": "WAL",
+                "flag": "https://crests.football-data.org/833.svg"
+            },
+            "id": 715,
+            "name": "Cardiff City FC",
+            "shortName": "Cardiff",
+            "tla": "CAR",
+            "crest": "https://crests.football-data.org/715.png",
+            "address": "Cardiff City Stadium, Leckwith Road Cardiff CF11 8AZ",
+            "website": "http://www.cardiffcityfc.co.uk",
+            "founded": 1899,
+            "clubColors": "Blue / White",
+            "venue": "Cardiff City Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": null,
+                "firstName": null,
+                "lastName": null,
+                "name": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 5832,
+                    "name": "Ryan Allsop",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-06-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6300,
+                    "name": "Dillon Phillips",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1995-06-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 34927,
+                    "name": "Jak Alnwick",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1993-06-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4370,
+                    "name": "Mahlon Romeo",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-09-19",
+                    "nationality": "Antigua and Barbuda"
+                },
+                {
+                    "id": 4448,
+                    "name": "Sean Morrison",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-01-08",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5495,
+                    "name": "Curtis Nelson",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-05-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5737,
+                    "name": "Perry Ng",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-04-27",
+                    "nationality": "England"
+                },
+                {
+                    "id": 34871,
+                    "name": "Cédric Kipré",
+                    "position": "Defence",
+                    "dateOfBirth": "1996-12-09",
+                    "nationality": "Cote d'Ivoire"
+                },
+                {
+                    "id": 45578,
+                    "name": "Jamilu Collins",
+                    "position": "Defence",
+                    "dateOfBirth": "1994-08-05",
+                    "nationality": "Nigeria"
+                },
+                {
+                    "id": 111076,
+                    "name": "Thomas Sang",
+                    "position": "Defence",
+                    "dateOfBirth": "1999-06-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 141287,
+                    "name": "Joel Bagan",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-09-03",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 151693,
+                    "name": "Mark McGuinness",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-01-05",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 180840,
+                    "name": "Vontae Daley-Campbell",
+                    "position": "Defence",
+                    "dateOfBirth": "2001-04-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3975,
+                    "name": "Sheyi Ojo",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-06-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4277,
+                    "name": "Andy Rinomhota",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-04-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4400,
+                    "name": "Callum O'Dowda",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-04-23",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 4433,
+                    "name": "Romaine Sawyers",
+                    "position": "Midfield",
+                    "dateOfBirth": "1991-11-02",
+                    "nationality": "St. Kitts & Nevis"
+                },
+                {
+                    "id": 4456,
+                    "name": "Joe Ralls",
+                    "position": "Midfield",
+                    "dateOfBirth": "1993-10-12",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4460,
+                    "name": "Mark Harris",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-12-29",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 5747,
+                    "name": "Ryan Wintle",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-06-13",
+                    "nationality": "England"
+                },
+                {
+                    "id": 14631,
+                    "name": "Ebou Adams",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-01-15",
+                    "nationality": "The Gambia"
+                },
+                {
+                    "id": 157713,
+                    "name": "Rubin Colwill",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-04-27",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 38184,
+                    "name": "Gavin Whyte",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-01-31",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 133857,
+                    "name": "Max Watters",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-03-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 157687,
+                    "name": "Isaak Davies",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-09-25",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 128142,
+                    "name": "Ollie Tanner",
+                    "position": "Forward",
+                    "dateOfBirth": "2002-05-05",
+                    "nationality": "England"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:59:02Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 1076,
+            "name": "Coventry City FC",
+            "shortName": "Coventry City",
+            "tla": "COV",
+            "crest": "https://crests.football-data.org/1076.png",
+            "address": "Gallagher Retail Park, Stoney Stanton Road Coventry CV6 5QE",
+            "website": "http://www.ccfc.co.uk",
+            "founded": 1883,
+            "clubColors": "Sky Blue / White",
+            "venue": "St Andrew's Trillion Trophy Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 9377,
+                "firstName": "Mark",
+                "lastName": null,
+                "name": "Mark Robins",
+                "dateOfBirth": "1969-12-22",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 4292,
+                    "name": "Simon Moore",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1990-05-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5347,
+                    "name": "Ben Wilson",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1992-08-09",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4015,
+                    "name": "Jake Bidwell",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-03-21",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4477,
+                    "name": "Kyle McFadzean",
+                    "position": "Defence",
+                    "dateOfBirth": "1987-02-20",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5504,
+                    "name": "Todd Kane",
+                    "position": "Defence",
+                    "dateOfBirth": "1993-09-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5769,
+                    "name": "Dominic Hyam",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-12-20",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 7589,
+                    "name": "Fankaty Dabo",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-11",
+                    "nationality": "England"
+                },
+                {
+                    "id": 52022,
+                    "name": "Michael Rose",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-11",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 98870,
+                    "name": "Jonathan Panzo",
+                    "position": "Defence",
+                    "dateOfBirth": "2000-10-25",
+                    "nationality": "England"
+                },
+                {
+                    "id": 127917,
+                    "name": "Josh Reid",
+                    "position": "Defence",
+                    "dateOfBirth": "2002-05-03",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 4194,
+                    "name": "Kasey Palmer",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-11-09",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 4490,
+                    "name": "Jamie Allen",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-01-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5780,
+                    "name": "Liam Kelly",
+                    "position": "Midfield",
+                    "dateOfBirth": "1990-02-10",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 6199,
+                    "name": "Ben Sheaf",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-02-05",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8279,
+                    "name": "Viktor Gyökeres",
+                    "position": "Midfield",
+                    "dateOfBirth": "1998-06-04",
+                    "nationality": "Sweden"
+                },
+                {
+                    "id": 9623,
+                    "name": "Gustavo Hamer",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-06-24",
+                    "nationality": "Netherlands"
+                },
+                {
+                    "id": 83372,
+                    "name": "Josh Eccles",
+                    "position": "Midfield",
+                    "dateOfBirth": "2000-04-06",
+                    "nationality": "England"
+                },
+                {
+                    "id": 124676,
+                    "name": "Will Bapaga",
+                    "position": "Midfield",
+                    "dateOfBirth": "2002-11-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3914,
+                    "name": "Callum O'Hare",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-05-01",
+                    "nationality": "England"
+                },
+                {
+                    "id": 3950,
+                    "name": "Tyler Walker",
+                    "position": "Offence",
+                    "dateOfBirth": "1996-10-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4251,
+                    "name": "Martyn Waghorn",
+                    "position": "Offence",
+                    "dateOfBirth": "1990-01-23",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6205,
+                    "name": "Matt Godden",
+                    "position": "Offence",
+                    "dateOfBirth": "1991-07-29",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6955,
+                    "name": "Marcel Hilßner",
+                    "position": "Offence",
+                    "dateOfBirth": "1995-01-30",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 82682,
+                    "name": "Fabio Tavares",
+                    "position": "Offence",
+                    "dateOfBirth": "2001-01-22",
+                    "nationality": "Portugal"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-19T08:56:17Z"
+        },
+        {
+            "area": {
+                "id": 2072,
+                "name": "England",
+                "code": "ENG",
+                "flag": "https://crests.football-data.org/770.svg"
+            },
+            "id": 1081,
+            "name": "Preston North End FC",
+            "shortName": "Preston NE",
+            "tla": "PNE",
+            "crest": "https://crests.football-data.org/1081.png",
+            "address": "Sir Tom Finney Way Preston PR1 6RU",
+            "website": "http://www.pnefc.net",
+            "founded": 1863,
+            "clubColors": "White / Navy Blue",
+            "venue": "Deepdale Stadium",
+            "runningCompetitions": [
+                {
+                    "id": 2016,
+                    "name": "Championship",
+                    "code": "ELC",
+                    "type": "LEAGUE",
+                    "emblem": "https://crests.football-data.org/ELC.png"
+                },
+                {
+                    "id": 2139,
+                    "name": "Football League Cup",
+                    "code": "FLC",
+                    "type": "CUP",
+                    "emblem": "https://crests.football-data.org/FLC.png"
+                }
+            ],
+            "coach": {
+                "id": 5231,
+                "firstName": "Ryan",
+                "lastName": null,
+                "name": "Ryan Lowe",
+                "dateOfBirth": "1978-09-18",
+                "nationality": "England",
+                "contract": { "start": null, "until": null }
+            },
+            "squad": [
+                {
+                    "id": 6337,
+                    "name": "David Cornell",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1991-03-28",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 11629,
+                    "name": "Freddie Woodman",
+                    "position": "Goalkeeper",
+                    "dateOfBirth": "1997-03-04",
+                    "nationality": "England"
+                },
+                {
+                    "id": 4333,
+                    "name": "Liam Lindsay",
+                    "position": "Defence",
+                    "dateOfBirth": "1995-10-12",
+                    "nationality": "Scotland"
+                },
+                {
+                    "id": 5390,
+                    "name": "Andrew Hughes",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-06-05",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 6044,
+                    "name": "Jordan Storey",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-09-02",
+                    "nationality": "England"
+                },
+                {
+                    "id": 6306,
+                    "name": "Patrick Bauer",
+                    "position": "Defence",
+                    "dateOfBirth": "1992-10-28",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 11353,
+                    "name": "Greg Cunningham",
+                    "position": "Defence",
+                    "dateOfBirth": "1991-01-31",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 33516,
+                    "name": "Bambo Diaby",
+                    "position": "Defence",
+                    "dateOfBirth": "1997-12-17",
+                    "nationality": "Spain"
+                },
+                {
+                    "id": 121406,
+                    "name": "Matthew Olosunde",
+                    "position": "Defence",
+                    "dateOfBirth": "1998-03-07",
+                    "nationality": "United States"
+                },
+                {
+                    "id": 4348,
+                    "name": "Brad Potts",
+                    "position": "Midfield",
+                    "dateOfBirth": "1994-07-03",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5302,
+                    "name": "Ben Whiteman",
+                    "position": "Midfield",
+                    "dateOfBirth": "1996-06-17",
+                    "nationality": "England"
+                },
+                {
+                    "id": 5509,
+                    "name": "Ryan Ledson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1997-08-19",
+                    "nationality": "England"
+                },
+                {
+                    "id": 8042,
+                    "name": "Robbie Brady",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-01-14",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 11354,
+                    "name": "Daniel Johnson",
+                    "position": "Midfield",
+                    "dateOfBirth": "1992-10-08",
+                    "nationality": "Jamaica"
+                },
+                {
+                    "id": 11362,
+                    "name": "Alan Browne",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-04-15",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 11450,
+                    "name": "Joshua Harrop",
+                    "position": "Midfield",
+                    "dateOfBirth": "1995-12-15",
+                    "nationality": "England"
+                },
+                {
+                    "id": 35064,
+                    "name": "Alistair McCann",
+                    "position": "Midfield",
+                    "dateOfBirth": "1999-12-04",
+                    "nationality": "Northern Ireland"
+                },
+                {
+                    "id": 4323,
+                    "name": "Ched Evans",
+                    "position": "Offence",
+                    "dateOfBirth": "1988-12-28",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 7315,
+                    "name": "Emil Riis Jakobsen",
+                    "position": "Offence",
+                    "dateOfBirth": "1998-06-24",
+                    "nationality": "Denmark"
+                },
+                {
+                    "id": 7876,
+                    "name": "Ben Woodburn",
+                    "position": "Offence",
+                    "dateOfBirth": "1999-10-15",
+                    "nationality": "Wales"
+                },
+                {
+                    "id": 11355,
+                    "name": "Sean Maguire",
+                    "position": "Offence",
+                    "dateOfBirth": "1994-05-01",
+                    "nationality": "Ireland"
+                },
+                {
+                    "id": 131041,
+                    "name": "Troy Parrott",
+                    "position": "Offence",
+                    "dateOfBirth": "2002-02-04",
+                    "nationality": "Ireland"
+                }
+            ],
+            "staff": [],
+            "lastUpdated": "2022-02-10T19:33:12Z"
+        }
+    ]
+}
