@@ -1,6 +1,7 @@
 # travel-football-app
 This repository contains my final-project which I developed within my final week at SPICED-ACADEMY.
 Stack: React | Redux | Express | 3rd Party APIs | Node
+https://travel-football-app.herokuapp.com/
 
 It's a single page application which shows live data of the 5 biggest football leagues in Europe, combined with live weather and hotel data from 3rd party APIs (football-data.org, VisualCrossingWeather, booking-com.rapidapi).
 The frontend is developed in React.js and the backend in Node.js.
