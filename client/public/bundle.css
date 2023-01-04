@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* flex-basis: 33.3333%; */
+}
+
+.league {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px red solid;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 18vw;
+    height: 18vw;
+    background-color: white;
+}
+.team {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px blue dotted;
+}
+
+img.welcomeLeaguePic {
+    width: 12vw;
+    height: 12vw;
+    /* object-fit: cover; */
+}
+
+.change {
+    width: 15vw;
+    height: 3vw;
+    border: solid black 2px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.upcButton {
+    width: 15vw;
+    height: 3vw;
+    border: solid black 2px;
+    text-align: center;
+    cursor: pointer;
+    /* border-bottom: none; */
+    text-decoration: none;
+    background-color: lightgray;
+}
+
+img.welcomeTeamPic {
+    /* width: 7vw; */
+    height: 7vw;
+}
+
+div.league h1 {
+    width: 240px;
+}
+
+.shadow {
+    box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.726);
+}
+
+.active {
+    background-color: rgb(171, 171, 171);
+}
+
+.specTeamsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.leagues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.airbnfootball {
+    width: 20vw;
+    margin-bottom: 4vw;
+}
+
+.leagueTeamsHeader,
+.specTeamsHeader,
+.specUpcMatchHeader,
+.specUpcMatchBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 100vw; */
+    gap: 2vw;
+}
+
+.specUpcMatchHeader {
+    justify-content: space-around;
+}
+
+.specUpcMatchBody {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.specTeamsBody,
+.specLeagueBody,
+.leagueTeamsBody,
+.specUpcMatchContainer,
+.head2headAggregation,
+.head2headMatches {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.specTeamData,
+.changeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+}
+
+.competitionPicHeader,
+.teamPicHeader {
+    width: 5vw;
+}
+
+.teamPicBody,
+.teamFlagBody {
+    width: 20px;
+    height: 20px;
+}
+
+td,
+th {
+    text-align: left;
+    font-size: calc(8px + 1.1vw);
+}
+
+.teamAndPic,
+.hotelAndPic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.tableTeamPic {
+    width: 2vw;
+    height: 2vw;
+}
+
+.specMatchLogo {
+    width: 4vw;
+    height: 4vw;
+}
+
+.upperBoarder {
+    background-color: rgb(171, 171, 171);
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.left {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.points {
+    font-weight: 700;
+}
+
+.grey {
+    background-color: rgb(171, 171, 171);
+    border-radius: 10px;
+    border: transparent;
+}
+
