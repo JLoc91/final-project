@@ -5,14 +5,12 @@ const weather_key =
 const { replaceUmlaute } = require("./replaceUmlaute");
 
 module.exports.getAddressWeatherData = function (address, country, callback) {
-    console.log("address: ", address);
-    console.log("country: ", country);
+
     address = address.split(" ");
     let cleanAddress = address[address.length - 2];
     cleanAddress += "%20" + address[address.length - 1] + "%20" + country;
     cleanAddress = replaceUmlaute(cleanAddress);
 
-    console.log("cleanAddress: ", cleanAddress);
     const options = {
         method: "GET",
         protocol: "https:",
@@ -32,7 +30,6 @@ module.exports.getAddressWeatherData = function (address, country, callback) {
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });

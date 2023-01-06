@@ -4,26 +4,6 @@ const football_token =
     require("./secrets.json").FOOTBALL_DATA_API_TOKEN;
 
 module.exports.getLeaguesData = function (callback) {
-    // const options = {
-    //     method: "GET",
-    //     protocol: "https:",
-    //     host: "api.football-data.org",
-    //     path: "/v4/competitions/CL/matches",
-    //     headers: {
-    //         "X-Auth-Token": football_token,
-    //     },
-    // };
-
-    //get Hertha BSC data
-    // const options = {
-    //     method: "GET",
-    //     protocol: "https:",
-    //     host: "api.football-data.org",
-    //     path: "/v4/teams/9",
-    //     headers: {
-    //         "X-Auth-Token": football_token,
-    //     },
-    // };
 
     //get top leauge info
     const options = {
@@ -31,8 +11,6 @@ module.exports.getLeaguesData = function (callback) {
         protocol: "https:",
         host: "api.football-data.org",
         path: "/v4/competitions?areas=2088,2224,2072,2114,2081",
-        // path: "/v4/competitions?competitions=2021,2015,2002,2019,2014",
-
         headers: {
             "X-Auth-Token": football_token,
         },
@@ -49,7 +27,6 @@ module.exports.getLeaguesData = function (callback) {
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });
@@ -62,8 +39,8 @@ module.exports.getLeaguesData = function (callback) {
 };
 
 module.exports.getSpecLeagueStandingData = function (leagueCode, callback) {
+
     //get specific top leauge info
-    console.log("leagueCode: ", leagueCode);
     const options = {
         method: "GET",
         protocol: "https:",
@@ -76,7 +53,6 @@ module.exports.getSpecLeagueStandingData = function (leagueCode, callback) {
     };
 
     function makeRequest(resp) {
-        console.log("callback: ", callback);
         if (resp.statusCode != 200) {
             callback(new Error(resp.statusCode));
             return;
@@ -87,7 +63,6 @@ module.exports.getSpecLeagueStandingData = function (leagueCode, callback) {
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });
@@ -101,14 +76,11 @@ module.exports.getSpecLeagueStandingData = function (leagueCode, callback) {
 
 module.exports.getUpcomingMatchesSpecTeam = function (teamId, callback) {
     //get 10 upcoming matches for specific team
-    console.log("teamId: ", teamId);
     const options = {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
-        // path: `/v4/teams/${teamId}/`,
         path: `/v4/teams/${teamId}/matches?status=SCHEDULED&limit=10`,
-
         headers: {
             "X-Auth-Token": football_token,
         },
@@ -125,7 +97,6 @@ module.exports.getUpcomingMatchesSpecTeam = function (teamId, callback) {
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });
@@ -146,7 +117,6 @@ module.exports.getHead2HeadData = function (matchId, callback) {
         protocol: "https:",
         host: "api.football-data.org",
         path: `/v4/matches/${matchId}/head2head?limit=${limit}`,
-
         headers: {
             "X-Auth-Token": football_token,
         },
@@ -163,7 +133,6 @@ module.exports.getHead2HeadData = function (matchId, callback) {
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });
@@ -177,21 +146,16 @@ module.exports.getHead2HeadData = function (matchId, callback) {
 
 module.exports.getSpecLeagueMatches30Days = function (leagueId, callback) {
     //get 10 upcoming matches for specific team
-    console.log("leagueId: ", leagueId);
     let today = new Date();
     today = today.toISOString().slice(0, 10);
-    console.log("today: ", today);
     let endDate = new Date();
     endDate.setDate(endDate.getDate() + 30);
     endDate = endDate.toISOString().slice(0, 10);
-    console.log("endDate: ", endDate);
-    const limit = 5;
     const options = {
         method: "GET",
         protocol: "https:",
         host: "api.football-data.org",
         path: `/v4/competitions/${leagueId}/matches?dateFrom=${today}&dateTo=${endDate}&status=SCHEDULED`,
-
         headers: {
             "X-Auth-Token": football_token,
         },
@@ -208,7 +172,6 @@ module.exports.getSpecLeagueMatches30Days = function (leagueId, callback) {
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });

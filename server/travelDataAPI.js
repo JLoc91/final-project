@@ -8,19 +8,13 @@ module.exports.getLatLongTravelData = function (
     matchDate,
     callback
 ) {
-    console.log("latitude: ", latitude);
-    console.log("longitude: ", longitude);
     let checkOutDate = new Date(matchDate);
     let checkInDate = new Date(matchDate);
-    console.log("checkOutDate: ", checkOutDate);
-    console.log("checkInDate: ", checkInDate);
     checkInDate.setDate(checkInDate.getDate() - 1);
     checkOutDate.setDate(checkOutDate.getDate() + 1);
     checkInDate = checkInDate.toISOString().slice(0, 10);
     checkOutDate = checkOutDate.toISOString().slice(0, 10);
-    const limit = "100";
-    const distance = "30";
-    //matchDate yyyy-mm-dd
+
     const options = {
         method: "GET",
         hostname: "booking-com.p.rapidapi.com",
@@ -44,7 +38,6 @@ module.exports.getLatLongTravelData = function (
             });
 
             resp.on("end", () => {
-                // console.log("body: ", body);
                 let parsedBody = JSON.parse(body);
                 callback(null, parsedBody);
             });
