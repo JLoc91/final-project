@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 
 let leaguesJSON = require("../../../server/data/leagues.json");
 
-console.log("leaguesJSON: ", leaguesJSON);
-
 let leagues = leaguesJSON;
 
 export default function Leagues() {
@@ -16,15 +14,16 @@ export default function Leagues() {
 
     // ------in case of more requests per minute implement Code below ------
     // let leagues = useSelector((store) => store.leaguesData);
-    function fetchFunc() {
-        fetch("/api/getLeaguesData")
-            .then((res) => res.json())
-            .then((data) => {
-                console.log("data: ", data);
-                dispatch(addFootballLeagues(data));
-            })
-            .catch(() => console.log("request failed"));
-    }
+
+    // function fetchFunc() {
+    //     fetch("/api/getLeaguesData")
+    //         .then((res) => res.json())
+    //         .then((data) => {
+    //             console.log("data: ", data);
+    //             dispatch(addFootballLeagues(data));
+    //         })
+    //         .catch(() => console.log("request failed"));
+    // }
     // ------in case of more requests per minute implement Code above ------
 
     return (
@@ -46,7 +45,6 @@ export default function Leagues() {
                                         id={league.name}
                                         className="league shadow"
                                     >
-                                        {/* <h1>{league.name}</h1> */}
                                         <img
                                             className="welcomeLeaguePic"
                                             src={league.emblem}

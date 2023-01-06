@@ -36,11 +36,7 @@ export default function SpecLeague() {
 
     let teamsJSON = require(`../../../server/data/teams${leagueCode}.json`);
     dispatch(addFootballTeams(teamsJSON));
-    console.log("leagues in SpecLeagues: ", leagues);
-    console.log("leagueCode: ", leagueCode);
     const league = leagues.filter((league) => league.code == leagueCode);
-    console.log("league in SpecLeague: ", league);
-    console.log("standingsData: ", standingsData);
 
     const leagueId = league && league[0].id;
 
@@ -48,7 +44,6 @@ export default function SpecLeague() {
         fetch(`/api/getSpecLeagueData/${leagueCode}`)
             .then((res) => res.json())
             .then((data) => {
-                console.log("data in getSpecLeagueData: ", data);
                 dispatch(addFootballLeagueStandings(data));
             })
             .catch(() => console.log("request failed"));
@@ -58,10 +53,6 @@ export default function SpecLeague() {
         fetch(`/api/getSpecLeagueMatches30Days/${leagueId}`)
             .then((res) => res.json())
             .then((specLeagueMatches30DaysData) => {
-                console.log(
-                    "specLeagueMatches30DaysData: ",
-                    specLeagueMatches30DaysData
-                );
                 dispatch(
                     addSpecLeagueMatches30Days(specLeagueMatches30DaysData)
                 );
@@ -247,7 +238,6 @@ export default function SpecLeague() {
                                                                     }
                                                                 </p>{" "}
                                                                 <img
-                                                                    // className="specMatchLogo"
                                                                     className="tableTeamPic"
                                                                     src={
                                                                         match
@@ -273,7 +263,6 @@ export default function SpecLeague() {
                                                                     }
                                                                 </p>{" "}
                                                                 <img
-                                                                    // className="specMatchLogo"
                                                                     className="tableTeamPic"
                                                                     src={
                                                                         match

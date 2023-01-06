@@ -9,7 +9,6 @@ export default function weatherData(weatherData = {}, action) {
 }
 
 export function addWeather(specWeather) {
-    console.log("specWeather in addWeather: ", specWeather);
     return {
         type: "weather-data/update",
         payload: specWeather,

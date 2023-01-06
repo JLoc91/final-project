@@ -8,8 +8,6 @@ import { addHead2HeadData } from "../redux/Football/slice";
 export default function SpecUpcomingMatch() {
     const dispatch = useDispatch();
     const { teamId, matchId } = useParams();
-    console.log("teamId in specUpcMatch: ", teamId);
-    console.log("matchId specUpcMatch: ", matchId);
     // const weatherData = useSelector(
     //     (state) => state.weatherList && state.weatherList.weatherData
     // );
@@ -30,7 +28,6 @@ export default function SpecUpcomingMatch() {
     const teamDataArr =
         teamsData && teamsData.teams.filter((team) => team.id == teamId);
     const teamData = teamDataArr && teamDataArr[0];
-    console.log("teamData in specupcmat: ", teamData);
 
     const homeTeamArr =
         teamsData &&
@@ -39,8 +36,6 @@ export default function SpecUpcomingMatch() {
         );
 
     const homeTeam = homeTeamArr && homeTeamArr[0];
-
-    console.log("homeTeam: ", homeTeam);
 
     const weatherData = useSelector(
         (state) => state.weatherList && state.weatherList.weatherData
@@ -56,25 +51,15 @@ export default function SpecUpcomingMatch() {
 
     let i = 0;
     function fetchWeather(teamData, matchDate) {
-        // const addressObj = { address: address };
         fetch("/api/getAddressWeatherData/", {
             method: "post",
             headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify([teamData, matchDate]),
-            // body: JSON.stringify(addressObj),
         })
             .then((resp) => resp.json())
             .then((specWeatherHotelData) => {
-                console.log(
-                    "specWeatherHotelData.weatherData: ",
-                    specWeatherHotelData.weatherData
-                );
-                console.log(
-                    "specWeatherHotelData.hotelData: ",
-                    specWeatherHotelData.hotelData
-                );
                 dispatch(addWeather(specWeatherHotelData.weatherData));
                 dispatch(addTravelData(specWeatherHotelData.hotelData));
             })
@@ -85,7 +70,6 @@ export default function SpecUpcomingMatch() {
         fetch(`/api/getPastHead2Head/${matchId}`)
             .then((res) => res.json())
             .then((head2HeadData) => {
-                console.log("head2HeadData: ", head2HeadData);
                 dispatch(addHead2HeadData(head2HeadData));
             })
             .catch((err) => console.log("err in fetchPastHead2Head: ", err));
@@ -359,19 +343,6 @@ export default function SpecUpcomingMatch() {
                                                         }
                                                         {")"}
                                                     </p>
-                                                    {/* <p className="halfTimeTime"> */}
-                                                    {/* {"("}
-                                                        {
-                                                            match.score.halfTime
-                                                                .home
-                                                        }{" "}
-                                                        :{" "}
-                                                        {
-                                                            match.score.halfTime
-                                                                .away
-                                                        }
-                                                        {")"} */}
-                                                    {/* </p> */}
                                                 </td>
                                                 <td>
                                                     <div className="teamAndPic">
@@ -399,9 +370,6 @@ export default function SpecUpcomingMatch() {
                     <div className="defaultTravelInfo grey">
                         <h2>
                             Hotels close to the Stadium
-                            {/* {hotelData &&
-                                hotelData.data[0] &&
-                                hotelData.data[0].location_string} */}
                         </h2>
                         <table>
                             <thead>
@@ -422,7 +390,7 @@ export default function SpecUpcomingMatch() {
                                             i++;
                                             return (
                                                 <tr
-                                                    key={row.hotel_id} //done
+                                                    key={row.hotel_id}
                                                     className="hotel"
                                                 >
                                                     <td>{i}</td>
@@ -431,12 +399,12 @@ export default function SpecUpcomingMatch() {
                                                             <img
                                                                 className="thumbNail"
                                                                 src={
-                                                                    row.main_photo_url //done
+                                                                    row.main_photo_url
                                                                 }
                                                             ></img>
                                                             <p>
                                                                 {
-                                                                    row.hotel_name //done
+                                                                    row.hotel_name
                                                                 }
                                                             </p>
                                                         </div>
@@ -457,7 +425,7 @@ export default function SpecUpcomingMatch() {
                                                     </td>
                                                     <td>
                                                         <a
-                                                            href={row.url} //done
+                                                            href={row.url}
                                                         >
                                                             {
                                                                 row
@@ -476,7 +444,6 @@ export default function SpecUpcomingMatch() {
                                                     <td>{row.district}</td>
                                                     <td>
                                                         {row.class}
-                                                        {/* {row.hotel_class.slice(0,2)} */}
                                                     </td>
                                                     <td>{row.review_score}</td>
                                                 </tr>

@@ -5,10 +5,8 @@ import { addUpcomingMatches } from "../redux/Football/slice";
 import { Link } from "react-router-dom";
 
 export default function UpcomingMatchesTeam() {
-    console.log("We made it here!!!");
     const dispatch = useDispatch();
     const { teamId } = useParams();
-    console.log("teamId in Upc: ", teamId);
     const teamData = useSelector(
         (state) => state.footballList && state.footballList.teamsData
     );
@@ -19,13 +17,11 @@ export default function UpcomingMatchesTeam() {
     const upcomingMatchesData = useSelector(
         (state) => state.footballList && state.footballList.upcomingMatchesData
     );
-    console.log("teamData in Upc: ", teamData);
 
     function fetchUpcomingMatchesSpecTeam(teamId) {
         fetch(`/api/getUpcomingMatchesSpecTeam/${teamId}`)
             .then((res) => res.json())
             .then((data) => {
-                console.log("data in Upcoming matches: ", data);
                 dispatch(addUpcomingMatches(data));
             })
             .catch(() => console.log("request failed"));
